@@ -1,0 +1,288 @@
+# 📜 DAILYPLUS_AI POC: MASTER EXECUTION BLUEPRINT (AI-AGENT READY)
+
+## 🎯 Project Objective
+Build a functional Proof-of-Concept in **10 hours** that demonstrates a daily work commander saving **30+ minutes/day**. The PoC aggregates mock work signals, extracts & prioritizes actions, and generates ready-to-use follow-ups. All development uses **mock JSON only** for data ingestion. Real API integration is explicitly deferred to v1.
+
+**Success Criteria:**
+- ✅ Streamlit UI loads in <3s
+- ✅ AI extracts structured actions with ≥80% accuracy (manual spot-check)
+- ✅ One-click draft generation works
+- ✅ Zero hardcoded secrets, strict security validation
+- ✅ Fully reproducible via `uv` + `python`
+- ✅ **Zero hallucinated imports, fake APIs, or invented schema fields**
+
+---
+
+## 🛡️ NON-NEGOTIABLE SECURITY & ANTI-HALLUCINATION RULES
+### 🔒 Security (Enforced at Boot & CI)
+1. **Never hardcode secrets.** All keys live in `config/.env` only.
+2. **Validate on boot:** App crashes safely if `ANTHROPIC_API_KEY` is missing/malformed.
+3. **Path isolation:** Use `pathlib` with `.resolve()`. Block `..` traversal.
+4. **Pre-commit gates:** `ruff` + `bandit` must pass before any commit.
+
+### 🧠 ANTI-HALLUCINATION & DETERMINISM PROTOCOLS (BOB MUST ENFORCE)
+| Rule | Enforcement Mechanism | Failure Response |
+|------|----------------------|------------------|
+| **1. Schema-First Generation** | All data flows use `pydantic` models. No raw `dict` or `any` types. | Reject code. Require explicit `BaseModel` definition. |
+| **2. Library Grounding** | Only use `pip`/`uv` installable, documented libraries. No invented modules. | Run `uv run python -c "import <lib>"` before usage. Fail if ImportError. |
+| **3. API/Method Verification** | Every function/method call must match official docs (Streamlit, LangChain, Anthropic, Pydantic v2). | Cross-reference with `uv run python -c "help(<module>)"`. Reject guesses. |
+| **4. Strict JSON/Type Contracts** | LLM outputs must parse to Pydantic models. Invalid JSON → hard fail + retry. | Use `pydantic.TypeAdapter.validate_json()`. Log parse errors. |
+| **5. No Scope Fabrication** | Never add features, endpoints, or UI elements outside the 10-hour plan. | Flag as `SCOPE_CREEP_HALLUCINATION`. Remove immediately. |
+| **6. Deterministic Fallbacks** | If AI output is uncertain or non-deterministic, trigger rule-based logic. | Fallback to regex/keyword extraction. Warn user via `st.info()`. |
+| **7. Self-Audit Before Commit** | BOB must run a hallucination checklist before generating any file. | Halt generation if any check fails. Require explicit override. |
+
+### 📋 BOB SELF-AUDIT CHECKLIST (Run Before Every Code Generation)
+```text
+[ ] 1. Are all imports verified via `import <module>` test?
+[ ] 2. Does every data structure have a Pydantic/TypedDict contract?
+[ ] 3. Are all LLM prompts explicitly constrained to `response_format={"type": "json_object"}`?
+[ ] 4. Is there zero reliance on unverified external APIs or mock endpoints?
+[ ] 5. Are error paths handled with explicit fallbacks (no silent failures)?
+[ ] 6. Does the code match the exact Hour-X scope? (No extra features)
+```
+**If any `[ ]` is unchecked → DO NOT GENERATE. Request clarification.**
+
+---
+
+## 🏗️ Architecture & Tech Stack
+```
+[Mock JSON] → data/mock_daily_context.json
+       ↓
+[Ingestion] → src/ingest/loader.py (Pydantic validation, sanitize, cache)
+       ↓
+[AI Processor] → src/ai/processor.py (Claude via LangChain, strict JSON schema)
+       ↓
+[Prioritizer] → src/ai/prioritizer.py (Eisenhower + deadline heuristic, deterministic)
+       ↓
+[Streamlit UI] → app/main.py (tabs, session state, loading states, one-click drafts)
+       ↓
+[State/Cache] → streamlit.session_state (no DB, PoC scope)
+```
+**Dependencies:** `streamlit`, `anthropic`, `langchain`, `langchain-anthropic`, `pydantic`, `python-dotenv`, `ruff`, `bandit`, `pre-commit`, `uv`/`pip`
+
+---
+
+## 📁 Exact Project Structure & File Responsibilities
+```
+DailyPlus_AI/
+├── app/
+│   └── main.py                 # Streamlit entry point, UI layout, state management
+├── config/
+│   ├── settings.py             # Secure .env loader, boot validation, path resolution
+│   └── .env.example            # Public template (never commit real .env)
+├── data/
+│   └── mock_daily_context.json # Hour 2: realistic mock emails/calendar/chat
+├── src/
+│   ├── ingest/
+│   │   ├── __init__.py
+│   │   └── loader.py           # Parse mock JSON, validate schema, return typed list
+│   └── ai/
+│       ├── __init__.py
+│       ├── processor.py        # LangChain + Claude prompt chain, Pydantic parsing
+│       └── prioritizer.py      # Eisenhower matrix scoring, deadline sorting
+├── tests/
+│   └── __init__.py             # (Optional) Basic pytest scaffolds
+├── docs/
+│   └── STEP_01_SETUP.md        # Completed setup guide
+├── DAILYPLUS_AI_POC_MASTER_BLUEPRINT.md # ← THIS FILE
+├── .gitignore
+├── .pre-commit-config.yaml
+├── pyproject.toml / uv.lock
+└── README.md
+```
+
+---
+
+## ⏱️ 10-Hour Sprint Execution Plan (Hour-by-Hour)
+| Hour | Task | Output | Validation Command |
+|------|------|--------|-------------------|
+| 1 | ✅ Setup & Secure Skeleton | `app/main.py`, `config/`, security hooks | `uv run pre-commit run --all-files` |
+| 2 | Mock Data Ingestion | `data/mock_daily_context.json`, `src/ingest/loader.py` | `uv run python -c "from src.ingest.loader import load_mock; print(load_mock())"` |
+| 3 | AI Processor Chain | `src/ai/processor.py`, strict Pydantic schema | `uv run python tests/test_ai_schema.py` |
+| 4 | Summarization & Extraction Logic | Daily briefing generator, fallback rules | Manual prompt test + JSON validation |
+| 5 | Streamlit Dashboard Layout | Tabs, state management, loading UI | `uv run streamlit run app/main.py` |
+| 6 | Connect AI → UI + Draft Generator | One-click reply/follow-up button | Click test, verify session state persistence |
+| 7 | Prioritization Engine | Eisenhower view, deadline tags, sorting | Sort test, edge case (no deadline) |
+| 8 | Error Handling & UX Polish | Retry logic, toast notifications, graceful degradation | Simulate LLM timeout, verify fallback |
+| 9 | End-to-End Testing & Demo Flow | 3-min script, bug fixes, screenshot capture | Run demo path, log failures |
+| 10 | Docs, Pitch Deck, Handoff | `README.md`, `ARCHITECTURE.md`, 5-slide deck | Final lint, commit, tag `v0.1-poc` |
+
+---
+
+## 🤖 BOB AI AGENT OPERATING DIRECTIVES
+1. **Execute sequentially.** Do not skip hours. Validate each step before proceeding.
+2. **Use `uv run` for all commands.** Fallback to `python -m` only if `uv` fails.
+3. **Strict typing:** All data flows must use `pydantic` models. No raw dicts.
+4. **AI Prompts:** Always include `response_format={"type": "json_object"}` in Claude/LangChain calls.
+5. **Session State:** Store UI state in `st.session_state`. Never reload on rerun.
+6. **Security First:** Reject any code that reads secrets outside `config/settings.py` or bypasses `.env`.
+7. **Anti-Hallucination Enforcement:** Run the `SELF-AUDIT CHECKLIST` before generating any file. Reject unverified imports, invented methods, or scope creep.
+8. **Fallback Ready:** If LLM returns invalid JSON, trigger a retry with temperature=0.2, then fall back to rule-based extraction.
+
+---
+
+## 📝 STEP-BY-STEP IMPLEMENTATION PROMPTS & CODE SPECS (HOURS 2–10)
+*(Prompts remain identical to previous version, but BOB will now auto-apply anti-hallucination constraints to all outputs.)*
+
+### 🔹 HOUR 2: Mock Data Ingestion
+**Prompt for BOB:**
+```
+Create data/mock_daily_context.json with 3 emails, 2 calendar events, and 2 chat snippets. 
+Include: id, source, timestamp, subject/title, body/text, sender, participants, urgency_hint, has_action.
+Then write src/ingest/loader.py that:
+1. Reads the JSON safely via pathlib
+2. Validates against a Pydantic model
+3. Returns List[MockContextItem]
+4. Raises ValueError on malformed data
+Add type hints, docstrings, and error handling. Run self-audit checklist before output.
+```
+
+### 🔹 HOUR 3: AI Processor Chain
+**Prompt for BOB:**
+```
+Build src/ai/processor.py using langchain + anthropic.
+Create a PromptTemplate that instructs Claude to:
+- Summarize daily context in 3 bullet points
+- Extract explicit action items (task, assignee, deadline, priority)
+- Identify stakeholders & next steps
+Enforce strict JSON output matching this Pydantic schema:
+class DailyBriefing(BaseModel):
+    summary: str
+    actions: List[ActionItem]
+    stakeholders: List[str]
+class ActionItem(BaseModel):
+    task: str
+    assignee: str
+    deadline: str | None
+    priority: Literal["urgent", "high", "medium", "low"]
+Return the parsed model. Add retry logic (max 2) with temp=0.2 on JSON parse failure.
+Verify all LangChain/Anthropic imports exist. No hallucinated methods.
+```
+
+### 🔹 HOUR 4: Summarization & Extraction Logic
+**Prompt for BOB:**
+```
+Add a fallback rule-based extractor to src/ai/processor.py that triggers if LLM fails twice.
+Rules:
+- If text contains "ASAP", "today", "by EOD" → priority="urgent"
+- If text contains "review", "send", "fix", "update" → action item candidate
+- Extract names after "to:", "cc:", "@" as stakeholders
+Merge fallback output with LLM when possible. Log warnings. Keep type signatures strict.
+```
+
+### 🔹 HOUR 5: Streamlit Dashboard Layout
+**Prompt for BOB:**
+```
+Update app/main.py to create 3 tabs:
+1. 📅 Morning Briefing (AI summary, stakeholder list)
+2. ✅ Action Board (table with task, assignee, deadline, priority, checkbox)
+3. 📝 Draft Generator (textarea + "Generate Reply" button → AI draft)
+Use st.session_state to cache briefing. Add loading spinners. Ensure responsive layout.
+Verify all Streamlit component calls match v1.30+ docs. No invented widgets.
+```
+
+### 🔹 HOUR 6: Connect AI → UI + Draft Generator
+**Prompt for BOB:**
+```
+Wire app/main.py to src/ai/processor.py.
+On tab load: call generate_daily_briefing(), store in st.session_state.briefing.
+In Draft tab: add input for context/action selection. On click:
+- Call Claude with prompt: "Draft a professional reply to [context] confirming [action]. Keep it <50 words."
+- Display draft in code block with copy button.
+Handle API errors gracefully. Add st.toast notifications.
+```
+
+### 🔹 HOUR 7: Prioritization Engine
+**Prompt for BOB:**
+```
+Create src/ai/prioritizer.py with score_action(item: ActionItem) -> int.
+Rules:
+- Urgent: 4 pts, High: 3, Medium: 2, Low: 1
+- Deadline within 24h: +2 pts
+- Missing deadline: +0 pts
+- Add column to Action Board showing score. Sort descending by default.
+```
+
+### 🔹 HOUR 8: Error Handling & UX Polish
+**Prompt for BOB:**
+```
+Add to all LLM calls:
+- try/except with st.error() fallback
+- st.spinner() during processing
+- Rate limit guard: if >3 errors in 5 min, show "Service cooldown, try again later"
+- Add st.info() tooltips for priority colors
+- Ensure no session state loss on rerun
+```
+
+### 🔹 HOUR 9: End-to-End Testing & Demo Flow
+**Prompt for BOB:**
+```
+Create tests/demo_flow.py that:
+1. Loads mock data
+2. Calls processor
+3. Simulates UI state (st.session_state mock)
+4. Asserts briefing has ≥1 action, valid JSON structure, priority scoring
+Add a demo script in README.md: how to run, what to click, expected outputs.
+```
+
+### 🔹 HOUR 10: Docs, Pitch Deck, Handoff
+**Prompt for BOB:**
+```
+Generate:
+1. README.md (setup, run, architecture, security, limitations, next steps)
+2. docs/ARCHITECTURE.md (data flow, AI prompt design, session state map)
+3. A 5-slide pitch deck outline in markdown: Problem, Solution, Architecture, ROI (30min/day), Next Steps
+Ensure all commands work on Windows + uv. Tag commit v0.1-poc.
+```
+
+---
+
+## ✅ VALIDATION & QUALITY GATES (Run After Each Hour)
+```bash
+# 1. Security & Lint
+uv run pre-commit run --all-files
+
+# 2. Type/Schema Check (Anti-Hallucination Gate)
+uv run python -c "
+from src.ai.processor import DailyBriefing, ActionItem
+from pydantic import TypeAdapter
+adapter = TypeAdapter(DailyBriefing)
+print('✅ Pydantic schema validated. Zero hallucinated fields.')
+"
+
+# 3. Ingest Test
+uv run python -c "from src.ingest.loader import load_mock_data; data=load_mock_data(); print(f'✅ Loaded {len(data)} items')"
+
+# 4. Streamlit Launch
+uv run streamlit run app/main.py --server.port 8501 --server.headless true
+```
+
+**If any step fails:** BOB must halt, log the exact error, apply the fallback from `🚨 ERROR HANDLING`, and retry once before escalating.
+
+---
+
+## 🚨 ERROR HANDLING & FALLBACK PROTOCOLS
+| Scenario | BOB Response |
+|----------|--------------|
+| `ANTHROPIC_API_KEY` invalid/missing | App stops at boot. Shows exact setup command. |
+| LLM returns invalid JSON | Retry with `temperature=0.2`. Fail → rule-based fallback. |
+| `mock_daily_context.json` missing/corrupt | Raise `ValueError` with clear path & format spec. |
+| Streamlit rerun loses state | Wrap in `st.session_state.setdefault()`. Never use bare variables. |
+| API rate limit/timeout | Show st.warning("⏳ AI cooling down. Retrying in 10s..."). Sleep 10s. |
+| Security/Type check fails | Block commit. Fix highlighted `bandit`/`ruff`/Pydantic violations first. |
+| **Hallucinated Import/Method** | `uv run python -c "import <mod>"` fails → Replace with documented equivalent. Log warning. |
+
+---
+
+## 🚀 NEXT COMMAND FOR BOB
+```
+EXECUTE_HOUR_2
+```
+When you issue this, BOB will:
+1. Run the **Anti-Hallucination Self-Audit Checklist**
+2. Generate `data/mock_daily_context.json` with realistic mock data
+3. Build `src/ingest/loader.py` with Pydantic validation
+4. Run validation commands
+5. Halt and await your `EXECUTE_HOUR_3` confirmation
+
+**Security & Determinism Reminder:** BOB must never modify `.env`, hardcode keys, bypass `config/settings.py`, invent imports, or deviate from the hourly scope. All AI calls remain sandboxed to mock data until explicit v1 upgrade.

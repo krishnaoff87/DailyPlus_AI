@@ -1,0 +1,101 @@
+[
+  {
+    "id": "email_001",
+    "source": "email",
+    "timestamp": "2026-05-16T08:30:00Z",
+    "subject": "URGENT: Client proposal review needed by EOD",
+    "body": "Hi team,\n\nThe Acme Corp proposal needs final review before we submit today at 5 PM. Please review the pricing section and confirm the delivery timeline is realistic. @Sarah can you verify the technical specs? @Mike please double-check the budget calculations.\n\nAction items:\n- Review pricing section (all)\n- Verify technical specs (Sarah)\n- Confirm budget calculations (Mike)\n- Final approval needed by 4:30 PM\n\nThanks,\nJohn",
+    "sender": "john.smith@company.com",
+    "participants": ["john.smith@company.com", "sarah.jones@company.com", "mike.chen@company.com"],
+    "urgency_hint": "urgent",
+    "has_action": true
+  },
+  {
+    "id": "email_002",
+    "source": "email",
+    "timestamp": "2026-05-16T09:15:00Z",
+    "subject": "Weekly Team Sync - Action Items from Yesterday",
+    "body": "Team,\n\nGreat meeting yesterday! Here are the action items we discussed:\n\n1. Update project timeline in Jira (Due: Friday)\n2. Schedule Q3 planning session with stakeholders\n3. Send status update to client by Wednesday\n4. Review and merge pending PRs\n\nLet me know if you have any questions.\n\nBest,\nEmily",
+    "sender": "emily.rodriguez@company.com",
+    "participants": ["emily.rodriguez@company.com", "team@company.com"],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "email_003",
+    "source": "email",
+    "timestamp": "2026-05-16T10:45:00Z",
+    "subject": "Newsletter: Industry Trends May 2026",
+    "body": "Welcome to our monthly industry newsletter!\n\nThis month's highlights:\n- AI adoption in enterprise software\n- New cloud computing regulations\n- Best practices for remote team management\n\nRead more at our blog...",
+    "sender": "newsletter@industrynews.com",
+    "participants": ["newsletter@industrynews.com", "you@company.com"],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "calendar_001",
+    "source": "calendar",
+    "timestamp": "2026-05-16T14:00:00Z",
+    "subject": "Product Roadmap Review - Q3 Planning",
+    "body": "Quarterly planning session to review Q3 roadmap priorities.\n\nAgenda:\n- Review Q2 deliverables\n- Prioritize Q3 features\n- Resource allocation discussion\n- Risk assessment\n\nPlease come prepared with your team's top 3 priorities.",
+    "sender": "calendar@company.com",
+    "participants": ["sarah.jones@company.com", "mike.chen@company.com", "emily.rodriguez@company.com", "you@company.com"],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "calendar_002",
+    "source": "calendar",
+    "timestamp": "2026-05-17T10:00:00Z",
+    "subject": "Client Demo - Acme Corp Final Presentation",
+    "body": "Final presentation and demo for Acme Corp proposal.\n\nPreparation needed:\n- Test demo environment\n- Prepare backup slides\n- Review Q&A talking points\n- Confirm all stakeholders can attend\n\nThis is the decision meeting - make sure everything is polished!",
+    "sender": "calendar@company.com",
+    "participants": ["john.smith@company.com", "sarah.jones@company.com", "you@company.com", "client.contact@acmecorp.com"],
+    "urgency_hint": "urgent",
+    "has_action": true
+  },
+  {
+    "id": "calendar_003",
+    "source": "calendar",
+    "timestamp": "2026-05-22T15:00:00Z",
+    "subject": "Team Building Event - Escape Room",
+    "body": "Monthly team building activity at Downtown Escape Room.\n\nMeet at the office at 2:45 PM, we'll walk over together.\n\nRSVP by Monday so we can confirm the booking.",
+    "sender": "calendar@company.com",
+    "participants": ["team@company.com"],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "chat_001",
+    "source": "chat",
+    "timestamp": "2026-05-16T11:20:00Z",
+    "subject": "Engineering Channel - Production Issue",
+    "body": "@channel We're seeing elevated error rates on the API (5% increase). @DevOps can you check the logs? Might be related to this morning's deployment. Not critical yet but let's monitor closely.\n\n@Mike - can you roll back if it gets worse?",
+    "sender": "sarah.jones",
+    "participants": ["sarah.jones", "mike.chen", "devops-team", "engineering-channel"],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "chat_002",
+    "source": "chat",
+    "timestamp": "2026-05-16T12:05:00Z",
+    "subject": "Project Alpha - Design Review",
+    "body": "@you Hey! Just uploaded the new mockups to Figma. Can you review the dashboard redesign when you get a chance? Specifically interested in your thoughts on the navigation flow. No rush, but would love feedback before our Friday meeting.",
+    "sender": "alex.kim",
+    "participants": ["alex.kim", "you"],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "chat_003",
+    "source": "chat",
+    "timestamp": "2026-05-16T13:30:00Z",
+    "subject": "Random - Lunch Plans",
+    "body": "Anyone want to grab lunch at the new Thai place? Heading out in 15 mins 🍜",
+    "sender": "emily.rodriguez",
+    "participants": ["emily.rodriguez", "general-channel"],
+    "urgency_hint": "low",
+    "has_action": false
+  }
+]
