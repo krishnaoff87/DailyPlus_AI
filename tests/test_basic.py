@@ -110,9 +110,9 @@ def test_sort_actions_by_priority():
 
     # Verify scores are in descending order
     scores = [calculate_priority_score(action) for action in sorted_actions]
-    assert scores == sorted(scores, reverse=True), (
-        "Actions not sorted by priority score"
-    )
+    assert scores == sorted(
+        scores, reverse=True
+    ), "Actions not sorted by priority score"
 
 
 def test_sort_actions_by_priority_empty_list():

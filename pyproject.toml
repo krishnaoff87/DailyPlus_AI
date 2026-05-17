@@ -5,10 +5,10 @@ description = "AI-powered daily commander that saves 30 minutes/day"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "anthropic>=0.102.0",
     "bandit>=1.9.4",
     "langchain>=1.3.1",
-    "langchain-anthropic>=1.4.3",
+    "langchain-core>=1.4.0",
+    "langchain-google-genai>=4.2.2",
     "pre-commit>=4.6.0",
     "pydantic>=2.13.4",
     "pydantic-settings>=2.0.0",

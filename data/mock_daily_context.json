@@ -1,101 +1,1577 @@
 [
   {
-    "id": "email_001",
-    "source": "email",
-    "timestamp": "2026-05-16T08:30:00Z",
-    "subject": "URGENT: Client proposal review needed by EOD",
-    "body": "Hi team,\n\nThe Acme Corp proposal needs final review before we submit today at 5 PM. Please review the pricing section and confirm the delivery timeline is realistic. @Sarah can you verify the technical specs? @Mike please double-check the budget calculations.\n\nAction items:\n- Review pricing section (all)\n- Verify technical specs (Sarah)\n- Confirm budget calculations (Mike)\n- Final approval needed by 4:30 PM\n\nThanks,\nJohn",
-    "sender": "john.smith@company.com",
-    "participants": ["john.smith@company.com", "sarah.jones@company.com", "mike.chen@company.com"],
-    "urgency_hint": "urgent",
-    "has_action": true
-  },
-  {
-    "id": "email_002",
-    "source": "email",
-    "timestamp": "2026-05-16T09:15:00Z",
-    "subject": "Weekly Team Sync - Action Items from Yesterday",
-    "body": "Team,\n\nGreat meeting yesterday! Here are the action items we discussed:\n\n1. Update project timeline in Jira (Due: Friday)\n2. Schedule Q3 planning session with stakeholders\n3. Send status update to client by Wednesday\n4. Review and merge pending PRs\n\nLet me know if you have any questions.\n\nBest,\nEmily",
-    "sender": "emily.rodriguez@company.com",
-    "participants": ["emily.rodriguez@company.com", "team@company.com"],
-    "urgency_hint": "high",
-    "has_action": true
-  },
-  {
-    "id": "email_003",
-    "source": "email",
-    "timestamp": "2026-05-16T10:45:00Z",
-    "subject": "Newsletter: Industry Trends May 2026",
-    "body": "Welcome to our monthly industry newsletter!\n\nThis month's highlights:\n- AI adoption in enterprise software\n- New cloud computing regulations\n- Best practices for remote team management\n\nRead more at our blog...",
-    "sender": "newsletter@industrynews.com",
-    "participants": ["newsletter@industrynews.com", "you@company.com"],
+    "id": "TASK-001",
+    "source": "chat",
+    "timestamp": "2026-05-12T10:00:00Z",
+    "subject": "Payment Processing API Enhancement",
+    "body": "Analyze and optimize payment processing api enhancement to improve system performance and user experience.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 9\n**Actual Hours:** 9\n**Due Date:** 2026-05-15T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Rajesh Kumar",
+    "participants": [
+      "Sneha Reddy",
+      "David Martinez",
+      "Ananya Iyer"
+    ],
     "urgency_hint": "low",
     "has_action": false
   },
   {
-    "id": "calendar_001",
-    "source": "calendar",
+    "id": "TASK-002",
+    "source": "chat",
+    "timestamp": "2026-05-13T11:00:00Z",
+    "subject": "KYC Verification Process Update",
+    "body": "Conduct thorough review of kyc verification process update ensuring compliance with regulatory standards.\n\n**Project:** Customer Onboarding Enhancement\n**Department:** Compliance\n**Status:** Completed (100% complete)\n**Estimated Hours:** 10\n**Actual Hours:** 10\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Sneha Reddy",
+    "participants": [
+      "David Martinez",
+      "Ananya Iyer",
+      "Vikram Singh",
+      "Jessica Lee"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-003",
+    "source": "chat",
+    "timestamp": "2026-05-14T12:00:00Z",
+    "subject": "Fraud Detection Algorithm Optimization",
+    "body": "Develop automated solution for fraud detection algorithm optimization with monitoring and alerting capabilities.\n\n**Project:** Fraud Prevention Initiative\n**Department:** Data Analytics\n**Status:** Completed (100% complete)\n**Estimated Hours:** 11\n**Actual Hours:** 11\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "David Martinez",
+    "participants": [
+      "Ananya Iyer",
+      "Vikram Singh"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-004",
+    "source": "chat",
+    "timestamp": "2026-05-15T13:00:00Z",
+    "subject": "Mobile App Feature Implementation",
+    "body": "Research and evaluate mobile app feature implementation considering scalability and security requirements.\n\n**Project:** Mobile App Enhancement Q2\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 12\n**Actual Hours:** 12\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Ananya Iyer",
+    "participants": [
+      "Vikram Singh",
+      "Jessica Lee",
+      "Carlos Rodriguez"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-005",
+    "source": "chat",
     "timestamp": "2026-05-16T14:00:00Z",
-    "subject": "Product Roadmap Review - Q3 Planning",
-    "body": "Quarterly planning session to review Q3 roadmap priorities.\n\nAgenda:\n- Review Q2 deliverables\n- Prioritize Q3 features\n- Resource allocation discussion\n- Risk assessment\n\nPlease come prepared with your team's top 3 priorities.",
-    "sender": "calendar@company.com",
-    "participants": ["sarah.jones@company.com", "mike.chen@company.com", "emily.rodriguez@company.com", "you@company.com"],
+    "subject": "Regulatory Compliance Audit",
+    "body": "Implement and deploy regulatory compliance audit with comprehensive testing and documentation.\n\n**Project:** Regulatory Compliance 2026\n**Department:** Compliance\n**Status:** Completed (100% complete)\n**Estimated Hours:** 13\n**Actual Hours:** 13\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Task progressing as planned. 100% complete with no major blockers.",
+    "sender": "Vikram Singh",
+    "participants": [
+      "Jessica Lee",
+      "Carlos Rodriguez",
+      "Lisa Wang",
+      "Arun Patel"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-006",
+    "source": "email",
+    "timestamp": "2026-05-17T15:00:00Z",
+    "subject": "Customer Support Ticket Resolution",
+    "body": "Analyze and optimize customer support ticket resolution to improve system performance and user experience.\n\n**Project:** Customer Experience Platform\n**Department:** Customer Support\n**Status:** Completed (100% complete)\n**Estimated Hours:** 14\n**Actual Hours:** 14\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Jessica Lee",
+    "participants": [
+      "Carlos Rodriguez",
+      "Lisa Wang"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-007",
+    "source": "chat",
+    "timestamp": "2026-05-18T16:00:00Z",
+    "subject": "Database Migration Task",
+    "body": "Conduct thorough review of database migration task ensuring compliance with regulatory standards.\n\n**Project:** Cloud Migration Initiative\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 15\n**Actual Hours:** 15\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Carlos Rodriguez",
+    "participants": [
+      "Lisa Wang",
+      "Arun Patel",
+      "Priya Sharma"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-008",
+    "source": "chat",
+    "timestamp": "2026-05-12T09:00:00Z",
+    "subject": "Credit Scoring Model Update",
+    "body": "Develop automated solution for credit scoring model update with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Data Analytics\n**Status:** Completed (100% complete)\n**Estimated Hours:** 16\n**Actual Hours:** 16\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Lisa Wang",
+    "participants": [
+      "Arun Patel",
+      "Priya Sharma",
+      "Michael Chen",
+      "Amit Desai"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-009",
+    "source": "chat",
+    "timestamp": "2026-05-13T10:00:00Z",
+    "subject": "API Security Enhancement",
+    "body": "Research and evaluate api security enhancement considering scalability and security requirements.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 17\n**Actual Hours:** 17\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Arun Patel",
+    "participants": [
+      "Priya Sharma",
+      "Michael Chen"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-010",
+    "source": "chat",
+    "timestamp": "2026-05-14T11:00:00Z",
+    "subject": "Merchant Onboarding Process",
+    "body": "Implement and deploy merchant onboarding process with comprehensive testing and documentation.\n\n**Project:** Merchant Services Platform\n**Department:** Product\n**Status:** Completed (100% complete)\n**Estimated Hours:** 18\n**Actual Hours:** 18\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Task progressing as planned. 100% complete with no major blockers.",
+    "sender": "Priya Sharma",
+    "participants": [
+      "Michael Chen",
+      "Amit Desai",
+      "Jennifer Brown"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": false
+  },
+  {
+    "id": "TASK-011",
+    "source": "chat",
+    "timestamp": "2026-05-15T12:00:00Z",
+    "subject": "Security Vulnerability Fix",
+    "body": "Analyze and optimize security vulnerability fix to improve system performance and user experience.\n\n**Project:** Security Hardening Q2\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 19\n**Actual Hours:** 19\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Michael Chen",
+    "participants": [
+      "Amit Desai",
+      "Jennifer Brown",
+      "Tom Anderson",
+      "Sarah Johnson"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-012",
+    "source": "chat",
+    "timestamp": "2026-05-16T13:00:00Z",
+    "subject": "Financial Reconciliation Automation",
+    "body": "Conduct thorough review of financial reconciliation automation ensuring compliance with regulatory standards.\n\n**Project:** Financial Operations Automation\n**Department:** Finance\n**Status:** Completed (100% complete)\n**Estimated Hours:** 20\n**Actual Hours:** 20\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Amit Desai",
+    "participants": [
+      "Jennifer Brown",
+      "Tom Anderson"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-013",
+    "source": "chat",
+    "timestamp": "2026-05-17T14:00:00Z",
+    "subject": "Customer Churn Analysis",
+    "body": "Develop automated solution for customer churn analysis with monitoring and alerting capabilities.\n\n**Project:** Customer Retention Analytics\n**Department:** Data Analytics\n**Status:** Completed (100% complete)\n**Estimated Hours:** 21\n**Actual Hours:** 21\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Jennifer Brown",
+    "participants": [
+      "Tom Anderson",
+      "Sarah Johnson",
+      "Kevin O'Brien"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-014",
+    "source": "chat",
+    "timestamp": "2026-05-18T15:00:00Z",
+    "subject": "Disaster Recovery Testing",
+    "body": "Research and evaluate disaster recovery testing considering scalability and security requirements.\n\n**Project:** Business Continuity Planning\n**Department:** Operations\n**Status:** Completed (100% complete)\n**Estimated Hours:** 22\n**Actual Hours:** 22\n**Dependencies:** TASK-009\n**Due Date:** 2026-05-24T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Tom Anderson",
+    "participants": [
+      "Sarah Johnson",
+      "Kevin O'Brien",
+      "Emily Watson",
+      "Rahul Mehta"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-015",
+    "source": "chat",
+    "timestamp": "2026-05-12T16:00:00Z",
+    "subject": "Data Privacy Compliance",
+    "body": "Implement and deploy data privacy compliance with comprehensive testing and documentation.\n\n**Project:** Data Governance Initiative\n**Department:** Compliance\n**Status:** Completed (100% complete)\n**Estimated Hours:** 23\n**Actual Hours:** 23\n**Due Date:** 2026-05-14T02:00:00Z\n\n**Notes:** Task progressing as planned. 100% complete with no major blockers.",
+    "sender": "Sarah Johnson",
+    "participants": [
+      "Kevin O'Brien",
+      "Emily Watson"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-016",
+    "source": "chat",
+    "timestamp": "2026-05-13T09:00:00Z",
+    "subject": "International Payment Support",
+    "body": "Analyze and optimize international payment support to improve system performance and user experience.\n\n**Project:** International Expansion\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 24\n**Actual Hours:** 24\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Kevin O'Brien",
+    "participants": [
+      "Emily Watson",
+      "Rahul Mehta",
+      "Sophie Chen"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-017",
+    "source": "chat",
+    "timestamp": "2026-05-14T10:00:00Z",
+    "subject": "Performance Optimization",
+    "body": "Conduct thorough review of performance optimization ensuring compliance with regulatory standards.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 25\n**Actual Hours:** 25\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Emily Watson",
+    "participants": [
+      "Rahul Mehta",
+      "Sophie Chen",
+      "James Wilson",
+      "Maria Garcia"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-018",
+    "source": "email",
+    "timestamp": "2026-05-15T11:00:00Z",
+    "subject": "Risk Assessment Report",
+    "body": "Develop automated solution for risk assessment report with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Risk Management\n**Status:** Completed (100% complete)\n**Estimated Hours:** 26\n**Actual Hours:** 26\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Rahul Mehta",
+    "participants": [
+      "Sophie Chen",
+      "James Wilson"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-019",
+    "source": "chat",
+    "timestamp": "2026-05-16T12:00:00Z",
+    "subject": "Marketing Campaign Analytics",
+    "body": "Research and evaluate marketing campaign analytics considering scalability and security requirements.\n\n**Project:** Customer Retention Analytics\n**Department:** Marketing\n**Status:** Completed (100% complete)\n**Estimated Hours:** 27\n**Actual Hours:** 27\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Sophie Chen",
+    "participants": [
+      "James Wilson",
+      "Maria Garcia",
+      "Robert Taylor"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-020",
+    "source": "chat",
+    "timestamp": "2026-05-17T13:00:00Z",
+    "subject": "Documentation Update",
+    "body": "Implement and deploy documentation update with comprehensive testing and documentation.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 28\n**Actual Hours:** 8\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Task progressing as planned. 100% complete with no major blockers.",
+    "sender": "James Wilson",
+    "participants": [
+      "Maria Garcia",
+      "Robert Taylor",
+      "Nina Patel",
+      "Alex Thompson"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": false
+  },
+  {
+    "id": "TASK-021",
+    "source": "chat",
+    "timestamp": "2026-05-18T14:00:00Z",
+    "subject": "Payment Processing API Enhancement - Phase 2",
+    "body": "Analyze and optimize payment processing api enhancement - phase 2 to improve system performance and user experience.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 29\n**Actual Hours:** 9\n**Dependencies:** TASK-016\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Maria Garcia",
+    "participants": [
+      "Robert Taylor",
+      "Nina Patel"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-022",
+    "source": "chat",
+    "timestamp": "2026-05-12T15:00:00Z",
+    "subject": "KYC Verification Process Update - Phase 2",
+    "body": "Conduct thorough review of kyc verification process update - phase 2 ensuring compliance with regulatory standards.\n\n**Project:** Customer Onboarding Enhancement\n**Department:** Compliance\n**Status:** Completed (100% complete)\n**Estimated Hours:** 30\n**Actual Hours:** 10\n**Dependencies:** TASK-012, TASK-019\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Robert Taylor",
+    "participants": [
+      "Nina Patel",
+      "Alex Thompson",
+      "Rajesh Kumar"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-023",
+    "source": "chat",
+    "timestamp": "2026-05-13T16:00:00Z",
+    "subject": "Fraud Detection Algorithm Optimization - Phase 2",
+    "body": "Develop automated solution for fraud detection algorithm optimization - phase 2 with monitoring and alerting capabilities.\n\n**Project:** Fraud Prevention Initiative\n**Department:** Data Analytics\n**Status:** Completed (100% complete)\n**Estimated Hours:** 31\n**Actual Hours:** 11\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Nina Patel",
+    "participants": [
+      "Alex Thompson",
+      "Rajesh Kumar",
+      "Sneha Reddy",
+      "David Martinez"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-024",
+    "source": "chat",
+    "timestamp": "2026-05-14T09:00:00Z",
+    "subject": "Mobile App Feature Implementation - Phase 2",
+    "body": "Research and evaluate mobile app feature implementation - phase 2 considering scalability and security requirements.\n\n**Project:** Mobile App Enhancement Q2\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 32\n**Actual Hours:** 12\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Alex Thompson",
+    "participants": [
+      "Rajesh Kumar",
+      "Sneha Reddy"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-025",
+    "source": "chat",
+    "timestamp": "2026-05-15T10:00:00Z",
+    "subject": "Regulatory Compliance Audit - Phase 2",
+    "body": "Implement and deploy regulatory compliance audit - phase 2 with comprehensive testing and documentation.\n\n**Project:** Regulatory Compliance 2026\n**Department:** Compliance\n**Status:** Completed (100% complete)\n**Estimated Hours:** 33\n**Actual Hours:** 13\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Task progressing as planned. 100% complete with no major blockers.",
+    "sender": "Rajesh Kumar",
+    "participants": [
+      "Sneha Reddy",
+      "David Martinez",
+      "Ananya Iyer"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-026",
+    "source": "email",
+    "timestamp": "2026-05-16T11:00:00Z",
+    "subject": "Customer Support Ticket Resolution - Phase 2",
+    "body": "Analyze and optimize customer support ticket resolution - phase 2 to improve system performance and user experience.\n\n**Project:** Customer Experience Platform\n**Department:** Customer Support\n**Status:** Completed (100% complete)\n**Estimated Hours:** 34\n**Actual Hours:** 14\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Sneha Reddy",
+    "participants": [
+      "David Martinez",
+      "Ananya Iyer",
+      "Vikram Singh",
+      "Jessica Lee"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-027",
+    "source": "chat",
+    "timestamp": "2026-05-17T12:00:00Z",
+    "subject": "Database Migration Task - Phase 2",
+    "body": "Conduct thorough review of database migration task - phase 2 ensuring compliance with regulatory standards.\n\n**Project:** Cloud Migration Initiative\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 35\n**Actual Hours:** 15\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "David Martinez",
+    "participants": [
+      "Ananya Iyer",
+      "Vikram Singh"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-028",
+    "source": "chat",
+    "timestamp": "2026-05-18T13:00:00Z",
+    "subject": "Credit Scoring Model Update - Phase 2",
+    "body": "Develop automated solution for credit scoring model update - phase 2 with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Data Analytics\n**Status:** Completed (100% complete)\n**Estimated Hours:** 36\n**Actual Hours:** 16\n**Dependencies:** TASK-023\n**Due Date:** 2026-05-23T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Ananya Iyer",
+    "participants": [
+      "Vikram Singh",
+      "Jessica Lee",
+      "Carlos Rodriguez"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-029",
+    "source": "chat",
+    "timestamp": "2026-05-12T14:00:00Z",
+    "subject": "API Security Enhancement - Phase 2",
+    "body": "Research and evaluate api security enhancement - phase 2 considering scalability and security requirements.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** Completed (100% complete)\n**Estimated Hours:** 37\n**Actual Hours:** 17\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Vikram Singh",
+    "participants": [
+      "Jessica Lee",
+      "Carlos Rodriguez",
+      "Lisa Wang",
+      "Arun Patel"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-030",
+    "source": "chat",
+    "timestamp": "2026-05-13T15:00:00Z",
+    "subject": "Merchant Onboarding Process - Phase 2",
+    "body": "Implement and deploy merchant onboarding process - phase 2 with comprehensive testing and documentation.\n\n**Project:** Merchant Services Platform\n**Department:** Product\n**Status:** Completed (100% complete)\n**Estimated Hours:** 38\n**Actual Hours:** 18\n**Due Date:** 2026-05-15T02:00:00Z\n\n**Notes:** Task progressing as planned. 100% complete with no major blockers.",
+    "sender": "Jessica Lee",
+    "participants": [
+      "Carlos Rodriguez",
+      "Lisa Wang"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": false
+  },
+  {
+    "id": "TASK-031",
+    "source": "chat",
+    "timestamp": "2026-05-14T16:00:00Z",
+    "subject": "Security Vulnerability Fix - Phase 2",
+    "body": "Analyze and optimize security vulnerability fix - phase 2 to improve system performance and user experience.\n\n**Project:** Security Hardening Q2\n**Department:** Engineering\n**Status:** In Progress (81% complete)\n**Estimated Hours:** 39\n**Actual Hours:** 6\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Carlos Rodriguez",
+    "participants": [
+      "Lisa Wang",
+      "Arun Patel",
+      "Priya Sharma"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-032",
+    "source": "chat",
+    "timestamp": "2026-05-15T09:00:00Z",
+    "subject": "Financial Reconciliation Automation - Phase 2",
+    "body": "Conduct thorough review of financial reconciliation automation - phase 2 ensuring compliance with regulatory standards.\n\n**Project:** Financial Operations Automation\n**Department:** Finance\n**Status:** In Progress (82% complete)\n**Estimated Hours:** 8\n**Actual Hours:** 7\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Lisa Wang",
+    "participants": [
+      "Arun Patel",
+      "Priya Sharma",
+      "Michael Chen",
+      "Amit Desai"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-033",
+    "source": "chat",
+    "timestamp": "2026-05-16T10:00:00Z",
+    "subject": "Customer Churn Analysis - Phase 2",
+    "body": "Develop automated solution for customer churn analysis - phase 2 with monitoring and alerting capabilities.\n\n**Project:** Customer Retention Analytics\n**Department:** Data Analytics\n**Status:** In Progress (83% complete)\n**Estimated Hours:** 9\n**Actual Hours:** 8\n**Dependencies:** TASK-023, TASK-030\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Arun Patel",
+    "participants": [
+      "Priya Sharma",
+      "Michael Chen"
+    ],
     "urgency_hint": "high",
     "has_action": true
   },
   {
-    "id": "calendar_002",
-    "source": "calendar",
-    "timestamp": "2026-05-17T10:00:00Z",
-    "subject": "Client Demo - Acme Corp Final Presentation",
-    "body": "Final presentation and demo for Acme Corp proposal.\n\nPreparation needed:\n- Test demo environment\n- Prepare backup slides\n- Review Q&A talking points\n- Confirm all stakeholders can attend\n\nThis is the decision meeting - make sure everything is polished!",
-    "sender": "calendar@company.com",
-    "participants": ["john.smith@company.com", "sarah.jones@company.com", "you@company.com", "client.contact@acmecorp.com"],
+    "id": "TASK-034",
+    "source": "chat",
+    "timestamp": "2026-05-17T11:00:00Z",
+    "subject": "Disaster Recovery Testing - Phase 2",
+    "body": "Research and evaluate disaster recovery testing - phase 2 considering scalability and security requirements.\n\n**Project:** Business Continuity Planning\n**Department:** Operations\n**Status:** In Progress (84% complete)\n**Estimated Hours:** 10\n**Actual Hours:** 9\n**Due Date:** 2026-05-23T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Priya Sharma",
+    "participants": [
+      "Michael Chen",
+      "Amit Desai",
+      "Jennifer Brown"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-035",
+    "source": "chat",
+    "timestamp": "2026-05-18T12:00:00Z",
+    "subject": "Data Privacy Compliance - Phase 2",
+    "body": "Implement and deploy data privacy compliance - phase 2 with comprehensive testing and documentation.\n\n**Project:** Data Governance Initiative\n**Department:** Compliance\n**Status:** In Progress (85% complete)\n**Estimated Hours:** 11\n**Actual Hours:** 10\n**Dependencies:** TASK-030\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Task progressing as planned. 85% complete with no major blockers.",
+    "sender": "Michael Chen",
+    "participants": [
+      "Amit Desai",
+      "Jennifer Brown",
+      "Tom Anderson",
+      "Sarah Johnson"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-036",
+    "source": "chat",
+    "timestamp": "2026-05-12T13:00:00Z",
+    "subject": "International Payment Support - Phase 2",
+    "body": "Analyze and optimize international payment support - phase 2 to improve system performance and user experience.\n\n**Project:** International Expansion\n**Department:** Engineering\n**Status:** In Progress (86% complete)\n**Estimated Hours:** 12\n**Actual Hours:** 11\n**Due Date:** 2026-05-15T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Amit Desai",
+    "participants": [
+      "Jennifer Brown",
+      "Tom Anderson"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-037",
+    "source": "chat",
+    "timestamp": "2026-05-13T14:00:00Z",
+    "subject": "Performance Optimization - Phase 2",
+    "body": "Conduct thorough review of performance optimization - phase 2 ensuring compliance with regulatory standards.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** In Progress (87% complete)\n**Estimated Hours:** 13\n**Actual Hours:** 12\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Jennifer Brown",
+    "participants": [
+      "Tom Anderson",
+      "Sarah Johnson",
+      "Kevin O'Brien"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-038",
+    "source": "email",
+    "timestamp": "2026-05-14T15:00:00Z",
+    "subject": "Risk Assessment Report - Phase 2",
+    "body": "Develop automated solution for risk assessment report - phase 2 with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Risk Management\n**Status:** In Progress (88% complete)\n**Estimated Hours:** 14\n**Actual Hours:** 13\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Tom Anderson",
+    "participants": [
+      "Sarah Johnson",
+      "Kevin O'Brien",
+      "Emily Watson",
+      "Rahul Mehta"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-039",
+    "source": "chat",
+    "timestamp": "2026-05-15T16:00:00Z",
+    "subject": "Marketing Campaign Analytics - Phase 2",
+    "body": "Research and evaluate marketing campaign analytics - phase 2 considering scalability and security requirements.\n\n**Project:** Customer Retention Analytics\n**Department:** Marketing\n**Status:** In Progress (89% complete)\n**Estimated Hours:** 15\n**Actual Hours:** 14\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Sarah Johnson",
+    "participants": [
+      "Kevin O'Brien",
+      "Emily Watson"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-040",
+    "source": "chat",
+    "timestamp": "2026-05-16T09:00:00Z",
+    "subject": "Documentation Update - Phase 2",
+    "body": "Implement and deploy documentation update - phase 2 with comprehensive testing and documentation.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** In Progress (50% complete)\n**Estimated Hours:** 16\n**Actual Hours:** 15\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Task progressing as planned. 50% complete with no major blockers.",
+    "sender": "Kevin O'Brien",
+    "participants": [
+      "Emily Watson",
+      "Rahul Mehta",
+      "Sophie Chen"
+    ],
     "urgency_hint": "urgent",
     "has_action": true
   },
   {
-    "id": "calendar_003",
-    "source": "calendar",
-    "timestamp": "2026-05-22T15:00:00Z",
-    "subject": "Team Building Event - Escape Room",
-    "body": "Monthly team building activity at Downtown Escape Room.\n\nMeet at the office at 2:45 PM, we'll walk over together.\n\nRSVP by Monday so we can confirm the booking.",
-    "sender": "calendar@company.com",
-    "participants": ["team@company.com"],
-    "urgency_hint": "medium",
+    "id": "TASK-041",
+    "source": "chat",
+    "timestamp": "2026-05-17T10:00:00Z",
+    "subject": "Payment Processing API Enhancement - Phase 3",
+    "body": "Analyze and optimize payment processing api enhancement - phase 3 to improve system performance and user experience.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** In Progress (51% complete)\n**Estimated Hours:** 17\n**Actual Hours:** 16\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Emily Watson",
+    "participants": [
+      "Rahul Mehta",
+      "Sophie Chen",
+      "James Wilson",
+      "Maria Garcia"
+    ],
+    "urgency_hint": "low",
     "has_action": true
   },
   {
-    "id": "chat_001",
+    "id": "TASK-042",
     "source": "chat",
-    "timestamp": "2026-05-16T11:20:00Z",
-    "subject": "Engineering Channel - Production Issue",
-    "body": "@channel We're seeing elevated error rates on the API (5% increase). @DevOps can you check the logs? Might be related to this morning's deployment. Not critical yet but let's monitor closely.\n\n@Mike - can you roll back if it gets worse?",
-    "sender": "sarah.jones",
-    "participants": ["sarah.jones", "mike.chen", "devops-team", "engineering-channel"],
+    "timestamp": "2026-05-18T11:00:00Z",
+    "subject": "KYC Verification Process Update - Phase 3",
+    "body": "Conduct thorough review of kyc verification process update - phase 3 ensuring compliance with regulatory standards.\n\n**Project:** Customer Onboarding Enhancement\n**Department:** Compliance\n**Status:** In Progress (52% complete)\n**Estimated Hours:** 18\n**Actual Hours:** 17\n**Dependencies:** TASK-037\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Rahul Mehta",
+    "participants": [
+      "Sophie Chen",
+      "James Wilson"
+    ],
     "urgency_hint": "high",
     "has_action": true
   },
   {
-    "id": "chat_002",
+    "id": "TASK-043",
     "source": "chat",
-    "timestamp": "2026-05-16T12:05:00Z",
-    "subject": "Project Alpha - Design Review",
-    "body": "@you Hey! Just uploaded the new mockups to Figma. Can you review the dashboard redesign when you get a chance? Specifically interested in your thoughts on the navigation flow. No rush, but would love feedback before our Friday meeting.",
-    "sender": "alex.kim",
-    "participants": ["alex.kim", "you"],
+    "timestamp": "2026-05-12T12:00:00Z",
+    "subject": "Fraud Detection Algorithm Optimization - Phase 3",
+    "body": "Develop automated solution for fraud detection algorithm optimization - phase 3 with monitoring and alerting capabilities.\n\n**Project:** Fraud Prevention Initiative\n**Department:** Data Analytics\n**Status:** In Progress (53% complete)\n**Estimated Hours:** 19\n**Actual Hours:** 18\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Sophie Chen",
+    "participants": [
+      "James Wilson",
+      "Maria Garcia",
+      "Robert Taylor"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-044",
+    "source": "chat",
+    "timestamp": "2026-05-13T13:00:00Z",
+    "subject": "Mobile App Feature Implementation - Phase 3",
+    "body": "Research and evaluate mobile app feature implementation - phase 3 considering scalability and security requirements.\n\n**Project:** Mobile App Enhancement Q2\n**Department:** Engineering\n**Status:** In Progress (54% complete)\n**Estimated Hours:** 20\n**Actual Hours:** 19\n**Dependencies:** TASK-034, TASK-041\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "James Wilson",
+    "participants": [
+      "Maria Garcia",
+      "Robert Taylor",
+      "Nina Patel",
+      "Alex Thompson"
+    ],
     "urgency_hint": "medium",
     "has_action": true
   },
   {
-    "id": "chat_003",
+    "id": "TASK-045",
     "source": "chat",
-    "timestamp": "2026-05-16T13:30:00Z",
-    "subject": "Random - Lunch Plans",
-    "body": "Anyone want to grab lunch at the new Thai place? Heading out in 15 mins 🍜",
-    "sender": "emily.rodriguez",
-    "participants": ["emily.rodriguez", "general-channel"],
+    "timestamp": "2026-05-14T14:00:00Z",
+    "subject": "Regulatory Compliance Audit - Phase 3",
+    "body": "Implement and deploy regulatory compliance audit - phase 3 with comprehensive testing and documentation.\n\n**Project:** Regulatory Compliance 2026\n**Department:** Compliance\n**Status:** In Progress (55% complete)\n**Estimated Hours:** 21\n**Actual Hours:** 5\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Task progressing as planned. 55% complete with no major blockers.",
+    "sender": "Maria Garcia",
+    "participants": [
+      "Robert Taylor",
+      "Nina Patel"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-046",
+    "source": "email",
+    "timestamp": "2026-05-15T15:00:00Z",
+    "subject": "Customer Support Ticket Resolution - Phase 3",
+    "body": "Analyze and optimize customer support ticket resolution - phase 3 to improve system performance and user experience.\n\n**Project:** Customer Experience Platform\n**Department:** Customer Support\n**Status:** In Progress (56% complete)\n**Estimated Hours:** 22\n**Actual Hours:** 6\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Robert Taylor",
+    "participants": [
+      "Nina Patel",
+      "Alex Thompson",
+      "Rajesh Kumar"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-047",
+    "source": "chat",
+    "timestamp": "2026-05-16T16:00:00Z",
+    "subject": "Database Migration Task - Phase 3",
+    "body": "Conduct thorough review of database migration task - phase 3 ensuring compliance with regulatory standards.\n\n**Project:** Cloud Migration Initiative\n**Department:** Engineering\n**Status:** In Progress (57% complete)\n**Estimated Hours:** 23\n**Actual Hours:** 7\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Nina Patel",
+    "participants": [
+      "Alex Thompson",
+      "Rajesh Kumar",
+      "Sneha Reddy",
+      "David Martinez"
+    ],
     "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-048",
+    "source": "chat",
+    "timestamp": "2026-05-17T09:00:00Z",
+    "subject": "Credit Scoring Model Update - Phase 3",
+    "body": "Develop automated solution for credit scoring model update - phase 3 with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Data Analytics\n**Status:** In Progress (58% complete)\n**Estimated Hours:** 24\n**Actual Hours:** 8\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Alex Thompson",
+    "participants": [
+      "Rajesh Kumar",
+      "Sneha Reddy"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-049",
+    "source": "chat",
+    "timestamp": "2026-05-18T10:00:00Z",
+    "subject": "API Security Enhancement - Phase 3",
+    "body": "Research and evaluate api security enhancement - phase 3 considering scalability and security requirements.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** In Progress (59% complete)\n**Estimated Hours:** 25\n**Actual Hours:** 9\n**Dependencies:** TASK-044\n**Due Date:** 2026-05-24T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Rajesh Kumar",
+    "participants": [
+      "Sneha Reddy",
+      "David Martinez",
+      "Ananya Iyer"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-050",
+    "source": "chat",
+    "timestamp": "2026-05-12T11:00:00Z",
+    "subject": "Merchant Onboarding Process - Phase 3",
+    "body": "Implement and deploy merchant onboarding process - phase 3 with comprehensive testing and documentation.\n\n**Project:** Merchant Services Platform\n**Department:** Product\n**Status:** In Progress (60% complete)\n**Estimated Hours:** 26\n**Actual Hours:** 10\n**Due Date:** 2026-05-14T02:00:00Z\n\n**Notes:** Task progressing as planned. 60% complete with no major blockers.",
+    "sender": "Sneha Reddy",
+    "participants": [
+      "David Martinez",
+      "Ananya Iyer",
+      "Vikram Singh",
+      "Jessica Lee"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": true
+  },
+  {
+    "id": "TASK-051",
+    "source": "chat",
+    "timestamp": "2026-05-13T12:00:00Z",
+    "subject": "Security Vulnerability Fix - Phase 3",
+    "body": "Analyze and optimize security vulnerability fix - phase 3 to improve system performance and user experience.\n\n**Project:** Security Hardening Q2\n**Department:** Engineering\n**Status:** In Progress (61% complete)\n**Estimated Hours:** 27\n**Actual Hours:** 11\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "David Martinez",
+    "participants": [
+      "Ananya Iyer",
+      "Vikram Singh"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-052",
+    "source": "chat",
+    "timestamp": "2026-05-14T13:00:00Z",
+    "subject": "Financial Reconciliation Automation - Phase 3",
+    "body": "Conduct thorough review of financial reconciliation automation - phase 3 ensuring compliance with regulatory standards.\n\n**Project:** Financial Operations Automation\n**Department:** Finance\n**Status:** In Progress (62% complete)\n**Estimated Hours:** 28\n**Actual Hours:** 12\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Ananya Iyer",
+    "participants": [
+      "Vikram Singh",
+      "Jessica Lee",
+      "Carlos Rodriguez"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-053",
+    "source": "chat",
+    "timestamp": "2026-05-15T14:00:00Z",
+    "subject": "Customer Churn Analysis - Phase 3",
+    "body": "Develop automated solution for customer churn analysis - phase 3 with monitoring and alerting capabilities.\n\n**Project:** Customer Retention Analytics\n**Department:** Data Analytics\n**Status:** In Progress (63% complete)\n**Estimated Hours:** 29\n**Actual Hours:** 13\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Vikram Singh",
+    "participants": [
+      "Jessica Lee",
+      "Carlos Rodriguez",
+      "Lisa Wang",
+      "Arun Patel"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-054",
+    "source": "chat",
+    "timestamp": "2026-05-16T15:00:00Z",
+    "subject": "Disaster Recovery Testing - Phase 3",
+    "body": "Research and evaluate disaster recovery testing - phase 3 considering scalability and security requirements.\n\n**Project:** Business Continuity Planning\n**Department:** Operations\n**Status:** In Progress (64% complete)\n**Estimated Hours:** 30\n**Actual Hours:** 14\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Jessica Lee",
+    "participants": [
+      "Carlos Rodriguez",
+      "Lisa Wang"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-055",
+    "source": "chat",
+    "timestamp": "2026-05-17T16:00:00Z",
+    "subject": "Data Privacy Compliance - Phase 3",
+    "body": "Implement and deploy data privacy compliance - phase 3 with comprehensive testing and documentation.\n\n**Project:** Data Governance Initiative\n**Department:** Compliance\n**Status:** In Progress (65% complete)\n**Estimated Hours:** 31\n**Actual Hours:** 15\n**Dependencies:** TASK-045, TASK-052\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Task progressing as planned. 65% complete with no major blockers.",
+    "sender": "Carlos Rodriguez",
+    "participants": [
+      "Lisa Wang",
+      "Arun Patel",
+      "Priya Sharma"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-056",
+    "source": "chat",
+    "timestamp": "2026-05-18T09:00:00Z",
+    "subject": "International Payment Support - Phase 3",
+    "body": "Analyze and optimize international payment support - phase 3 to improve system performance and user experience.\n\n**Project:** International Expansion\n**Department:** Engineering\n**Status:** In Progress (66% complete)\n**Estimated Hours:** 32\n**Actual Hours:** 16\n**Dependencies:** TASK-051\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Lisa Wang",
+    "participants": [
+      "Arun Patel",
+      "Priya Sharma",
+      "Michael Chen",
+      "Amit Desai"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-057",
+    "source": "chat",
+    "timestamp": "2026-05-12T10:00:00Z",
+    "subject": "Performance Optimization - Phase 3",
+    "body": "Conduct thorough review of performance optimization - phase 3 ensuring compliance with regulatory standards.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** In Progress (67% complete)\n**Estimated Hours:** 33\n**Actual Hours:** 17\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Arun Patel",
+    "participants": [
+      "Priya Sharma",
+      "Michael Chen"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-058",
+    "source": "email",
+    "timestamp": "2026-05-13T11:00:00Z",
+    "subject": "Risk Assessment Report - Phase 3",
+    "body": "Develop automated solution for risk assessment report - phase 3 with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Risk Management\n**Status:** In Progress (68% complete)\n**Estimated Hours:** 34\n**Actual Hours:** 18\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Priya Sharma",
+    "participants": [
+      "Michael Chen",
+      "Amit Desai",
+      "Jennifer Brown"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-059",
+    "source": "chat",
+    "timestamp": "2026-05-14T12:00:00Z",
+    "subject": "Marketing Campaign Analytics - Phase 3",
+    "body": "Research and evaluate marketing campaign analytics - phase 3 considering scalability and security requirements.\n\n**Project:** Customer Retention Analytics\n**Department:** Marketing\n**Status:** In Progress (69% complete)\n**Estimated Hours:** 35\n**Actual Hours:** 19\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Michael Chen",
+    "participants": [
+      "Amit Desai",
+      "Jennifer Brown",
+      "Tom Anderson",
+      "Sarah Johnson"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-060",
+    "source": "chat",
+    "timestamp": "2026-05-15T13:00:00Z",
+    "subject": "Documentation Update - Phase 3",
+    "body": "Implement and deploy documentation update - phase 3 with comprehensive testing and documentation.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** In Progress (70% complete)\n**Estimated Hours:** 36\n**Actual Hours:** 5\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Task progressing as planned. 70% complete with no major blockers.",
+    "sender": "Amit Desai",
+    "participants": [
+      "Jennifer Brown",
+      "Tom Anderson"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": true
+  },
+  {
+    "id": "TASK-061",
+    "source": "chat",
+    "timestamp": "2026-05-16T14:00:00Z",
+    "subject": "Payment Processing API Enhancement - Phase 4",
+    "body": "Analyze and optimize payment processing api enhancement - phase 4 to improve system performance and user experience.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** In Progress (71% complete)\n**Estimated Hours:** 37\n**Actual Hours:** 6\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Jennifer Brown",
+    "participants": [
+      "Tom Anderson",
+      "Sarah Johnson",
+      "Kevin O'Brien"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-062",
+    "source": "chat",
+    "timestamp": "2026-05-17T15:00:00Z",
+    "subject": "KYC Verification Process Update - Phase 4",
+    "body": "Conduct thorough review of kyc verification process update - phase 4 ensuring compliance with regulatory standards.\n\n**Project:** Customer Onboarding Enhancement\n**Department:** Compliance\n**Status:** In Progress (72% complete)\n**Estimated Hours:** 38\n**Actual Hours:** 7\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Tom Anderson",
+    "participants": [
+      "Sarah Johnson",
+      "Kevin O'Brien",
+      "Emily Watson",
+      "Rahul Mehta"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-063",
+    "source": "chat",
+    "timestamp": "2026-05-18T16:00:00Z",
+    "subject": "Fraud Detection Algorithm Optimization - Phase 4",
+    "body": "Develop automated solution for fraud detection algorithm optimization - phase 4 with monitoring and alerting capabilities.\n\n**Project:** Fraud Prevention Initiative\n**Department:** Data Analytics\n**Status:** In Progress (73% complete)\n**Estimated Hours:** 39\n**Actual Hours:** 8\n**Dependencies:** TASK-058\n**Due Date:** 2026-05-23T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Sarah Johnson",
+    "participants": [
+      "Kevin O'Brien",
+      "Emily Watson"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-064",
+    "source": "chat",
+    "timestamp": "2026-05-12T09:00:00Z",
+    "subject": "Mobile App Feature Implementation - Phase 4",
+    "body": "Research and evaluate mobile app feature implementation - phase 4 considering scalability and security requirements.\n\n**Project:** Mobile App Enhancement Q2\n**Department:** Engineering\n**Status:** In Progress (74% complete)\n**Estimated Hours:** 8\n**Actual Hours:** 9\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Kevin O'Brien",
+    "participants": [
+      "Emily Watson",
+      "Rahul Mehta",
+      "Sophie Chen"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-065",
+    "source": "chat",
+    "timestamp": "2026-05-13T10:00:00Z",
+    "subject": "Regulatory Compliance Audit - Phase 4",
+    "body": "Implement and deploy regulatory compliance audit - phase 4 with comprehensive testing and documentation.\n\n**Project:** Regulatory Compliance 2026\n**Department:** Compliance\n**Status:** In Progress (75% complete)\n**Estimated Hours:** 9\n**Actual Hours:** 10\n**Due Date:** 2026-05-15T02:00:00Z\n\n**Notes:** Task progressing as planned. 75% complete with no major blockers.",
+    "sender": "Emily Watson",
+    "participants": [
+      "Rahul Mehta",
+      "Sophie Chen",
+      "James Wilson",
+      "Maria Garcia"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-066",
+    "source": "email",
+    "timestamp": "2026-05-14T11:00:00Z",
+    "subject": "Customer Support Ticket Resolution - Phase 4",
+    "body": "Analyze and optimize customer support ticket resolution - phase 4 to improve system performance and user experience.\n\n**Project:** Customer Experience Platform\n**Department:** Customer Support\n**Status:** In Progress (76% complete)\n**Estimated Hours:** 10\n**Actual Hours:** 11\n**Dependencies:** TASK-056, TASK-063\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Rahul Mehta",
+    "participants": [
+      "Sophie Chen",
+      "James Wilson"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-067",
+    "source": "chat",
+    "timestamp": "2026-05-15T12:00:00Z",
+    "subject": "Database Migration Task - Phase 4",
+    "body": "Conduct thorough review of database migration task - phase 4 ensuring compliance with regulatory standards.\n\n**Project:** Cloud Migration Initiative\n**Department:** Engineering\n**Status:** In Progress (77% complete)\n**Estimated Hours:** 11\n**Actual Hours:** 12\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Sophie Chen",
+    "participants": [
+      "James Wilson",
+      "Maria Garcia",
+      "Robert Taylor"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-068",
+    "source": "chat",
+    "timestamp": "2026-05-16T13:00:00Z",
+    "subject": "Credit Scoring Model Update - Phase 4",
+    "body": "Develop automated solution for credit scoring model update - phase 4 with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Data Analytics\n**Status:** In Progress (78% complete)\n**Estimated Hours:** 12\n**Actual Hours:** 13\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "James Wilson",
+    "participants": [
+      "Maria Garcia",
+      "Robert Taylor",
+      "Nina Patel",
+      "Alex Thompson"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-069",
+    "source": "chat",
+    "timestamp": "2026-05-17T14:00:00Z",
+    "subject": "API Security Enhancement - Phase 4",
+    "body": "Research and evaluate api security enhancement - phase 4 considering scalability and security requirements.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** In Progress (79% complete)\n**Estimated Hours:** 13\n**Actual Hours:** 14\n**Due Date:** 2026-05-23T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Maria Garcia",
+    "participants": [
+      "Robert Taylor",
+      "Nina Patel"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-070",
+    "source": "chat",
+    "timestamp": "2026-05-18T15:00:00Z",
+    "subject": "Merchant Onboarding Process - Phase 4",
+    "body": "Implement and deploy merchant onboarding process - phase 4 with comprehensive testing and documentation.\n\n**Project:** Merchant Services Platform\n**Department:** Product\n**Status:** In Progress (80% complete)\n**Estimated Hours:** 14\n**Actual Hours:** 15\n**Dependencies:** TASK-065\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Task progressing as planned. 80% complete with no major blockers.",
+    "sender": "Robert Taylor",
+    "participants": [
+      "Nina Patel",
+      "Alex Thompson",
+      "Rajesh Kumar"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": true
+  },
+  {
+    "id": "TASK-071",
+    "source": "chat",
+    "timestamp": "2026-05-12T16:00:00Z",
+    "subject": "Security Vulnerability Fix - Phase 4",
+    "body": "Analyze and optimize security vulnerability fix - phase 4 to improve system performance and user experience.\n\n**Project:** Security Hardening Q2\n**Department:** Engineering\n**Status:** In Progress (81% complete)\n**Estimated Hours:** 15\n**Actual Hours:** 16\n**Due Date:** 2026-05-15T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Nina Patel",
+    "participants": [
+      "Alex Thompson",
+      "Rajesh Kumar",
+      "Sneha Reddy",
+      "David Martinez"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-072",
+    "source": "chat",
+    "timestamp": "2026-05-13T09:00:00Z",
+    "subject": "Financial Reconciliation Automation - Phase 4",
+    "body": "Conduct thorough review of financial reconciliation automation - phase 4 ensuring compliance with regulatory standards.\n\n**Project:** Financial Operations Automation\n**Department:** Finance\n**Status:** In Progress (82% complete)\n**Estimated Hours:** 16\n**Actual Hours:** 17\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Alex Thompson",
+    "participants": [
+      "Rajesh Kumar",
+      "Sneha Reddy"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-073",
+    "source": "chat",
+    "timestamp": "2026-05-14T10:00:00Z",
+    "subject": "Customer Churn Analysis - Phase 4",
+    "body": "Develop automated solution for customer churn analysis - phase 4 with monitoring and alerting capabilities.\n\n**Project:** Customer Retention Analytics\n**Department:** Data Analytics\n**Status:** In Progress (83% complete)\n**Estimated Hours:** 17\n**Actual Hours:** 18\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Rajesh Kumar",
+    "participants": [
+      "Sneha Reddy",
+      "David Martinez",
+      "Ananya Iyer"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-074",
+    "source": "chat",
+    "timestamp": "2026-05-15T11:00:00Z",
+    "subject": "Disaster Recovery Testing - Phase 4",
+    "body": "Research and evaluate disaster recovery testing - phase 4 considering scalability and security requirements.\n\n**Project:** Business Continuity Planning\n**Department:** Operations\n**Status:** In Progress (84% complete)\n**Estimated Hours:** 18\n**Actual Hours:** 19\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Sneha Reddy",
+    "participants": [
+      "David Martinez",
+      "Ananya Iyer",
+      "Vikram Singh",
+      "Jessica Lee"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-075",
+    "source": "chat",
+    "timestamp": "2026-05-16T12:00:00Z",
+    "subject": "Data Privacy Compliance - Phase 4",
+    "body": "Implement and deploy data privacy compliance - phase 4 with comprehensive testing and documentation.\n\n**Project:** Data Governance Initiative\n**Department:** Compliance\n**Status:** In Progress (85% complete)\n**Estimated Hours:** 19\n**Actual Hours:** 5\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Task progressing as planned. 85% complete with no major blockers.",
+    "sender": "David Martinez",
+    "participants": [
+      "Ananya Iyer",
+      "Vikram Singh"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-076",
+    "source": "chat",
+    "timestamp": "2026-05-17T13:00:00Z",
+    "subject": "International Payment Support - Phase 4",
+    "body": "Analyze and optimize international payment support - phase 4 to improve system performance and user experience.\n\n**Project:** International Expansion\n**Department:** Engineering\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 20\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Ananya Iyer",
+    "participants": [
+      "Vikram Singh",
+      "Jessica Lee",
+      "Carlos Rodriguez"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-077",
+    "source": "chat",
+    "timestamp": "2026-05-18T14:00:00Z",
+    "subject": "Performance Optimization - Phase 4",
+    "body": "Conduct thorough review of performance optimization - phase 4 ensuring compliance with regulatory standards.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 21\n**Dependencies:** TASK-072\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Vikram Singh",
+    "participants": [
+      "Jessica Lee",
+      "Carlos Rodriguez",
+      "Lisa Wang",
+      "Arun Patel"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-078",
+    "source": "email",
+    "timestamp": "2026-05-12T15:00:00Z",
+    "subject": "Risk Assessment Report - Phase 4",
+    "body": "Develop automated solution for risk assessment report - phase 4 with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Risk Management\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 22\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Jessica Lee",
+    "participants": [
+      "Carlos Rodriguez",
+      "Lisa Wang"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-079",
+    "source": "chat",
+    "timestamp": "2026-05-13T16:00:00Z",
+    "subject": "Marketing Campaign Analytics - Phase 4",
+    "body": "Research and evaluate marketing campaign analytics - phase 4 considering scalability and security requirements.\n\n**Project:** Customer Retention Analytics\n**Department:** Marketing\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 23\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Carlos Rodriguez",
+    "participants": [
+      "Lisa Wang",
+      "Arun Patel",
+      "Priya Sharma"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-080",
+    "source": "chat",
+    "timestamp": "2026-05-14T09:00:00Z",
+    "subject": "Documentation Update - Phase 4",
+    "body": "Implement and deploy documentation update - phase 4 with comprehensive testing and documentation.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 24\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Task progressing as planned. 0% complete with no major blockers.",
+    "sender": "Lisa Wang",
+    "participants": [
+      "Arun Patel",
+      "Priya Sharma",
+      "Michael Chen",
+      "Amit Desai"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": true
+  },
+  {
+    "id": "TASK-081",
+    "source": "chat",
+    "timestamp": "2026-05-15T10:00:00Z",
+    "subject": "Payment Processing API Enhancement - Phase 5",
+    "body": "Analyze and optimize payment processing api enhancement - phase 5 to improve system performance and user experience.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 25\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Arun Patel",
+    "participants": [
+      "Priya Sharma",
+      "Michael Chen"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-082",
+    "source": "chat",
+    "timestamp": "2026-05-16T11:00:00Z",
+    "subject": "KYC Verification Process Update - Phase 5",
+    "body": "Conduct thorough review of kyc verification process update - phase 5 ensuring compliance with regulatory standards.\n\n**Project:** Customer Onboarding Enhancement\n**Department:** Compliance\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 26\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Priya Sharma",
+    "participants": [
+      "Michael Chen",
+      "Amit Desai",
+      "Jennifer Brown"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-083",
+    "source": "chat",
+    "timestamp": "2026-05-17T12:00:00Z",
+    "subject": "Fraud Detection Algorithm Optimization - Phase 5",
+    "body": "Develop automated solution for fraud detection algorithm optimization - phase 5 with monitoring and alerting capabilities.\n\n**Project:** Fraud Prevention Initiative\n**Department:** Data Analytics\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 27\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Michael Chen",
+    "participants": [
+      "Amit Desai",
+      "Jennifer Brown",
+      "Tom Anderson",
+      "Sarah Johnson"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-084",
+    "source": "chat",
+    "timestamp": "2026-05-18T13:00:00Z",
+    "subject": "Mobile App Feature Implementation - Phase 5",
+    "body": "Research and evaluate mobile app feature implementation - phase 5 considering scalability and security requirements.\n\n**Project:** Mobile App Enhancement Q2\n**Department:** Engineering\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 28\n**Dependencies:** TASK-079\n**Due Date:** 2026-05-24T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Amit Desai",
+    "participants": [
+      "Jennifer Brown",
+      "Tom Anderson"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-085",
+    "source": "chat",
+    "timestamp": "2026-05-12T14:00:00Z",
+    "subject": "Regulatory Compliance Audit - Phase 5",
+    "body": "Implement and deploy regulatory compliance audit - phase 5 with comprehensive testing and documentation.\n\n**Project:** Regulatory Compliance 2026\n**Department:** Compliance\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 29\n**Due Date:** 2026-05-14T02:00:00Z\n\n**Notes:** Task progressing as planned. 0% complete with no major blockers.",
+    "sender": "Jennifer Brown",
+    "participants": [
+      "Tom Anderson",
+      "Sarah Johnson",
+      "Kevin O'Brien"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-086",
+    "source": "email",
+    "timestamp": "2026-05-13T15:00:00Z",
+    "subject": "Customer Support Ticket Resolution - Phase 5",
+    "body": "Analyze and optimize customer support ticket resolution - phase 5 to improve system performance and user experience.\n\n**Project:** Customer Experience Platform\n**Department:** Customer Support\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 30\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Tom Anderson",
+    "participants": [
+      "Sarah Johnson",
+      "Kevin O'Brien",
+      "Emily Watson",
+      "Rahul Mehta"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-087",
+    "source": "chat",
+    "timestamp": "2026-05-14T16:00:00Z",
+    "subject": "Database Migration Task - Phase 5",
+    "body": "Conduct thorough review of database migration task - phase 5 ensuring compliance with regulatory standards.\n\n**Project:** Cloud Migration Initiative\n**Department:** Engineering\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 31\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Sarah Johnson",
+    "participants": [
+      "Kevin O'Brien",
+      "Emily Watson"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-088",
+    "source": "chat",
+    "timestamp": "2026-05-15T09:00:00Z",
+    "subject": "Credit Scoring Model Update - Phase 5",
+    "body": "Develop automated solution for credit scoring model update - phase 5 with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Data Analytics\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 32\n**Dependencies:** TASK-078, TASK-085\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Kevin O'Brien",
+    "participants": [
+      "Emily Watson",
+      "Rahul Mehta",
+      "Sophie Chen"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-089",
+    "source": "chat",
+    "timestamp": "2026-05-16T10:00:00Z",
+    "subject": "API Security Enhancement - Phase 5",
+    "body": "Research and evaluate api security enhancement - phase 5 considering scalability and security requirements.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 33\n**Due Date:** 2026-05-22T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Emily Watson",
+    "participants": [
+      "Rahul Mehta",
+      "Sophie Chen",
+      "James Wilson",
+      "Maria Garcia"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-090",
+    "source": "chat",
+    "timestamp": "2026-05-17T11:00:00Z",
+    "subject": "Merchant Onboarding Process - Phase 5",
+    "body": "Implement and deploy merchant onboarding process - phase 5 with comprehensive testing and documentation.\n\n**Project:** Merchant Services Platform\n**Department:** Product\n**Status:** Not Started (0% complete)\n**Estimated Hours:** 34\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Task progressing as planned. 0% complete with no major blockers.",
+    "sender": "Rahul Mehta",
+    "participants": [
+      "Sophie Chen",
+      "James Wilson"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": true
+  },
+  {
+    "id": "TASK-091",
+    "source": "chat",
+    "timestamp": "2026-05-18T12:00:00Z",
+    "subject": "Security Vulnerability Fix - Phase 5",
+    "body": "Analyze and optimize security vulnerability fix - phase 5 to improve system performance and user experience.\n\n**Project:** Security Hardening Q2\n**Department:** Engineering\n**Status:** Blocked (41% complete)\n**Estimated Hours:** 35\n**Actual Hours:** 4\n**Dependencies:** TASK-086\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Sophie Chen",
+    "participants": [
+      "James Wilson",
+      "Maria Garcia",
+      "Robert Taylor"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-092",
+    "source": "chat",
+    "timestamp": "2026-05-12T13:00:00Z",
+    "subject": "Financial Reconciliation Automation - Phase 5",
+    "body": "Conduct thorough review of financial reconciliation automation - phase 5 ensuring compliance with regulatory standards.\n\n**Project:** Financial Operations Automation\n**Department:** Finance\n**Status:** Blocked (42% complete)\n**Estimated Hours:** 36\n**Actual Hours:** 5\n**Due Date:** 2026-05-16T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "James Wilson",
+    "participants": [
+      "Maria Garcia",
+      "Robert Taylor",
+      "Nina Patel",
+      "Alex Thompson"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-093",
+    "source": "chat",
+    "timestamp": "2026-05-13T14:00:00Z",
+    "subject": "Customer Churn Analysis - Phase 5",
+    "body": "Develop automated solution for customer churn analysis - phase 5 with monitoring and alerting capabilities.\n\n**Project:** Customer Retention Analytics\n**Department:** Data Analytics\n**Status:** Blocked (43% complete)\n**Estimated Hours:** 37\n**Actual Hours:** 6\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Maria Garcia",
+    "participants": [
+      "Robert Taylor",
+      "Nina Patel"
+    ],
+    "urgency_hint": "high",
+    "has_action": true
+  },
+  {
+    "id": "TASK-094",
+    "source": "chat",
+    "timestamp": "2026-05-14T15:00:00Z",
+    "subject": "Disaster Recovery Testing - Phase 5",
+    "body": "Research and evaluate disaster recovery testing - phase 5 considering scalability and security requirements.\n\n**Project:** Business Continuity Planning\n**Department:** Operations\n**Status:** Blocked (44% complete)\n**Estimated Hours:** 38\n**Actual Hours:** 7\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Robert Taylor",
+    "participants": [
+      "Nina Patel",
+      "Alex Thompson",
+      "Rajesh Kumar"
+    ],
+    "urgency_hint": "medium",
+    "has_action": true
+  },
+  {
+    "id": "TASK-095",
+    "source": "chat",
+    "timestamp": "2026-05-15T16:00:00Z",
+    "subject": "Data Privacy Compliance - Phase 5",
+    "body": "Implement and deploy data privacy compliance - phase 5 with comprehensive testing and documentation.\n\n**Project:** Data Governance Initiative\n**Department:** Compliance\n**Status:** Blocked (45% complete)\n**Estimated Hours:** 39\n**Actual Hours:** 8\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Task progressing as planned. 45% complete with no major blockers.",
+    "sender": "Nina Patel",
+    "participants": [
+      "Alex Thompson",
+      "Rajesh Kumar",
+      "Sneha Reddy",
+      "David Martinez"
+    ],
+    "urgency_hint": "low",
+    "has_action": true
+  },
+  {
+    "id": "TASK-096",
+    "source": "chat",
+    "timestamp": "2026-05-16T09:00:00Z",
+    "subject": "International Payment Support - Phase 5",
+    "body": "Analyze and optimize international payment support - phase 5 to improve system performance and user experience.\n\n**Project:** International Expansion\n**Department:** Engineering\n**Status:** On Hold (26% complete)\n**Estimated Hours:** 8\n**Actual Hours:** 2\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Alex Thompson",
+    "participants": [
+      "Rajesh Kumar",
+      "Sneha Reddy"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-097",
+    "source": "chat",
+    "timestamp": "2026-05-17T10:00:00Z",
+    "subject": "Performance Optimization - Phase 5",
+    "body": "Conduct thorough review of performance optimization - phase 5 ensuring compliance with regulatory standards.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** On Hold (27% complete)\n**Estimated Hours:** 9\n**Actual Hours:** 3\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Rajesh Kumar",
+    "participants": [
+      "Sneha Reddy",
+      "David Martinez",
+      "Ananya Iyer"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-098",
+    "source": "email",
+    "timestamp": "2026-05-18T11:00:00Z",
+    "subject": "Risk Assessment Report - Phase 5",
+    "body": "Develop automated solution for risk assessment report - phase 5 with monitoring and alerting capabilities.\n\n**Project:** Credit Risk Management\n**Department:** Risk Management\n**Status:** On Hold (28% complete)\n**Estimated Hours:** 10\n**Actual Hours:** 4\n**Dependencies:** TASK-093\n**Due Date:** 2026-05-23T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Sneha Reddy",
+    "participants": [
+      "David Martinez",
+      "Ananya Iyer",
+      "Vikram Singh",
+      "Jessica Lee"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-099",
+    "source": "chat",
+    "timestamp": "2026-05-12T12:00:00Z",
+    "subject": "Marketing Campaign Analytics - Phase 5",
+    "body": "Research and evaluate marketing campaign analytics - phase 5 considering scalability and security requirements.\n\n**Project:** Customer Retention Analytics\n**Department:** Marketing\n**Status:** On Hold (29% complete)\n**Estimated Hours:** 11\n**Actual Hours:** 5\n**Dependencies:** TASK-089, TASK-096\n**Due Date:** 2026-05-18T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "David Martinez",
+    "participants": [
+      "Ananya Iyer",
+      "Vikram Singh"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-100",
+    "source": "chat",
+    "timestamp": "2026-05-13T13:00:00Z",
+    "subject": "Documentation Update - Phase 5",
+    "body": "Implement and deploy documentation update - phase 5 with comprehensive testing and documentation.\n\n**Project:** API Infrastructure Enhancement\n**Department:** Engineering\n**Status:** On Hold (30% complete)\n**Estimated Hours:** 12\n**Actual Hours:** 6\n**Due Date:** 2026-05-15T02:00:00Z\n\n**Notes:** Task progressing as planned. 30% complete with no major blockers.",
+    "sender": "Ananya Iyer",
+    "participants": [
+      "Vikram Singh",
+      "Jessica Lee",
+      "Carlos Rodriguez"
+    ],
+    "urgency_hint": "urgent",
+    "has_action": false
+  },
+  {
+    "id": "TASK-101",
+    "source": "chat",
+    "timestamp": "2026-05-14T14:00:00Z",
+    "subject": "Payment Processing API Enhancement - Phase 6",
+    "body": "Analyze and optimize payment processing api enhancement - phase 6 to improve system performance and user experience.\n\n**Project:** Payment Gateway Modernization\n**Department:** Engineering\n**Status:** On Hold (31% complete)\n**Estimated Hours:** 13\n**Actual Hours:** 7\n**Due Date:** 2026-05-17T02:00:00Z\n\n**Notes:** Completed successfully. All acceptance criteria met and deployed to production.",
+    "sender": "Vikram Singh",
+    "participants": [
+      "Jessica Lee",
+      "Carlos Rodriguez",
+      "Lisa Wang",
+      "Arun Patel"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-102",
+    "source": "chat",
+    "timestamp": "2026-05-15T15:00:00Z",
+    "subject": "KYC Verification Process Update - Phase 6",
+    "body": "Conduct thorough review of kyc verification process update - phase 6 ensuring compliance with regulatory standards.\n\n**Project:** Customer Onboarding Enhancement\n**Department:** Compliance\n**Status:** On Hold (32% complete)\n**Estimated Hours:** 14\n**Actual Hours:** 8\n**Due Date:** 2026-05-19T02:00:00Z\n\n**Notes:** Awaiting dependency completion. Team coordinating with stakeholders.",
+    "sender": "Jessica Lee",
+    "participants": [
+      "Carlos Rodriguez",
+      "Lisa Wang"
+    ],
+    "urgency_hint": "high",
+    "has_action": false
+  },
+  {
+    "id": "TASK-103",
+    "source": "chat",
+    "timestamp": "2026-05-16T16:00:00Z",
+    "subject": "Fraud Detection Algorithm Optimization - Phase 6",
+    "body": "Develop automated solution for fraud detection algorithm optimization - phase 6 with monitoring and alerting capabilities.\n\n**Project:** Fraud Prevention Initiative\n**Department:** Data Analytics\n**Status:** On Hold (33% complete)\n**Estimated Hours:** 15\n**Actual Hours:** 9\n**Due Date:** 2026-05-21T02:00:00Z\n\n**Notes:** In progress. Some technical challenges identified but solutions being implemented.",
+    "sender": "Carlos Rodriguez",
+    "participants": [
+      "Lisa Wang",
+      "Arun Patel",
+      "Priya Sharma"
+    ],
+    "urgency_hint": "low",
+    "has_action": false
+  },
+  {
+    "id": "TASK-104",
+    "source": "chat",
+    "timestamp": "2026-05-17T09:00:00Z",
+    "subject": "Mobile App Feature Implementation - Phase 6",
+    "body": "Research and evaluate mobile app feature implementation - phase 6 considering scalability and security requirements.\n\n**Project:** Mobile App Enhancement Q2\n**Department:** Engineering\n**Status:** On Hold (34% complete)\n**Estimated Hours:** 16\n**Actual Hours:** 2\n**Due Date:** 2026-05-23T02:00:00Z\n\n**Notes:** Scheduled to start soon. All prerequisites and resources confirmed.",
+    "sender": "Lisa Wang",
+    "participants": [
+      "Arun Patel",
+      "Priya Sharma",
+      "Michael Chen",
+      "Amit Desai"
+    ],
+    "urgency_hint": "medium",
+    "has_action": false
+  },
+  {
+    "id": "TASK-105",
+    "source": "chat",
+    "timestamp": "2026-05-18T10:00:00Z",
+    "subject": "Regulatory Compliance Audit - Phase 6",
+    "body": "Implement and deploy regulatory compliance audit - phase 6 with comprehensive testing and documentation.\n\n**Project:** Regulatory Compliance 2026\n**Department:** Compliance\n**Status:** On Hold (35% complete)\n**Estimated Hours:** 17\n**Actual Hours:** 3\n**Dependencies:** TASK-100\n**Due Date:** 2026-05-20T02:00:00Z\n\n**Notes:** Task progressing as planned. 35% complete with no major blockers.",
+    "sender": "Arun Patel",
+    "participants": [
+      "Priya Sharma",
+      "Michael Chen"
+    ],
+    "urgency_hint": "high",
     "has_action": false
   }
 ]

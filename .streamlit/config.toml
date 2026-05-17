@@ -1,0 +1,36 @@
+# DailyPlus_AI Streamlit Configuration (Base/Development)
+#
+# SECURITY NOTE: This configuration is for DEVELOPMENT use only.
+# For production deployments, use config.production.toml
+#
+# CORS/XSRF Relationship:
+# - When enableCORS = false, enableXsrfProtection MUST also be false
+# - This is a Streamlit requirement to prevent configuration conflicts
+# - Development: Both disabled for easier local testing
+# - Production: Both enabled for security (see config.production.toml)
+#
+# To use environment-specific configs:
+# - Development: streamlit run app/main.py (uses this file)
+# - Production: streamlit run app/main.py --server.port 8501 (load config.production.toml manually)
+# - Or set STREAMLIT_SERVER_CONFIG environment variable
+#
+# See .streamlit/README.md for detailed documentation
+
+[theme]
+primaryColor = "#333333"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f4f4"
+textColor = "#333333"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+
+# DEVELOPMENT SETTINGS - CORS and XSRF disabled for local testing
+# WARNING: These settings are NOT secure for production use
+enableCORS = false
+enableXsrfProtection = false  # MUST be false when CORS is disabled
+
+[browser]
+gatherUsageStats = false

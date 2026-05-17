@@ -1,0 +1,57 @@
+# DailyPlus_AI Streamlit Configuration - DEVELOPMENT
+#
+# This configuration is optimized for local development and testing.
+# It prioritizes developer convenience over security.
+#
+# Key Development Features:
+# - CORS disabled: Allows requests from any origin (localhost, 127.0.0.1, etc.)
+# - XSRF protection disabled: Required when CORS is disabled, simplifies testing
+# - Usage stats disabled: Respects developer privacy
+# - Headless mode: Prevents browser auto-launch for better control
+#
+# SECURITY WARNING:
+# ⚠️  DO NOT use this configuration in production environments!
+# ⚠️  These settings expose your application to security vulnerabilities
+# ⚠️  For production, use config.production.toml instead
+#
+# Usage:
+#   streamlit run app/main.py --server.port 8501
+#   (This file is loaded automatically as config.toml in development)
+
+[theme]
+primaryColor = "#333333"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f4f4"
+textColor = "#333333"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+
+# DEVELOPMENT: CORS and XSRF both disabled for easier local testing
+# This allows the app to accept requests from any origin without CSRF tokens
+enableCORS = false
+enableXsrfProtection = false  # MUST be false when CORS is disabled
+
+# Development-friendly settings
+maxUploadSize = 200  # MB - generous limit for testing
+enableStaticServing = true
+runOnSave = true  # Auto-reload on file changes
+
+[browser]
+# Disable usage statistics collection in development
+gatherUsageStats = false
+
+# Prevent automatic browser launch (better for terminal-based workflows)
+serverAddress = "localhost"
+
+[logger]
+# Verbose logging for development debugging
+level = "debug"
+messageFormat = "%(asctime)s %(levelname)s: %(message)s"
+
+[client]
+# Development-friendly client settings
+showErrorDetails = true
+toolbarMode = "developer"

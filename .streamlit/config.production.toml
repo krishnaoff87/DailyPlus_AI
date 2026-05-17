@@ -1,0 +1,97 @@
+# DailyPlus_AI Streamlit Configuration - PRODUCTION
+#
+# This configuration is optimized for production deployments with security hardening.
+# It prioritizes security and performance over developer convenience.
+#
+# Key Production Features:
+# - CORS enabled: Restricts requests to allowed origins only
+# - XSRF protection enabled: Prevents Cross-Site Request Forgery attacks
+# - Websocket compression: Improves performance over network
+# - Strict error handling: Hides sensitive error details from users
+# - Resource limits: Prevents abuse and ensures stability
+#
+# SECURITY REQUIREMENTS:
+# ✅ Both CORS and XSRF protection MUST be enabled together
+# ✅ Configure allowed origins in your deployment environment
+# ✅ Use HTTPS in production (required for secure cookies)
+# ✅ Set strong session secrets in your deployment platform
+#
+# Usage:
+#   # Method 1: Copy this file to config.toml before deployment
+#   cp .streamlit/config.production.toml .streamlit/config.toml
+#
+#   # Method 2: Use environment variable
+#   export STREAMLIT_SERVER_ENABLE_CORS=true
+#   export STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION=true
+#   streamlit run app/main.py
+#
+#   # Method 3: Command-line override
+#   streamlit run app/main.py --server.enableCORS=true --server.enableXsrfProtection=true
+
+[theme]
+primaryColor = "#333333"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f4f4"
+textColor = "#333333"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+
+# PRODUCTION: CORS and XSRF both ENABLED for security
+# This is the REQUIRED configuration for production environments
+enableCORS = true
+enableXsrfProtection = true  # MUST be true when CORS is enabled
+
+# Production security settings
+enableWebsocketCompression = true  # Improves performance
+maxUploadSize = 50  # MB - reasonable limit for production
+enableStaticServing = false  # Disable if using CDN
+runOnSave = false  # Disable auto-reload in production
+
+# CORS Configuration
+# IMPORTANT: Configure these in your deployment environment
+# corsAllowedOrigins = ["https://yourdomain.com", "https://www.yourdomain.com"]
+# Example for cloud platforms:
+# corsAllowedOrigins = ["https://*.streamlit.app", "https://yourdomain.com"]
+
+# Session and cookie settings (configure in deployment)
+# cookieSecret = "your-secret-key-here"  # Set via environment variable
+# sessionStateMaxAge = 3600  # 1 hour session timeout
+
+[browser]
+# Disable usage statistics collection (privacy)
+gatherUsageStats = false
+
+# Production server address (configure based on deployment)
+serverAddress = "0.0.0.0"  # Listen on all interfaces
+serverPort = 8501
+
+[logger]
+# Production logging - less verbose, more focused
+level = "info"
+messageFormat = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+
+[client]
+# Production client settings - hide sensitive details
+showErrorDetails = false  # Don't expose stack traces to users
+toolbarMode = "minimal"  # Cleaner UI for end users
+
+# Performance optimizations
+displayEnabled = true
+caching = true
+
+[runner]
+# Production runner settings
+magicEnabled = true
+installTracer = false  # Disable in production for performance
+fixMatplotlib = true
+
+# Resource management
+fastReruns = true
+enforceSerializableSessionState = true
+
+[deprecation]
+# Handle deprecation warnings appropriately
+showPyplotGlobalUse = false

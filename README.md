@@ -44,7 +44,18 @@ A proof-of-concept application built in 10 hours to demonstrate how AI can trans
 ## ✨ Features
 
 ### 📅 Morning Briefing Tab
-- **3-Bullet Summary**: Concise overview of your day
+- **11-Category Daily Summary**: Comprehensive briefing with AI-powered insights
+  - 📊 Executive Overview with metrics
+  - 🎯 Project Progress & Milestones
+  - 📈 Productivity Metrics
+  - 🚨 Critical Actions & Deadlines
+  - ⚠️ Risks, Blockers & Challenges
+  - 👥 Team & Stakeholder Activity
+  - 🏢 Departmental Breakdown
+  - 🎉 Notable Events & Decisions
+  - **NEW** 📊 Trends Analysis - Pattern recognition and velocity tracking
+  - **NEW** 🔮 Forecasts & Predictions - Data-driven timeline projections
+  - **NEW** 🤖 AI Recommendations - Actionable optimization suggestions
 - **Stakeholder Badges**: Visual display of key people involved
 - **Action Count**: Quick metric of total tasks
 - **Auto-Refresh**: Updates when new data is loaded
@@ -99,7 +110,7 @@ uv sync
 
 # 2. Configure API key
 cp config/.env.example config/.env
-# Edit config/.env and add your ANTHROPIC_API_KEY
+# Edit config/.env and add your GEMINI_API_KEY
 
 # 3. Run the app
 uv run streamlit run app/main.py
@@ -108,6 +119,100 @@ uv run streamlit run app/main.py
 The dashboard will open at `http://localhost:8501`
 
 **First Time Setup?** See [docs/SETUP.md](docs/SETUP.md) for detailed instructions.
+
+---
+
+## 🎮 Running the Application
+
+### Quick Start (Recommended)
+
+**Option 1: Python Launcher with Port Management**
+```bash
+# Automatically handles port conflicts
+python scripts/start_streamlit.py --auto-kill
+```
+
+**Option 2: PowerShell Launcher (Windows)**
+```powershell
+# Native Windows experience with colored output
+.\scripts\start_streamlit.ps1
+```
+
+**Option 3: Direct Streamlit Command**
+```bash
+# Standard Streamlit launch
+uv run streamlit run app/main.py
+```
+
+### Advanced Options
+
+**Custom Port**:
+```bash
+# Python launcher
+python scripts/start_streamlit.py -p 8502
+
+# PowerShell
+.\scripts\start_streamlit.ps1 -Port 8502
+
+# Direct command
+uv run streamlit run app/main.py --server.port 8502
+```
+
+**Development Mode** (auto-reload on file changes):
+```bash
+# Already enabled in .streamlit/config.toml
+uv run streamlit run app/main.py
+```
+
+**Production Mode**:
+```bash
+# Copy production config first
+cp .streamlit/config.production.toml .streamlit/config.toml
+
+# Set environment
+export ENVIRONMENT=production  # Linux/Mac
+$env:ENVIRONMENT="production"  # PowerShell
+
+# Run application
+uv run streamlit run app/main.py
+```
+
+### Port Management Utilities
+
+Our port management scripts automatically handle common issues:
+
+- ✅ **Auto-detect** port conflicts
+- ✅ **Auto-kill** existing processes (with confirmation)
+- ✅ **Find alternative** ports if needed
+- ✅ **Validate** app path before launch
+- ✅ **Provide clear** error messages
+
+**Check if port is in use**:
+```bash
+python scripts/port_manager.py -p 8501 --check
+```
+
+**Get detailed port information**:
+```bash
+python scripts/port_manager.py -p 8501 --info
+```
+
+**Find available port**:
+```bash
+python scripts/port_manager.py -p 8501 --find
+```
+
+See [scripts/README.md](scripts/README.md) for complete port management documentation.
+
+### Troubleshooting Quick Links
+
+**Common Issues**:
+- 🔴 **Port already in use**: Use `python scripts/start_streamlit.py --auto-kill`
+- 🔴 **CORS/XSRF errors**: See [Troubleshooting Guide](docs/TROUBLESHOOTING_STREAMLIT.md#cors-and-xsrf-issues)
+- 🔴 **Configuration not loading**: See [Configuration Guide](docs/STREAMLIT_CONFIGURATION_GUIDE.md)
+- 🔴 **API key errors**: Check `config/.env` has valid `GEMINI_API_KEY`
+
+**Full troubleshooting guide**: [docs/TROUBLESHOOTING_STREAMLIT.md](docs/TROUBLESHOOTING_STREAMLIT.md)
 
 ---
 
@@ -239,9 +344,20 @@ This is a **proof-of-concept** with intentional scope limitations:
 
 ## 📚 Documentation
 
+### Getting Started
 - **[SETUP.md](docs/SETUP.md)** - Installation and configuration guide
-- **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - Technical architecture and design decisions
 - **[PITCH.md](docs/PITCH.md)** - Business pitch deck and ROI analysis
+
+### Architecture & Design
+- **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - Technical architecture and design decisions
+- **[NEW_FEATURES_DAILY_SUMMARY.md](docs/NEW_FEATURES_DAILY_SUMMARY.md)** - ⭐ AI-powered Trends, Forecasts & Recommendations
+
+### Streamlit Configuration & Deployment
+- **[STREAMLIT_CONFIGURATION_GUIDE.md](docs/STREAMLIT_CONFIGURATION_GUIDE.md)** - ⭐ NEW: Comprehensive configuration best practices
+- **[TROUBLESHOOTING_STREAMLIT.md](docs/TROUBLESHOOTING_STREAMLIT.md)** - ⭐ NEW: Common issues and solutions
+- **[DEPLOYMENT_CHECKLIST.md](docs/DEPLOYMENT_CHECKLIST.md)** - ⭐ NEW: Production deployment guide
+- **[.streamlit/README.md](.streamlit/README.md)** - CORS/XSRF configuration details
+- **[scripts/README.md](scripts/README.md)** - Port management utilities
 
 ### Running Tests
 

@@ -1,9 +1,14 @@
 """Priority scoring engine using Eisenhower matrix principles."""
 
-from src.ai.processor import ActionItem
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from src.ai.processor import ActionItem
 
 
-def calculate_priority_score(action: ActionItem) -> int:
+def calculate_priority_score(action: "ActionItem") -> int:
     """
     Calculate priority score for an action item using Eisenhower matrix.
 

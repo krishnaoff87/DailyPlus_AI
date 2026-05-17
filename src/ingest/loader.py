@@ -29,6 +29,8 @@ def load_mock_data() -> list[MockContextItem]:
     """
     Load and validate mock daily context data from JSON file.
 
+    Cached for 1 hour to avoid repeated file I/O operations.
+
     Returns:
         list[MockContextItem]: List of validated context items
 

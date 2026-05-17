@@ -1,0 +1,3224 @@
+{
+  "metadata": {
+    "dataset_name": "DailyPlus AI Fintech Tasks - Week Dataset",
+    "version": "1.0.0",
+    "generated_date": "2026-05-17T10:47:56.223492Z",
+    "week_start": "2026-05-12",
+    "week_end": "2026-05-18",
+    "total_tasks": 105,
+    "total_team_members": 24,
+    "total_projects": 16,
+    "departments": [
+      "Engineering",
+      "Compliance",
+      "Product",
+      "Customer Support",
+      "Risk Management",
+      "Data Analytics",
+      "Marketing",
+      "Finance",
+      "Operations"
+    ]
+  },
+  "tasks": [
+    {
+      "task_id": "TASK-001",
+      "task_name": "Payment Processing API Enhancement",
+      "task_description": "Analyze and optimize payment processing api enhancement to improve system performance and user experience.",
+      "assigned_team_member": "Rajesh Kumar",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 9,
+      "actual_hours": 9,
+      "start_date_time": "2026-05-12T10:00:00Z",
+      "due_date_time": "2026-05-15T02:00:00Z",
+      "completion_date_time": "2026-05-13T10:00:00Z",
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Sneha Reddy",
+        "David Martinez",
+        "Ananya Iyer"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "development",
+        "engineering",
+        "low",
+        "payment-gateway-mode"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-002",
+      "task_name": "KYC Verification Process Update",
+      "task_description": "Conduct thorough review of kyc verification process update ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Sneha Reddy",
+      "department": "Compliance",
+      "priority_level": "Medium",
+      "status": "Completed",
+      "estimated_hours": 10,
+      "actual_hours": 10,
+      "start_date_time": "2026-05-13T11:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": "2026-05-14T11:00:00Z",
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Customer Onboarding Enhancement",
+      "stakeholders": [
+        "David Martinez",
+        "Ananya Iyer",
+        "Vikram Singh",
+        "Jessica Lee"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "medium",
+        "customer-onboarding-"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-003",
+      "task_name": "Fraud Detection Algorithm Optimization",
+      "task_description": "Develop automated solution for fraud detection algorithm optimization with monitoring and alerting capabilities.",
+      "assigned_team_member": "David Martinez",
+      "department": "Data Analytics",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 11,
+      "actual_hours": 11,
+      "start_date_time": "2026-05-14T12:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": "2026-05-15T12:00:00Z",
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Fraud Prevention Initiative",
+      "stakeholders": [
+        "Ananya Iyer",
+        "Vikram Singh"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "high",
+        "fraud-prevention-ini"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-004",
+      "task_name": "Mobile App Feature Implementation",
+      "task_description": "Research and evaluate mobile app feature implementation considering scalability and security requirements.",
+      "assigned_team_member": "Ananya Iyer",
+      "department": "Engineering",
+      "priority_level": "Medium",
+      "status": "Completed",
+      "estimated_hours": 12,
+      "actual_hours": 12,
+      "start_date_time": "2026-05-15T13:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": "2026-05-16T13:00:00Z",
+      "task_category": "Feature Request",
+      "dependencies": [],
+      "project_name": "Mobile App Enhancement Q2",
+      "stakeholders": [
+        "Vikram Singh",
+        "Jessica Lee",
+        "Carlos Rodriguez"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "medium",
+        "mobile-app-enhanceme"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-005",
+      "task_name": "Regulatory Compliance Audit",
+      "task_description": "Implement and deploy regulatory compliance audit with comprehensive testing and documentation.",
+      "assigned_team_member": "Vikram Singh",
+      "department": "Compliance",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 13,
+      "actual_hours": 13,
+      "start_date_time": "2026-05-16T14:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": "2026-05-12T14:00:00Z",
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Regulatory Compliance 2026",
+      "stakeholders": [
+        "Jessica Lee",
+        "Carlos Rodriguez",
+        "Lisa Wang",
+        "Arun Patel"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "low",
+        "regulatory-complianc"
+      ],
+      "notes": "Task progressing as planned. 100% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-006",
+      "task_name": "Customer Support Ticket Resolution",
+      "task_description": "Analyze and optimize customer support ticket resolution to improve system performance and user experience.",
+      "assigned_team_member": "Jessica Lee",
+      "department": "Customer Support",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 14,
+      "actual_hours": 14,
+      "start_date_time": "2026-05-17T15:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": "2026-05-13T15:00:00Z",
+      "task_category": "Customer Issue",
+      "dependencies": [],
+      "project_name": "Customer Experience Platform",
+      "stakeholders": [
+        "Carlos Rodriguez",
+        "Lisa Wang"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "customer-issue",
+        "customer-support",
+        "high",
+        "customer-experience-"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-007",
+      "task_name": "Database Migration Task",
+      "task_description": "Conduct thorough review of database migration task ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Carlos Rodriguez",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 15,
+      "actual_hours": 15,
+      "start_date_time": "2026-05-18T16:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": "2026-05-14T16:00:00Z",
+      "task_category": "Deployment",
+      "dependencies": [],
+      "project_name": "Cloud Migration Initiative",
+      "stakeholders": [
+        "Lisa Wang",
+        "Arun Patel",
+        "Priya Sharma"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "deployment",
+        "engineering",
+        "low",
+        "cloud-migration-init"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-008",
+      "task_name": "Credit Scoring Model Update",
+      "task_description": "Develop automated solution for credit scoring model update with monitoring and alerting capabilities.",
+      "assigned_team_member": "Lisa Wang",
+      "department": "Data Analytics",
+      "priority_level": "Medium",
+      "status": "Completed",
+      "estimated_hours": 16,
+      "actual_hours": 16,
+      "start_date_time": "2026-05-12T09:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": "2026-05-15T09:00:00Z",
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Arun Patel",
+        "Priya Sharma",
+        "Michael Chen",
+        "Amit Desai"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "medium",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-009",
+      "task_name": "API Security Enhancement",
+      "task_description": "Research and evaluate api security enhancement considering scalability and security requirements.",
+      "assigned_team_member": "Arun Patel",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 17,
+      "actual_hours": 17,
+      "start_date_time": "2026-05-13T10:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": "2026-05-16T10:00:00Z",
+      "task_category": "Security Audit",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Priya Sharma",
+        "Michael Chen"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "security-audit",
+        "engineering",
+        "high",
+        "api-infrastructure-e"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-010",
+      "task_name": "Merchant Onboarding Process",
+      "task_description": "Implement and deploy merchant onboarding process with comprehensive testing and documentation.",
+      "assigned_team_member": "Priya Sharma",
+      "department": "Product",
+      "priority_level": "Critical",
+      "status": "Completed",
+      "estimated_hours": 18,
+      "actual_hours": 18,
+      "start_date_time": "2026-05-14T11:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": "2026-05-12T11:00:00Z",
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Merchant Services Platform",
+      "stakeholders": [
+        "Michael Chen",
+        "Amit Desai",
+        "Jennifer Brown"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "development",
+        "product",
+        "critical",
+        "merchant-services-pl"
+      ],
+      "notes": "Task progressing as planned. 100% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-011",
+      "task_name": "Security Vulnerability Fix",
+      "task_description": "Analyze and optimize security vulnerability fix to improve system performance and user experience.",
+      "assigned_team_member": "Michael Chen",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 19,
+      "actual_hours": 19,
+      "start_date_time": "2026-05-15T12:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": "2026-05-13T12:00:00Z",
+      "task_category": "Bug Fix",
+      "dependencies": [],
+      "project_name": "Security Hardening Q2",
+      "stakeholders": [
+        "Amit Desai",
+        "Jennifer Brown",
+        "Tom Anderson",
+        "Sarah Johnson"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "bug-fix",
+        "engineering",
+        "low",
+        "security-hardening-q"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-012",
+      "task_name": "Financial Reconciliation Automation",
+      "task_description": "Conduct thorough review of financial reconciliation automation ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Amit Desai",
+      "department": "Finance",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 20,
+      "actual_hours": 20,
+      "start_date_time": "2026-05-16T13:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": "2026-05-14T13:00:00Z",
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Financial Operations Automation",
+      "stakeholders": [
+        "Jennifer Brown",
+        "Tom Anderson"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "development",
+        "finance",
+        "high",
+        "financial-operations"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-013",
+      "task_name": "Customer Churn Analysis",
+      "task_description": "Develop automated solution for customer churn analysis with monitoring and alerting capabilities.",
+      "assigned_team_member": "Jennifer Brown",
+      "department": "Data Analytics",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 21,
+      "actual_hours": 21,
+      "start_date_time": "2026-05-17T14:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": "2026-05-15T14:00:00Z",
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Tom Anderson",
+        "Sarah Johnson",
+        "Kevin O'Brien"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "low",
+        "customer-retention-a"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-014",
+      "task_name": "Disaster Recovery Testing",
+      "task_description": "Research and evaluate disaster recovery testing considering scalability and security requirements.",
+      "assigned_team_member": "Tom Anderson",
+      "department": "Operations",
+      "priority_level": "Medium",
+      "status": "Completed",
+      "estimated_hours": 22,
+      "actual_hours": 22,
+      "start_date_time": "2026-05-18T15:00:00Z",
+      "due_date_time": "2026-05-24T02:00:00Z",
+      "completion_date_time": "2026-05-16T15:00:00Z",
+      "task_category": "Testing",
+      "dependencies": [
+        "TASK-009"
+      ],
+      "project_name": "Business Continuity Planning",
+      "stakeholders": [
+        "Sarah Johnson",
+        "Kevin O'Brien",
+        "Emily Watson",
+        "Rahul Mehta"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "testing",
+        "operations",
+        "medium",
+        "business-continuity-"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-015",
+      "task_name": "Data Privacy Compliance",
+      "task_description": "Implement and deploy data privacy compliance with comprehensive testing and documentation.",
+      "assigned_team_member": "Sarah Johnson",
+      "department": "Compliance",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 23,
+      "actual_hours": 23,
+      "start_date_time": "2026-05-12T16:00:00Z",
+      "due_date_time": "2026-05-14T02:00:00Z",
+      "completion_date_time": "2026-05-12T16:00:00Z",
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Data Governance Initiative",
+      "stakeholders": [
+        "Kevin O'Brien",
+        "Emily Watson"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "high",
+        "data-governance-init"
+      ],
+      "notes": "Task progressing as planned. 100% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-016",
+      "task_name": "International Payment Support",
+      "task_description": "Analyze and optimize international payment support to improve system performance and user experience.",
+      "assigned_team_member": "Kevin O'Brien",
+      "department": "Engineering",
+      "priority_level": "Medium",
+      "status": "Completed",
+      "estimated_hours": 24,
+      "actual_hours": 24,
+      "start_date_time": "2026-05-13T09:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": "2026-05-13T09:00:00Z",
+      "task_category": "Feature Request",
+      "dependencies": [],
+      "project_name": "International Expansion",
+      "stakeholders": [
+        "Emily Watson",
+        "Rahul Mehta",
+        "Sophie Chen"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "medium",
+        "international-expans"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-017",
+      "task_name": "Performance Optimization",
+      "task_description": "Conduct thorough review of performance optimization ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Emily Watson",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 25,
+      "actual_hours": 25,
+      "start_date_time": "2026-05-14T10:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": "2026-05-14T10:00:00Z",
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Rahul Mehta",
+        "Sophie Chen",
+        "James Wilson",
+        "Maria Garcia"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "development",
+        "engineering",
+        "low",
+        "payment-gateway-mode"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-018",
+      "task_name": "Risk Assessment Report",
+      "task_description": "Develop automated solution for risk assessment report with monitoring and alerting capabilities.",
+      "assigned_team_member": "Rahul Mehta",
+      "department": "Risk Management",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 26,
+      "actual_hours": 26,
+      "start_date_time": "2026-05-15T11:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": "2026-05-15T11:00:00Z",
+      "task_category": "Review",
+      "dependencies": [],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Sophie Chen",
+        "James Wilson"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "review",
+        "risk-management",
+        "high",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-019",
+      "task_name": "Marketing Campaign Analytics",
+      "task_description": "Research and evaluate marketing campaign analytics considering scalability and security requirements.",
+      "assigned_team_member": "Sophie Chen",
+      "department": "Marketing",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 27,
+      "actual_hours": 27,
+      "start_date_time": "2026-05-16T12:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": "2026-05-16T12:00:00Z",
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "James Wilson",
+        "Maria Garcia",
+        "Robert Taylor"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "data-analysis",
+        "marketing",
+        "low",
+        "customer-retention-a"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-020",
+      "task_name": "Documentation Update",
+      "task_description": "Implement and deploy documentation update with comprehensive testing and documentation.",
+      "assigned_team_member": "James Wilson",
+      "department": "Engineering",
+      "priority_level": "Critical",
+      "status": "Completed",
+      "estimated_hours": 28,
+      "actual_hours": 8,
+      "start_date_time": "2026-05-17T13:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": "2026-05-12T13:00:00Z",
+      "task_category": "Documentation",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Maria Garcia",
+        "Robert Taylor",
+        "Nina Patel",
+        "Alex Thompson"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "documentation",
+        "engineering",
+        "critical",
+        "api-infrastructure-e"
+      ],
+      "notes": "Task progressing as planned. 100% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-021",
+      "task_name": "Payment Processing API Enhancement - Phase 2",
+      "task_description": "Analyze and optimize payment processing api enhancement - phase 2 to improve system performance and user experience.",
+      "assigned_team_member": "Maria Garcia",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 29,
+      "actual_hours": 9,
+      "start_date_time": "2026-05-18T14:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": "2026-05-13T14:00:00Z",
+      "task_category": "Development",
+      "dependencies": [
+        "TASK-016"
+      ],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Robert Taylor",
+        "Nina Patel"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "development",
+        "engineering",
+        "high",
+        "payment-gateway-mode"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-022",
+      "task_name": "KYC Verification Process Update - Phase 2",
+      "task_description": "Conduct thorough review of kyc verification process update - phase 2 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Robert Taylor",
+      "department": "Compliance",
+      "priority_level": "Medium",
+      "status": "Completed",
+      "estimated_hours": 30,
+      "actual_hours": 10,
+      "start_date_time": "2026-05-12T15:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": "2026-05-14T15:00:00Z",
+      "task_category": "Compliance Check",
+      "dependencies": [
+        "TASK-012",
+        "TASK-019"
+      ],
+      "project_name": "Customer Onboarding Enhancement",
+      "stakeholders": [
+        "Nina Patel",
+        "Alex Thompson",
+        "Rajesh Kumar"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "medium",
+        "customer-onboarding-"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-023",
+      "task_name": "Fraud Detection Algorithm Optimization - Phase 2",
+      "task_description": "Develop automated solution for fraud detection algorithm optimization - phase 2 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Nina Patel",
+      "department": "Data Analytics",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 31,
+      "actual_hours": 11,
+      "start_date_time": "2026-05-13T16:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": "2026-05-15T16:00:00Z",
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Fraud Prevention Initiative",
+      "stakeholders": [
+        "Alex Thompson",
+        "Rajesh Kumar",
+        "Sneha Reddy",
+        "David Martinez"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "low",
+        "fraud-prevention-ini"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-024",
+      "task_name": "Mobile App Feature Implementation - Phase 2",
+      "task_description": "Research and evaluate mobile app feature implementation - phase 2 considering scalability and security requirements.",
+      "assigned_team_member": "Alex Thompson",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 32,
+      "actual_hours": 12,
+      "start_date_time": "2026-05-14T09:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": "2026-05-16T09:00:00Z",
+      "task_category": "Feature Request",
+      "dependencies": [],
+      "project_name": "Mobile App Enhancement Q2",
+      "stakeholders": [
+        "Rajesh Kumar",
+        "Sneha Reddy"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "high",
+        "mobile-app-enhanceme"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-025",
+      "task_name": "Regulatory Compliance Audit - Phase 2",
+      "task_description": "Implement and deploy regulatory compliance audit - phase 2 with comprehensive testing and documentation.",
+      "assigned_team_member": "Rajesh Kumar",
+      "department": "Compliance",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 33,
+      "actual_hours": 13,
+      "start_date_time": "2026-05-15T10:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": "2026-05-12T10:00:00Z",
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Regulatory Compliance 2026",
+      "stakeholders": [
+        "Sneha Reddy",
+        "David Martinez",
+        "Ananya Iyer"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "low",
+        "regulatory-complianc"
+      ],
+      "notes": "Task progressing as planned. 100% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-026",
+      "task_name": "Customer Support Ticket Resolution - Phase 2",
+      "task_description": "Analyze and optimize customer support ticket resolution - phase 2 to improve system performance and user experience.",
+      "assigned_team_member": "Sneha Reddy",
+      "department": "Customer Support",
+      "priority_level": "Medium",
+      "status": "Completed",
+      "estimated_hours": 34,
+      "actual_hours": 14,
+      "start_date_time": "2026-05-16T11:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": "2026-05-13T11:00:00Z",
+      "task_category": "Customer Issue",
+      "dependencies": [],
+      "project_name": "Customer Experience Platform",
+      "stakeholders": [
+        "David Martinez",
+        "Ananya Iyer",
+        "Vikram Singh",
+        "Jessica Lee"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "customer-issue",
+        "customer-support",
+        "medium",
+        "customer-experience-"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-027",
+      "task_name": "Database Migration Task - Phase 2",
+      "task_description": "Conduct thorough review of database migration task - phase 2 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "David Martinez",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "Completed",
+      "estimated_hours": 35,
+      "actual_hours": 15,
+      "start_date_time": "2026-05-17T12:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": "2026-05-14T12:00:00Z",
+      "task_category": "Deployment",
+      "dependencies": [],
+      "project_name": "Cloud Migration Initiative",
+      "stakeholders": [
+        "Ananya Iyer",
+        "Vikram Singh"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "deployment",
+        "engineering",
+        "high",
+        "cloud-migration-init"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-028",
+      "task_name": "Credit Scoring Model Update - Phase 2",
+      "task_description": "Develop automated solution for credit scoring model update - phase 2 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Ananya Iyer",
+      "department": "Data Analytics",
+      "priority_level": "Medium",
+      "status": "Completed",
+      "estimated_hours": 36,
+      "actual_hours": 16,
+      "start_date_time": "2026-05-18T13:00:00Z",
+      "due_date_time": "2026-05-23T02:00:00Z",
+      "completion_date_time": "2026-05-15T13:00:00Z",
+      "task_category": "Data Analysis",
+      "dependencies": [
+        "TASK-023"
+      ],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Vikram Singh",
+        "Jessica Lee",
+        "Carlos Rodriguez"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "medium",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-029",
+      "task_name": "API Security Enhancement - Phase 2",
+      "task_description": "Research and evaluate api security enhancement - phase 2 considering scalability and security requirements.",
+      "assigned_team_member": "Vikram Singh",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "Completed",
+      "estimated_hours": 37,
+      "actual_hours": 17,
+      "start_date_time": "2026-05-12T14:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": "2026-05-16T14:00:00Z",
+      "task_category": "Security Audit",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Jessica Lee",
+        "Carlos Rodriguez",
+        "Lisa Wang",
+        "Arun Patel"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "security-audit",
+        "engineering",
+        "low",
+        "api-infrastructure-e"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-030",
+      "task_name": "Merchant Onboarding Process - Phase 2",
+      "task_description": "Implement and deploy merchant onboarding process - phase 2 with comprehensive testing and documentation.",
+      "assigned_team_member": "Jessica Lee",
+      "department": "Product",
+      "priority_level": "Critical",
+      "status": "Completed",
+      "estimated_hours": 38,
+      "actual_hours": 18,
+      "start_date_time": "2026-05-13T15:00:00Z",
+      "due_date_time": "2026-05-15T02:00:00Z",
+      "completion_date_time": "2026-05-12T15:00:00Z",
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Merchant Services Platform",
+      "stakeholders": [
+        "Carlos Rodriguez",
+        "Lisa Wang"
+      ],
+      "percentage_completion": 100,
+      "tags": [
+        "development",
+        "product",
+        "critical",
+        "merchant-services-pl"
+      ],
+      "notes": "Task progressing as planned. 100% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-031",
+      "task_name": "Security Vulnerability Fix - Phase 2",
+      "task_description": "Analyze and optimize security vulnerability fix - phase 2 to improve system performance and user experience.",
+      "assigned_team_member": "Carlos Rodriguez",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 39,
+      "actual_hours": 6,
+      "start_date_time": "2026-05-14T16:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Bug Fix",
+      "dependencies": [],
+      "project_name": "Security Hardening Q2",
+      "stakeholders": [
+        "Lisa Wang",
+        "Arun Patel",
+        "Priya Sharma"
+      ],
+      "percentage_completion": 81,
+      "tags": [
+        "bug-fix",
+        "engineering",
+        "low",
+        "security-hardening-q"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-032",
+      "task_name": "Financial Reconciliation Automation - Phase 2",
+      "task_description": "Conduct thorough review of financial reconciliation automation - phase 2 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Lisa Wang",
+      "department": "Finance",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 8,
+      "actual_hours": 7,
+      "start_date_time": "2026-05-15T09:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Financial Operations Automation",
+      "stakeholders": [
+        "Arun Patel",
+        "Priya Sharma",
+        "Michael Chen",
+        "Amit Desai"
+      ],
+      "percentage_completion": 82,
+      "tags": [
+        "development",
+        "finance",
+        "medium",
+        "financial-operations"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-033",
+      "task_name": "Customer Churn Analysis - Phase 2",
+      "task_description": "Develop automated solution for customer churn analysis - phase 2 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Arun Patel",
+      "department": "Data Analytics",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 9,
+      "actual_hours": 8,
+      "start_date_time": "2026-05-16T10:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [
+        "TASK-023",
+        "TASK-030"
+      ],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Priya Sharma",
+        "Michael Chen"
+      ],
+      "percentage_completion": 83,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "high",
+        "customer-retention-a"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-034",
+      "task_name": "Disaster Recovery Testing - Phase 2",
+      "task_description": "Research and evaluate disaster recovery testing - phase 2 considering scalability and security requirements.",
+      "assigned_team_member": "Priya Sharma",
+      "department": "Operations",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 10,
+      "actual_hours": 9,
+      "start_date_time": "2026-05-17T11:00:00Z",
+      "due_date_time": "2026-05-23T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Testing",
+      "dependencies": [],
+      "project_name": "Business Continuity Planning",
+      "stakeholders": [
+        "Michael Chen",
+        "Amit Desai",
+        "Jennifer Brown"
+      ],
+      "percentage_completion": 84,
+      "tags": [
+        "testing",
+        "operations",
+        "medium",
+        "business-continuity-"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-035",
+      "task_name": "Data Privacy Compliance - Phase 2",
+      "task_description": "Implement and deploy data privacy compliance - phase 2 with comprehensive testing and documentation.",
+      "assigned_team_member": "Michael Chen",
+      "department": "Compliance",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 11,
+      "actual_hours": 10,
+      "start_date_time": "2026-05-18T12:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [
+        "TASK-030"
+      ],
+      "project_name": "Data Governance Initiative",
+      "stakeholders": [
+        "Amit Desai",
+        "Jennifer Brown",
+        "Tom Anderson",
+        "Sarah Johnson"
+      ],
+      "percentage_completion": 85,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "low",
+        "data-governance-init"
+      ],
+      "notes": "Task progressing as planned. 85% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-036",
+      "task_name": "International Payment Support - Phase 2",
+      "task_description": "Analyze and optimize international payment support - phase 2 to improve system performance and user experience.",
+      "assigned_team_member": "Amit Desai",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 12,
+      "actual_hours": 11,
+      "start_date_time": "2026-05-12T13:00:00Z",
+      "due_date_time": "2026-05-15T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Feature Request",
+      "dependencies": [],
+      "project_name": "International Expansion",
+      "stakeholders": [
+        "Jennifer Brown",
+        "Tom Anderson"
+      ],
+      "percentage_completion": 86,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "high",
+        "international-expans"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-037",
+      "task_name": "Performance Optimization - Phase 2",
+      "task_description": "Conduct thorough review of performance optimization - phase 2 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Jennifer Brown",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 13,
+      "actual_hours": 12,
+      "start_date_time": "2026-05-13T14:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Tom Anderson",
+        "Sarah Johnson",
+        "Kevin O'Brien"
+      ],
+      "percentage_completion": 87,
+      "tags": [
+        "development",
+        "engineering",
+        "low",
+        "payment-gateway-mode"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-038",
+      "task_name": "Risk Assessment Report - Phase 2",
+      "task_description": "Develop automated solution for risk assessment report - phase 2 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Tom Anderson",
+      "department": "Risk Management",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 14,
+      "actual_hours": 13,
+      "start_date_time": "2026-05-14T15:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Review",
+      "dependencies": [],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Sarah Johnson",
+        "Kevin O'Brien",
+        "Emily Watson",
+        "Rahul Mehta"
+      ],
+      "percentage_completion": 88,
+      "tags": [
+        "review",
+        "risk-management",
+        "medium",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-039",
+      "task_name": "Marketing Campaign Analytics - Phase 2",
+      "task_description": "Research and evaluate marketing campaign analytics - phase 2 considering scalability and security requirements.",
+      "assigned_team_member": "Sarah Johnson",
+      "department": "Marketing",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 15,
+      "actual_hours": 14,
+      "start_date_time": "2026-05-15T16:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Kevin O'Brien",
+        "Emily Watson"
+      ],
+      "percentage_completion": 89,
+      "tags": [
+        "data-analysis",
+        "marketing",
+        "high",
+        "customer-retention-a"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-040",
+      "task_name": "Documentation Update - Phase 2",
+      "task_description": "Implement and deploy documentation update - phase 2 with comprehensive testing and documentation.",
+      "assigned_team_member": "Kevin O'Brien",
+      "department": "Engineering",
+      "priority_level": "Critical",
+      "status": "In Progress",
+      "estimated_hours": 16,
+      "actual_hours": 15,
+      "start_date_time": "2026-05-16T09:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Documentation",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Emily Watson",
+        "Rahul Mehta",
+        "Sophie Chen"
+      ],
+      "percentage_completion": 50,
+      "tags": [
+        "documentation",
+        "engineering",
+        "critical",
+        "api-infrastructure-e"
+      ],
+      "notes": "Task progressing as planned. 50% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-041",
+      "task_name": "Payment Processing API Enhancement - Phase 3",
+      "task_description": "Analyze and optimize payment processing api enhancement - phase 3 to improve system performance and user experience.",
+      "assigned_team_member": "Emily Watson",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 17,
+      "actual_hours": 16,
+      "start_date_time": "2026-05-17T10:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Rahul Mehta",
+        "Sophie Chen",
+        "James Wilson",
+        "Maria Garcia"
+      ],
+      "percentage_completion": 51,
+      "tags": [
+        "development",
+        "engineering",
+        "low",
+        "payment-gateway-mode"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-042",
+      "task_name": "KYC Verification Process Update - Phase 3",
+      "task_description": "Conduct thorough review of kyc verification process update - phase 3 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Rahul Mehta",
+      "department": "Compliance",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 18,
+      "actual_hours": 17,
+      "start_date_time": "2026-05-18T11:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [
+        "TASK-037"
+      ],
+      "project_name": "Customer Onboarding Enhancement",
+      "stakeholders": [
+        "Sophie Chen",
+        "James Wilson"
+      ],
+      "percentage_completion": 52,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "high",
+        "customer-onboarding-"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-043",
+      "task_name": "Fraud Detection Algorithm Optimization - Phase 3",
+      "task_description": "Develop automated solution for fraud detection algorithm optimization - phase 3 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Sophie Chen",
+      "department": "Data Analytics",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 19,
+      "actual_hours": 18,
+      "start_date_time": "2026-05-12T12:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Fraud Prevention Initiative",
+      "stakeholders": [
+        "James Wilson",
+        "Maria Garcia",
+        "Robert Taylor"
+      ],
+      "percentage_completion": 53,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "low",
+        "fraud-prevention-ini"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-044",
+      "task_name": "Mobile App Feature Implementation - Phase 3",
+      "task_description": "Research and evaluate mobile app feature implementation - phase 3 considering scalability and security requirements.",
+      "assigned_team_member": "James Wilson",
+      "department": "Engineering",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 20,
+      "actual_hours": 19,
+      "start_date_time": "2026-05-13T13:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Feature Request",
+      "dependencies": [
+        "TASK-034",
+        "TASK-041"
+      ],
+      "project_name": "Mobile App Enhancement Q2",
+      "stakeholders": [
+        "Maria Garcia",
+        "Robert Taylor",
+        "Nina Patel",
+        "Alex Thompson"
+      ],
+      "percentage_completion": 54,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "medium",
+        "mobile-app-enhanceme"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-045",
+      "task_name": "Regulatory Compliance Audit - Phase 3",
+      "task_description": "Implement and deploy regulatory compliance audit - phase 3 with comprehensive testing and documentation.",
+      "assigned_team_member": "Maria Garcia",
+      "department": "Compliance",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 21,
+      "actual_hours": 5,
+      "start_date_time": "2026-05-14T14:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Regulatory Compliance 2026",
+      "stakeholders": [
+        "Robert Taylor",
+        "Nina Patel"
+      ],
+      "percentage_completion": 55,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "high",
+        "regulatory-complianc"
+      ],
+      "notes": "Task progressing as planned. 55% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-046",
+      "task_name": "Customer Support Ticket Resolution - Phase 3",
+      "task_description": "Analyze and optimize customer support ticket resolution - phase 3 to improve system performance and user experience.",
+      "assigned_team_member": "Robert Taylor",
+      "department": "Customer Support",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 22,
+      "actual_hours": 6,
+      "start_date_time": "2026-05-15T15:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Customer Issue",
+      "dependencies": [],
+      "project_name": "Customer Experience Platform",
+      "stakeholders": [
+        "Nina Patel",
+        "Alex Thompson",
+        "Rajesh Kumar"
+      ],
+      "percentage_completion": 56,
+      "tags": [
+        "customer-issue",
+        "customer-support",
+        "medium",
+        "customer-experience-"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-047",
+      "task_name": "Database Migration Task - Phase 3",
+      "task_description": "Conduct thorough review of database migration task - phase 3 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Nina Patel",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 23,
+      "actual_hours": 7,
+      "start_date_time": "2026-05-16T16:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Deployment",
+      "dependencies": [],
+      "project_name": "Cloud Migration Initiative",
+      "stakeholders": [
+        "Alex Thompson",
+        "Rajesh Kumar",
+        "Sneha Reddy",
+        "David Martinez"
+      ],
+      "percentage_completion": 57,
+      "tags": [
+        "deployment",
+        "engineering",
+        "low",
+        "cloud-migration-init"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-048",
+      "task_name": "Credit Scoring Model Update - Phase 3",
+      "task_description": "Develop automated solution for credit scoring model update - phase 3 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Alex Thompson",
+      "department": "Data Analytics",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 24,
+      "actual_hours": 8,
+      "start_date_time": "2026-05-17T09:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Rajesh Kumar",
+        "Sneha Reddy"
+      ],
+      "percentage_completion": 58,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "high",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-049",
+      "task_name": "API Security Enhancement - Phase 3",
+      "task_description": "Research and evaluate api security enhancement - phase 3 considering scalability and security requirements.",
+      "assigned_team_member": "Rajesh Kumar",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 25,
+      "actual_hours": 9,
+      "start_date_time": "2026-05-18T10:00:00Z",
+      "due_date_time": "2026-05-24T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Security Audit",
+      "dependencies": [
+        "TASK-044"
+      ],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Sneha Reddy",
+        "David Martinez",
+        "Ananya Iyer"
+      ],
+      "percentage_completion": 59,
+      "tags": [
+        "security-audit",
+        "engineering",
+        "low",
+        "api-infrastructure-e"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-050",
+      "task_name": "Merchant Onboarding Process - Phase 3",
+      "task_description": "Implement and deploy merchant onboarding process - phase 3 with comprehensive testing and documentation.",
+      "assigned_team_member": "Sneha Reddy",
+      "department": "Product",
+      "priority_level": "Critical",
+      "status": "In Progress",
+      "estimated_hours": 26,
+      "actual_hours": 10,
+      "start_date_time": "2026-05-12T11:00:00Z",
+      "due_date_time": "2026-05-14T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Merchant Services Platform",
+      "stakeholders": [
+        "David Martinez",
+        "Ananya Iyer",
+        "Vikram Singh",
+        "Jessica Lee"
+      ],
+      "percentage_completion": 60,
+      "tags": [
+        "development",
+        "product",
+        "critical",
+        "merchant-services-pl"
+      ],
+      "notes": "Task progressing as planned. 60% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-051",
+      "task_name": "Security Vulnerability Fix - Phase 3",
+      "task_description": "Analyze and optimize security vulnerability fix - phase 3 to improve system performance and user experience.",
+      "assigned_team_member": "David Martinez",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 27,
+      "actual_hours": 11,
+      "start_date_time": "2026-05-13T12:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Bug Fix",
+      "dependencies": [],
+      "project_name": "Security Hardening Q2",
+      "stakeholders": [
+        "Ananya Iyer",
+        "Vikram Singh"
+      ],
+      "percentage_completion": 61,
+      "tags": [
+        "bug-fix",
+        "engineering",
+        "high",
+        "security-hardening-q"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-052",
+      "task_name": "Financial Reconciliation Automation - Phase 3",
+      "task_description": "Conduct thorough review of financial reconciliation automation - phase 3 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Ananya Iyer",
+      "department": "Finance",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 28,
+      "actual_hours": 12,
+      "start_date_time": "2026-05-14T13:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Financial Operations Automation",
+      "stakeholders": [
+        "Vikram Singh",
+        "Jessica Lee",
+        "Carlos Rodriguez"
+      ],
+      "percentage_completion": 62,
+      "tags": [
+        "development",
+        "finance",
+        "medium",
+        "financial-operations"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-053",
+      "task_name": "Customer Churn Analysis - Phase 3",
+      "task_description": "Develop automated solution for customer churn analysis - phase 3 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Vikram Singh",
+      "department": "Data Analytics",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 29,
+      "actual_hours": 13,
+      "start_date_time": "2026-05-15T14:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Jessica Lee",
+        "Carlos Rodriguez",
+        "Lisa Wang",
+        "Arun Patel"
+      ],
+      "percentage_completion": 63,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "low",
+        "customer-retention-a"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-054",
+      "task_name": "Disaster Recovery Testing - Phase 3",
+      "task_description": "Research and evaluate disaster recovery testing - phase 3 considering scalability and security requirements.",
+      "assigned_team_member": "Jessica Lee",
+      "department": "Operations",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 30,
+      "actual_hours": 14,
+      "start_date_time": "2026-05-16T15:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Testing",
+      "dependencies": [],
+      "project_name": "Business Continuity Planning",
+      "stakeholders": [
+        "Carlos Rodriguez",
+        "Lisa Wang"
+      ],
+      "percentage_completion": 64,
+      "tags": [
+        "testing",
+        "operations",
+        "high",
+        "business-continuity-"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-055",
+      "task_name": "Data Privacy Compliance - Phase 3",
+      "task_description": "Implement and deploy data privacy compliance - phase 3 with comprehensive testing and documentation.",
+      "assigned_team_member": "Carlos Rodriguez",
+      "department": "Compliance",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 31,
+      "actual_hours": 15,
+      "start_date_time": "2026-05-17T16:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [
+        "TASK-045",
+        "TASK-052"
+      ],
+      "project_name": "Data Governance Initiative",
+      "stakeholders": [
+        "Lisa Wang",
+        "Arun Patel",
+        "Priya Sharma"
+      ],
+      "percentage_completion": 65,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "low",
+        "data-governance-init"
+      ],
+      "notes": "Task progressing as planned. 65% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-056",
+      "task_name": "International Payment Support - Phase 3",
+      "task_description": "Analyze and optimize international payment support - phase 3 to improve system performance and user experience.",
+      "assigned_team_member": "Lisa Wang",
+      "department": "Engineering",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 32,
+      "actual_hours": 16,
+      "start_date_time": "2026-05-18T09:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Feature Request",
+      "dependencies": [
+        "TASK-051"
+      ],
+      "project_name": "International Expansion",
+      "stakeholders": [
+        "Arun Patel",
+        "Priya Sharma",
+        "Michael Chen",
+        "Amit Desai"
+      ],
+      "percentage_completion": 66,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "medium",
+        "international-expans"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-057",
+      "task_name": "Performance Optimization - Phase 3",
+      "task_description": "Conduct thorough review of performance optimization - phase 3 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Arun Patel",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 33,
+      "actual_hours": 17,
+      "start_date_time": "2026-05-12T10:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Priya Sharma",
+        "Michael Chen"
+      ],
+      "percentage_completion": 67,
+      "tags": [
+        "development",
+        "engineering",
+        "high",
+        "payment-gateway-mode"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-058",
+      "task_name": "Risk Assessment Report - Phase 3",
+      "task_description": "Develop automated solution for risk assessment report - phase 3 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Priya Sharma",
+      "department": "Risk Management",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 34,
+      "actual_hours": 18,
+      "start_date_time": "2026-05-13T11:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Review",
+      "dependencies": [],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Michael Chen",
+        "Amit Desai",
+        "Jennifer Brown"
+      ],
+      "percentage_completion": 68,
+      "tags": [
+        "review",
+        "risk-management",
+        "medium",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-059",
+      "task_name": "Marketing Campaign Analytics - Phase 3",
+      "task_description": "Research and evaluate marketing campaign analytics - phase 3 considering scalability and security requirements.",
+      "assigned_team_member": "Michael Chen",
+      "department": "Marketing",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 35,
+      "actual_hours": 19,
+      "start_date_time": "2026-05-14T12:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Amit Desai",
+        "Jennifer Brown",
+        "Tom Anderson",
+        "Sarah Johnson"
+      ],
+      "percentage_completion": 69,
+      "tags": [
+        "data-analysis",
+        "marketing",
+        "low",
+        "customer-retention-a"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-060",
+      "task_name": "Documentation Update - Phase 3",
+      "task_description": "Implement and deploy documentation update - phase 3 with comprehensive testing and documentation.",
+      "assigned_team_member": "Amit Desai",
+      "department": "Engineering",
+      "priority_level": "Critical",
+      "status": "In Progress",
+      "estimated_hours": 36,
+      "actual_hours": 5,
+      "start_date_time": "2026-05-15T13:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Documentation",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Jennifer Brown",
+        "Tom Anderson"
+      ],
+      "percentage_completion": 70,
+      "tags": [
+        "documentation",
+        "engineering",
+        "critical",
+        "api-infrastructure-e"
+      ],
+      "notes": "Task progressing as planned. 70% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-061",
+      "task_name": "Payment Processing API Enhancement - Phase 4",
+      "task_description": "Analyze and optimize payment processing api enhancement - phase 4 to improve system performance and user experience.",
+      "assigned_team_member": "Jennifer Brown",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 37,
+      "actual_hours": 6,
+      "start_date_time": "2026-05-16T14:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Tom Anderson",
+        "Sarah Johnson",
+        "Kevin O'Brien"
+      ],
+      "percentage_completion": 71,
+      "tags": [
+        "development",
+        "engineering",
+        "low",
+        "payment-gateway-mode"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-062",
+      "task_name": "KYC Verification Process Update - Phase 4",
+      "task_description": "Conduct thorough review of kyc verification process update - phase 4 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Tom Anderson",
+      "department": "Compliance",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 38,
+      "actual_hours": 7,
+      "start_date_time": "2026-05-17T15:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Customer Onboarding Enhancement",
+      "stakeholders": [
+        "Sarah Johnson",
+        "Kevin O'Brien",
+        "Emily Watson",
+        "Rahul Mehta"
+      ],
+      "percentage_completion": 72,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "medium",
+        "customer-onboarding-"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-063",
+      "task_name": "Fraud Detection Algorithm Optimization - Phase 4",
+      "task_description": "Develop automated solution for fraud detection algorithm optimization - phase 4 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Sarah Johnson",
+      "department": "Data Analytics",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 39,
+      "actual_hours": 8,
+      "start_date_time": "2026-05-18T16:00:00Z",
+      "due_date_time": "2026-05-23T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [
+        "TASK-058"
+      ],
+      "project_name": "Fraud Prevention Initiative",
+      "stakeholders": [
+        "Kevin O'Brien",
+        "Emily Watson"
+      ],
+      "percentage_completion": 73,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "high",
+        "fraud-prevention-ini"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-064",
+      "task_name": "Mobile App Feature Implementation - Phase 4",
+      "task_description": "Research and evaluate mobile app feature implementation - phase 4 considering scalability and security requirements.",
+      "assigned_team_member": "Kevin O'Brien",
+      "department": "Engineering",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 8,
+      "actual_hours": 9,
+      "start_date_time": "2026-05-12T09:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Feature Request",
+      "dependencies": [],
+      "project_name": "Mobile App Enhancement Q2",
+      "stakeholders": [
+        "Emily Watson",
+        "Rahul Mehta",
+        "Sophie Chen"
+      ],
+      "percentage_completion": 74,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "medium",
+        "mobile-app-enhanceme"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-065",
+      "task_name": "Regulatory Compliance Audit - Phase 4",
+      "task_description": "Implement and deploy regulatory compliance audit - phase 4 with comprehensive testing and documentation.",
+      "assigned_team_member": "Emily Watson",
+      "department": "Compliance",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 9,
+      "actual_hours": 10,
+      "start_date_time": "2026-05-13T10:00:00Z",
+      "due_date_time": "2026-05-15T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Regulatory Compliance 2026",
+      "stakeholders": [
+        "Rahul Mehta",
+        "Sophie Chen",
+        "James Wilson",
+        "Maria Garcia"
+      ],
+      "percentage_completion": 75,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "low",
+        "regulatory-complianc"
+      ],
+      "notes": "Task progressing as planned. 75% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-066",
+      "task_name": "Customer Support Ticket Resolution - Phase 4",
+      "task_description": "Analyze and optimize customer support ticket resolution - phase 4 to improve system performance and user experience.",
+      "assigned_team_member": "Rahul Mehta",
+      "department": "Customer Support",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 10,
+      "actual_hours": 11,
+      "start_date_time": "2026-05-14T11:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Customer Issue",
+      "dependencies": [
+        "TASK-056",
+        "TASK-063"
+      ],
+      "project_name": "Customer Experience Platform",
+      "stakeholders": [
+        "Sophie Chen",
+        "James Wilson"
+      ],
+      "percentage_completion": 76,
+      "tags": [
+        "customer-issue",
+        "customer-support",
+        "high",
+        "customer-experience-"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-067",
+      "task_name": "Database Migration Task - Phase 4",
+      "task_description": "Conduct thorough review of database migration task - phase 4 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Sophie Chen",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 11,
+      "actual_hours": 12,
+      "start_date_time": "2026-05-15T12:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Deployment",
+      "dependencies": [],
+      "project_name": "Cloud Migration Initiative",
+      "stakeholders": [
+        "James Wilson",
+        "Maria Garcia",
+        "Robert Taylor"
+      ],
+      "percentage_completion": 77,
+      "tags": [
+        "deployment",
+        "engineering",
+        "low",
+        "cloud-migration-init"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-068",
+      "task_name": "Credit Scoring Model Update - Phase 4",
+      "task_description": "Develop automated solution for credit scoring model update - phase 4 with monitoring and alerting capabilities.",
+      "assigned_team_member": "James Wilson",
+      "department": "Data Analytics",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 12,
+      "actual_hours": 13,
+      "start_date_time": "2026-05-16T13:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Maria Garcia",
+        "Robert Taylor",
+        "Nina Patel",
+        "Alex Thompson"
+      ],
+      "percentage_completion": 78,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "medium",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-069",
+      "task_name": "API Security Enhancement - Phase 4",
+      "task_description": "Research and evaluate api security enhancement - phase 4 considering scalability and security requirements.",
+      "assigned_team_member": "Maria Garcia",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 13,
+      "actual_hours": 14,
+      "start_date_time": "2026-05-17T14:00:00Z",
+      "due_date_time": "2026-05-23T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Security Audit",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Robert Taylor",
+        "Nina Patel"
+      ],
+      "percentage_completion": 79,
+      "tags": [
+        "security-audit",
+        "engineering",
+        "high",
+        "api-infrastructure-e"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-070",
+      "task_name": "Merchant Onboarding Process - Phase 4",
+      "task_description": "Implement and deploy merchant onboarding process - phase 4 with comprehensive testing and documentation.",
+      "assigned_team_member": "Robert Taylor",
+      "department": "Product",
+      "priority_level": "Critical",
+      "status": "In Progress",
+      "estimated_hours": 14,
+      "actual_hours": 15,
+      "start_date_time": "2026-05-18T15:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [
+        "TASK-065"
+      ],
+      "project_name": "Merchant Services Platform",
+      "stakeholders": [
+        "Nina Patel",
+        "Alex Thompson",
+        "Rajesh Kumar"
+      ],
+      "percentage_completion": 80,
+      "tags": [
+        "development",
+        "product",
+        "critical",
+        "merchant-services-pl"
+      ],
+      "notes": "Task progressing as planned. 80% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-071",
+      "task_name": "Security Vulnerability Fix - Phase 4",
+      "task_description": "Analyze and optimize security vulnerability fix - phase 4 to improve system performance and user experience.",
+      "assigned_team_member": "Nina Patel",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 15,
+      "actual_hours": 16,
+      "start_date_time": "2026-05-12T16:00:00Z",
+      "due_date_time": "2026-05-15T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Bug Fix",
+      "dependencies": [],
+      "project_name": "Security Hardening Q2",
+      "stakeholders": [
+        "Alex Thompson",
+        "Rajesh Kumar",
+        "Sneha Reddy",
+        "David Martinez"
+      ],
+      "percentage_completion": 81,
+      "tags": [
+        "bug-fix",
+        "engineering",
+        "low",
+        "security-hardening-q"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-072",
+      "task_name": "Financial Reconciliation Automation - Phase 4",
+      "task_description": "Conduct thorough review of financial reconciliation automation - phase 4 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Alex Thompson",
+      "department": "Finance",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 16,
+      "actual_hours": 17,
+      "start_date_time": "2026-05-13T09:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Financial Operations Automation",
+      "stakeholders": [
+        "Rajesh Kumar",
+        "Sneha Reddy"
+      ],
+      "percentage_completion": 82,
+      "tags": [
+        "development",
+        "finance",
+        "high",
+        "financial-operations"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-073",
+      "task_name": "Customer Churn Analysis - Phase 4",
+      "task_description": "Develop automated solution for customer churn analysis - phase 4 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Rajesh Kumar",
+      "department": "Data Analytics",
+      "priority_level": "Low",
+      "status": "In Progress",
+      "estimated_hours": 17,
+      "actual_hours": 18,
+      "start_date_time": "2026-05-14T10:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Sneha Reddy",
+        "David Martinez",
+        "Ananya Iyer"
+      ],
+      "percentage_completion": 83,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "low",
+        "customer-retention-a"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-074",
+      "task_name": "Disaster Recovery Testing - Phase 4",
+      "task_description": "Research and evaluate disaster recovery testing - phase 4 considering scalability and security requirements.",
+      "assigned_team_member": "Sneha Reddy",
+      "department": "Operations",
+      "priority_level": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 18,
+      "actual_hours": 19,
+      "start_date_time": "2026-05-15T11:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Testing",
+      "dependencies": [],
+      "project_name": "Business Continuity Planning",
+      "stakeholders": [
+        "David Martinez",
+        "Ananya Iyer",
+        "Vikram Singh",
+        "Jessica Lee"
+      ],
+      "percentage_completion": 84,
+      "tags": [
+        "testing",
+        "operations",
+        "medium",
+        "business-continuity-"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-075",
+      "task_name": "Data Privacy Compliance - Phase 4",
+      "task_description": "Implement and deploy data privacy compliance - phase 4 with comprehensive testing and documentation.",
+      "assigned_team_member": "David Martinez",
+      "department": "Compliance",
+      "priority_level": "High",
+      "status": "In Progress",
+      "estimated_hours": 19,
+      "actual_hours": 5,
+      "start_date_time": "2026-05-16T12:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Data Governance Initiative",
+      "stakeholders": [
+        "Ananya Iyer",
+        "Vikram Singh"
+      ],
+      "percentage_completion": 85,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "high",
+        "data-governance-init"
+      ],
+      "notes": "Task progressing as planned. 85% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-076",
+      "task_name": "International Payment Support - Phase 4",
+      "task_description": "Analyze and optimize international payment support - phase 4 to improve system performance and user experience.",
+      "assigned_team_member": "Ananya Iyer",
+      "department": "Engineering",
+      "priority_level": "Medium",
+      "status": "Not Started",
+      "estimated_hours": 20,
+      "actual_hours": null,
+      "start_date_time": "2026-05-17T13:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Feature Request",
+      "dependencies": [],
+      "project_name": "International Expansion",
+      "stakeholders": [
+        "Vikram Singh",
+        "Jessica Lee",
+        "Carlos Rodriguez"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "medium",
+        "international-expans"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-077",
+      "task_name": "Performance Optimization - Phase 4",
+      "task_description": "Conduct thorough review of performance optimization - phase 4 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Vikram Singh",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "Not Started",
+      "estimated_hours": 21,
+      "actual_hours": null,
+      "start_date_time": "2026-05-18T14:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [
+        "TASK-072"
+      ],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Jessica Lee",
+        "Carlos Rodriguez",
+        "Lisa Wang",
+        "Arun Patel"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "development",
+        "engineering",
+        "low",
+        "payment-gateway-mode"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-078",
+      "task_name": "Risk Assessment Report - Phase 4",
+      "task_description": "Develop automated solution for risk assessment report - phase 4 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Jessica Lee",
+      "department": "Risk Management",
+      "priority_level": "High",
+      "status": "Not Started",
+      "estimated_hours": 22,
+      "actual_hours": null,
+      "start_date_time": "2026-05-12T15:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Review",
+      "dependencies": [],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Carlos Rodriguez",
+        "Lisa Wang"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "review",
+        "risk-management",
+        "high",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-079",
+      "task_name": "Marketing Campaign Analytics - Phase 4",
+      "task_description": "Research and evaluate marketing campaign analytics - phase 4 considering scalability and security requirements.",
+      "assigned_team_member": "Carlos Rodriguez",
+      "department": "Marketing",
+      "priority_level": "Low",
+      "status": "Not Started",
+      "estimated_hours": 23,
+      "actual_hours": null,
+      "start_date_time": "2026-05-13T16:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Lisa Wang",
+        "Arun Patel",
+        "Priya Sharma"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "data-analysis",
+        "marketing",
+        "low",
+        "customer-retention-a"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-080",
+      "task_name": "Documentation Update - Phase 4",
+      "task_description": "Implement and deploy documentation update - phase 4 with comprehensive testing and documentation.",
+      "assigned_team_member": "Lisa Wang",
+      "department": "Engineering",
+      "priority_level": "Critical",
+      "status": "Not Started",
+      "estimated_hours": 24,
+      "actual_hours": null,
+      "start_date_time": "2026-05-14T09:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Documentation",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Arun Patel",
+        "Priya Sharma",
+        "Michael Chen",
+        "Amit Desai"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "documentation",
+        "engineering",
+        "critical",
+        "api-infrastructure-e"
+      ],
+      "notes": "Task progressing as planned. 0% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-081",
+      "task_name": "Payment Processing API Enhancement - Phase 5",
+      "task_description": "Analyze and optimize payment processing api enhancement - phase 5 to improve system performance and user experience.",
+      "assigned_team_member": "Arun Patel",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "Not Started",
+      "estimated_hours": 25,
+      "actual_hours": null,
+      "start_date_time": "2026-05-15T10:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Priya Sharma",
+        "Michael Chen"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "development",
+        "engineering",
+        "high",
+        "payment-gateway-mode"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-082",
+      "task_name": "KYC Verification Process Update - Phase 5",
+      "task_description": "Conduct thorough review of kyc verification process update - phase 5 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Priya Sharma",
+      "department": "Compliance",
+      "priority_level": "Medium",
+      "status": "Not Started",
+      "estimated_hours": 26,
+      "actual_hours": null,
+      "start_date_time": "2026-05-16T11:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Customer Onboarding Enhancement",
+      "stakeholders": [
+        "Michael Chen",
+        "Amit Desai",
+        "Jennifer Brown"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "medium",
+        "customer-onboarding-"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-083",
+      "task_name": "Fraud Detection Algorithm Optimization - Phase 5",
+      "task_description": "Develop automated solution for fraud detection algorithm optimization - phase 5 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Michael Chen",
+      "department": "Data Analytics",
+      "priority_level": "Low",
+      "status": "Not Started",
+      "estimated_hours": 27,
+      "actual_hours": null,
+      "start_date_time": "2026-05-17T12:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Fraud Prevention Initiative",
+      "stakeholders": [
+        "Amit Desai",
+        "Jennifer Brown",
+        "Tom Anderson",
+        "Sarah Johnson"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "low",
+        "fraud-prevention-ini"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-084",
+      "task_name": "Mobile App Feature Implementation - Phase 5",
+      "task_description": "Research and evaluate mobile app feature implementation - phase 5 considering scalability and security requirements.",
+      "assigned_team_member": "Amit Desai",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "Not Started",
+      "estimated_hours": 28,
+      "actual_hours": null,
+      "start_date_time": "2026-05-18T13:00:00Z",
+      "due_date_time": "2026-05-24T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Feature Request",
+      "dependencies": [
+        "TASK-079"
+      ],
+      "project_name": "Mobile App Enhancement Q2",
+      "stakeholders": [
+        "Jennifer Brown",
+        "Tom Anderson"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "high",
+        "mobile-app-enhanceme"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-085",
+      "task_name": "Regulatory Compliance Audit - Phase 5",
+      "task_description": "Implement and deploy regulatory compliance audit - phase 5 with comprehensive testing and documentation.",
+      "assigned_team_member": "Jennifer Brown",
+      "department": "Compliance",
+      "priority_level": "Low",
+      "status": "Not Started",
+      "estimated_hours": 29,
+      "actual_hours": null,
+      "start_date_time": "2026-05-12T14:00:00Z",
+      "due_date_time": "2026-05-14T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Regulatory Compliance 2026",
+      "stakeholders": [
+        "Tom Anderson",
+        "Sarah Johnson",
+        "Kevin O'Brien"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "low",
+        "regulatory-complianc"
+      ],
+      "notes": "Task progressing as planned. 0% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-086",
+      "task_name": "Customer Support Ticket Resolution - Phase 5",
+      "task_description": "Analyze and optimize customer support ticket resolution - phase 5 to improve system performance and user experience.",
+      "assigned_team_member": "Tom Anderson",
+      "department": "Customer Support",
+      "priority_level": "Medium",
+      "status": "Not Started",
+      "estimated_hours": 30,
+      "actual_hours": null,
+      "start_date_time": "2026-05-13T15:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Customer Issue",
+      "dependencies": [],
+      "project_name": "Customer Experience Platform",
+      "stakeholders": [
+        "Sarah Johnson",
+        "Kevin O'Brien",
+        "Emily Watson",
+        "Rahul Mehta"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "customer-issue",
+        "customer-support",
+        "medium",
+        "customer-experience-"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-087",
+      "task_name": "Database Migration Task - Phase 5",
+      "task_description": "Conduct thorough review of database migration task - phase 5 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Sarah Johnson",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "Not Started",
+      "estimated_hours": 31,
+      "actual_hours": null,
+      "start_date_time": "2026-05-14T16:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Deployment",
+      "dependencies": [],
+      "project_name": "Cloud Migration Initiative",
+      "stakeholders": [
+        "Kevin O'Brien",
+        "Emily Watson"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "deployment",
+        "engineering",
+        "high",
+        "cloud-migration-init"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-088",
+      "task_name": "Credit Scoring Model Update - Phase 5",
+      "task_description": "Develop automated solution for credit scoring model update - phase 5 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Kevin O'Brien",
+      "department": "Data Analytics",
+      "priority_level": "Medium",
+      "status": "Not Started",
+      "estimated_hours": 32,
+      "actual_hours": null,
+      "start_date_time": "2026-05-15T09:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [
+        "TASK-078",
+        "TASK-085"
+      ],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "Emily Watson",
+        "Rahul Mehta",
+        "Sophie Chen"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "medium",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-089",
+      "task_name": "API Security Enhancement - Phase 5",
+      "task_description": "Research and evaluate api security enhancement - phase 5 considering scalability and security requirements.",
+      "assigned_team_member": "Emily Watson",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "Not Started",
+      "estimated_hours": 33,
+      "actual_hours": null,
+      "start_date_time": "2026-05-16T10:00:00Z",
+      "due_date_time": "2026-05-22T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Security Audit",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Rahul Mehta",
+        "Sophie Chen",
+        "James Wilson",
+        "Maria Garcia"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "security-audit",
+        "engineering",
+        "low",
+        "api-infrastructure-e"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-090",
+      "task_name": "Merchant Onboarding Process - Phase 5",
+      "task_description": "Implement and deploy merchant onboarding process - phase 5 with comprehensive testing and documentation.",
+      "assigned_team_member": "Rahul Mehta",
+      "department": "Product",
+      "priority_level": "Critical",
+      "status": "Not Started",
+      "estimated_hours": 34,
+      "actual_hours": null,
+      "start_date_time": "2026-05-17T11:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Merchant Services Platform",
+      "stakeholders": [
+        "Sophie Chen",
+        "James Wilson"
+      ],
+      "percentage_completion": 0,
+      "tags": [
+        "development",
+        "product",
+        "critical",
+        "merchant-services-pl"
+      ],
+      "notes": "Task progressing as planned. 0% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-091",
+      "task_name": "Security Vulnerability Fix - Phase 5",
+      "task_description": "Analyze and optimize security vulnerability fix - phase 5 to improve system performance and user experience.",
+      "assigned_team_member": "Sophie Chen",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "Blocked",
+      "estimated_hours": 35,
+      "actual_hours": 4,
+      "start_date_time": "2026-05-18T12:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Bug Fix",
+      "dependencies": [
+        "TASK-086"
+      ],
+      "project_name": "Security Hardening Q2",
+      "stakeholders": [
+        "James Wilson",
+        "Maria Garcia",
+        "Robert Taylor"
+      ],
+      "percentage_completion": 41,
+      "tags": [
+        "bug-fix",
+        "engineering",
+        "low",
+        "security-hardening-q"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-092",
+      "task_name": "Financial Reconciliation Automation - Phase 5",
+      "task_description": "Conduct thorough review of financial reconciliation automation - phase 5 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "James Wilson",
+      "department": "Finance",
+      "priority_level": "Medium",
+      "status": "Blocked",
+      "estimated_hours": 36,
+      "actual_hours": 5,
+      "start_date_time": "2026-05-12T13:00:00Z",
+      "due_date_time": "2026-05-16T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Financial Operations Automation",
+      "stakeholders": [
+        "Maria Garcia",
+        "Robert Taylor",
+        "Nina Patel",
+        "Alex Thompson"
+      ],
+      "percentage_completion": 42,
+      "tags": [
+        "development",
+        "finance",
+        "medium",
+        "financial-operations"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-093",
+      "task_name": "Customer Churn Analysis - Phase 5",
+      "task_description": "Develop automated solution for customer churn analysis - phase 5 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Maria Garcia",
+      "department": "Data Analytics",
+      "priority_level": "High",
+      "status": "Blocked",
+      "estimated_hours": 37,
+      "actual_hours": 6,
+      "start_date_time": "2026-05-13T14:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Robert Taylor",
+        "Nina Patel"
+      ],
+      "percentage_completion": 43,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "high",
+        "customer-retention-a"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-094",
+      "task_name": "Disaster Recovery Testing - Phase 5",
+      "task_description": "Research and evaluate disaster recovery testing - phase 5 considering scalability and security requirements.",
+      "assigned_team_member": "Robert Taylor",
+      "department": "Operations",
+      "priority_level": "Medium",
+      "status": "Blocked",
+      "estimated_hours": 38,
+      "actual_hours": 7,
+      "start_date_time": "2026-05-14T15:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Testing",
+      "dependencies": [],
+      "project_name": "Business Continuity Planning",
+      "stakeholders": [
+        "Nina Patel",
+        "Alex Thompson",
+        "Rajesh Kumar"
+      ],
+      "percentage_completion": 44,
+      "tags": [
+        "testing",
+        "operations",
+        "medium",
+        "business-continuity-"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-095",
+      "task_name": "Data Privacy Compliance - Phase 5",
+      "task_description": "Implement and deploy data privacy compliance - phase 5 with comprehensive testing and documentation.",
+      "assigned_team_member": "Nina Patel",
+      "department": "Compliance",
+      "priority_level": "Low",
+      "status": "Blocked",
+      "estimated_hours": 39,
+      "actual_hours": 8,
+      "start_date_time": "2026-05-15T16:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Data Governance Initiative",
+      "stakeholders": [
+        "Alex Thompson",
+        "Rajesh Kumar",
+        "Sneha Reddy",
+        "David Martinez"
+      ],
+      "percentage_completion": 45,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "low",
+        "data-governance-init"
+      ],
+      "notes": "Task progressing as planned. 45% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-096",
+      "task_name": "International Payment Support - Phase 5",
+      "task_description": "Analyze and optimize international payment support - phase 5 to improve system performance and user experience.",
+      "assigned_team_member": "Alex Thompson",
+      "department": "Engineering",
+      "priority_level": "High",
+      "status": "On Hold",
+      "estimated_hours": 8,
+      "actual_hours": 2,
+      "start_date_time": "2026-05-16T09:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Feature Request",
+      "dependencies": [],
+      "project_name": "International Expansion",
+      "stakeholders": [
+        "Rajesh Kumar",
+        "Sneha Reddy"
+      ],
+      "percentage_completion": 26,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "high",
+        "international-expans"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-097",
+      "task_name": "Performance Optimization - Phase 5",
+      "task_description": "Conduct thorough review of performance optimization - phase 5 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Rajesh Kumar",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "On Hold",
+      "estimated_hours": 9,
+      "actual_hours": 3,
+      "start_date_time": "2026-05-17T10:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Sneha Reddy",
+        "David Martinez",
+        "Ananya Iyer"
+      ],
+      "percentage_completion": 27,
+      "tags": [
+        "development",
+        "engineering",
+        "low",
+        "payment-gateway-mode"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-098",
+      "task_name": "Risk Assessment Report - Phase 5",
+      "task_description": "Develop automated solution for risk assessment report - phase 5 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Sneha Reddy",
+      "department": "Risk Management",
+      "priority_level": "Medium",
+      "status": "On Hold",
+      "estimated_hours": 10,
+      "actual_hours": 4,
+      "start_date_time": "2026-05-18T11:00:00Z",
+      "due_date_time": "2026-05-23T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Review",
+      "dependencies": [
+        "TASK-093"
+      ],
+      "project_name": "Credit Risk Management",
+      "stakeholders": [
+        "David Martinez",
+        "Ananya Iyer",
+        "Vikram Singh",
+        "Jessica Lee"
+      ],
+      "percentage_completion": 28,
+      "tags": [
+        "review",
+        "risk-management",
+        "medium",
+        "credit-risk-manageme"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-099",
+      "task_name": "Marketing Campaign Analytics - Phase 5",
+      "task_description": "Research and evaluate marketing campaign analytics - phase 5 considering scalability and security requirements.",
+      "assigned_team_member": "David Martinez",
+      "department": "Marketing",
+      "priority_level": "High",
+      "status": "On Hold",
+      "estimated_hours": 11,
+      "actual_hours": 5,
+      "start_date_time": "2026-05-12T12:00:00Z",
+      "due_date_time": "2026-05-18T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [
+        "TASK-089",
+        "TASK-096"
+      ],
+      "project_name": "Customer Retention Analytics",
+      "stakeholders": [
+        "Ananya Iyer",
+        "Vikram Singh"
+      ],
+      "percentage_completion": 29,
+      "tags": [
+        "data-analysis",
+        "marketing",
+        "high",
+        "customer-retention-a"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-100",
+      "task_name": "Documentation Update - Phase 5",
+      "task_description": "Implement and deploy documentation update - phase 5 with comprehensive testing and documentation.",
+      "assigned_team_member": "Ananya Iyer",
+      "department": "Engineering",
+      "priority_level": "Critical",
+      "status": "On Hold",
+      "estimated_hours": 12,
+      "actual_hours": 6,
+      "start_date_time": "2026-05-13T13:00:00Z",
+      "due_date_time": "2026-05-15T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Documentation",
+      "dependencies": [],
+      "project_name": "API Infrastructure Enhancement",
+      "stakeholders": [
+        "Vikram Singh",
+        "Jessica Lee",
+        "Carlos Rodriguez"
+      ],
+      "percentage_completion": 30,
+      "tags": [
+        "documentation",
+        "engineering",
+        "critical",
+        "api-infrastructure-e"
+      ],
+      "notes": "Task progressing as planned. 30% complete with no major blockers."
+    },
+    {
+      "task_id": "TASK-101",
+      "task_name": "Payment Processing API Enhancement - Phase 6",
+      "task_description": "Analyze and optimize payment processing api enhancement - phase 6 to improve system performance and user experience.",
+      "assigned_team_member": "Vikram Singh",
+      "department": "Engineering",
+      "priority_level": "Low",
+      "status": "On Hold",
+      "estimated_hours": 13,
+      "actual_hours": 7,
+      "start_date_time": "2026-05-14T14:00:00Z",
+      "due_date_time": "2026-05-17T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Development",
+      "dependencies": [],
+      "project_name": "Payment Gateway Modernization",
+      "stakeholders": [
+        "Jessica Lee",
+        "Carlos Rodriguez",
+        "Lisa Wang",
+        "Arun Patel"
+      ],
+      "percentage_completion": 31,
+      "tags": [
+        "development",
+        "engineering",
+        "low",
+        "payment-gateway-mode"
+      ],
+      "notes": "Completed successfully. All acceptance criteria met and deployed to production."
+    },
+    {
+      "task_id": "TASK-102",
+      "task_name": "KYC Verification Process Update - Phase 6",
+      "task_description": "Conduct thorough review of kyc verification process update - phase 6 ensuring compliance with regulatory standards.",
+      "assigned_team_member": "Jessica Lee",
+      "department": "Compliance",
+      "priority_level": "High",
+      "status": "On Hold",
+      "estimated_hours": 14,
+      "actual_hours": 8,
+      "start_date_time": "2026-05-15T15:00:00Z",
+      "due_date_time": "2026-05-19T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [],
+      "project_name": "Customer Onboarding Enhancement",
+      "stakeholders": [
+        "Carlos Rodriguez",
+        "Lisa Wang"
+      ],
+      "percentage_completion": 32,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "high",
+        "customer-onboarding-"
+      ],
+      "notes": "Awaiting dependency completion. Team coordinating with stakeholders."
+    },
+    {
+      "task_id": "TASK-103",
+      "task_name": "Fraud Detection Algorithm Optimization - Phase 6",
+      "task_description": "Develop automated solution for fraud detection algorithm optimization - phase 6 with monitoring and alerting capabilities.",
+      "assigned_team_member": "Carlos Rodriguez",
+      "department": "Data Analytics",
+      "priority_level": "Low",
+      "status": "On Hold",
+      "estimated_hours": 15,
+      "actual_hours": 9,
+      "start_date_time": "2026-05-16T16:00:00Z",
+      "due_date_time": "2026-05-21T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Data Analysis",
+      "dependencies": [],
+      "project_name": "Fraud Prevention Initiative",
+      "stakeholders": [
+        "Lisa Wang",
+        "Arun Patel",
+        "Priya Sharma"
+      ],
+      "percentage_completion": 33,
+      "tags": [
+        "data-analysis",
+        "data-analytics",
+        "low",
+        "fraud-prevention-ini"
+      ],
+      "notes": "In progress. Some technical challenges identified but solutions being implemented."
+    },
+    {
+      "task_id": "TASK-104",
+      "task_name": "Mobile App Feature Implementation - Phase 6",
+      "task_description": "Research and evaluate mobile app feature implementation - phase 6 considering scalability and security requirements.",
+      "assigned_team_member": "Lisa Wang",
+      "department": "Engineering",
+      "priority_level": "Medium",
+      "status": "On Hold",
+      "estimated_hours": 16,
+      "actual_hours": 2,
+      "start_date_time": "2026-05-17T09:00:00Z",
+      "due_date_time": "2026-05-23T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Feature Request",
+      "dependencies": [],
+      "project_name": "Mobile App Enhancement Q2",
+      "stakeholders": [
+        "Arun Patel",
+        "Priya Sharma",
+        "Michael Chen",
+        "Amit Desai"
+      ],
+      "percentage_completion": 34,
+      "tags": [
+        "feature-request",
+        "engineering",
+        "medium",
+        "mobile-app-enhanceme"
+      ],
+      "notes": "Scheduled to start soon. All prerequisites and resources confirmed."
+    },
+    {
+      "task_id": "TASK-105",
+      "task_name": "Regulatory Compliance Audit - Phase 6",
+      "task_description": "Implement and deploy regulatory compliance audit - phase 6 with comprehensive testing and documentation.",
+      "assigned_team_member": "Arun Patel",
+      "department": "Compliance",
+      "priority_level": "High",
+      "status": "On Hold",
+      "estimated_hours": 17,
+      "actual_hours": 3,
+      "start_date_time": "2026-05-18T10:00:00Z",
+      "due_date_time": "2026-05-20T02:00:00Z",
+      "completion_date_time": null,
+      "task_category": "Compliance Check",
+      "dependencies": [
+        "TASK-100"
+      ],
+      "project_name": "Regulatory Compliance 2026",
+      "stakeholders": [
+        "Priya Sharma",
+        "Michael Chen"
+      ],
+      "percentage_completion": 35,
+      "tags": [
+        "compliance-check",
+        "compliance",
+        "high",
+        "regulatory-complianc"
+      ],
+      "notes": "Task progressing as planned. 35% complete with no major blockers."
+    }
+  ]
+}
