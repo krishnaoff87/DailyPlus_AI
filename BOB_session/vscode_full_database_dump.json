@@ -1,0 +1,1567 @@
+{
+  "ItemTable": {
+    "columns": [
+      "key",
+      "value"
+    ],
+    "row_count": 57,
+    "data": [
+      {
+        "key": "__$__isNewStorageMarker",
+        "value": "true"
+      },
+      {
+        "key": "__$__targetStorageMarker",
+        "value": {
+          "workbench.panel.chat": 1,
+          "workbench.explorer.views.state": 1,
+          "workbench.view.search.state": 1,
+          "workbench.scm.views.state": 1,
+          "workbench.panel.markers": 1,
+          "workbench.panel.output": 1,
+          "terminal": 1,
+          "workbench.activity.viewletsWorkspaceState": 1,
+          "workbench.panel.viewContainersWorkspaceState": 1,
+          "workbench.auxiliarybar.viewContainersWorkspaceState": 1,
+          "agentSessions.readDateBaseline2": 1,
+          "workbench.explorer.treeViewState": 1,
+          "workbench.view.remote.state": 1,
+          "output.activechannel": 1,
+          "debug.selectedroot": 1,
+          "workbench.view.debug.state": 1,
+          "~remote.forwardedPortsContainer": 1,
+          "workbench.panel.repl": 1,
+          "debug.uxstate": 1,
+          "workspace.trust.startupPrompt.shown": 1,
+          "workbench.view.extension.ollama-explorer.state": 1,
+          "terminal.integrated.environmentVariableCollectionsV2": 1,
+          "GitHub.copilot-chat": 1,
+          "chat.ChatSessionStore.index": 1,
+          "memento/workbench.parts.editor": 0,
+          "history.entries": 1,
+          "workbench.editor.centered": 1,
+          "workbench.zenMode.active": 1,
+          "workbench.zenMode.exitInfo": 1,
+          "workbench.panel.wasLastMaximized": 1,
+          "workbench.auxiliaryBar.wasLastMaximized": 1,
+          "workbench.auxiliaryBar.lastNonMaximizedVisibility": 1,
+          "workbench.sideBar.position": 1,
+          "workbench.panel.position": 1,
+          "workbench.activityBar.hidden": 1,
+          "workbench.sideBar.hidden": 1,
+          "workbench.editor.hidden": 1,
+          "workbench.panel.hidden": 1,
+          "workbench.auxiliaryBar.hidden": 1,
+          "workbench.statusBar.hidden": 1,
+          "workbench.view.explorer.numberOfVisibleViews": 1,
+          "memento/interactive-session-view-copilot": 1,
+          "workbench.panel.chat.numberOfVisibleViews": 1,
+          "agentSessions.model.cache": 1,
+          "agentSessions.state.cache": 1,
+          "chat.customModes.local": 1,
+          "comments.continueOnComments": 0,
+          "chat.customModes.copilotcli": 1,
+          "chat.customModes.copilot-cloud-agent": 1,
+          "chat.customModes.claude-code": 1,
+          "memento/interactive-session": 1,
+          "workbench.sidebar.activeviewletid": 1,
+          "lifecyle.lastShutdownReason": 1,
+          "memento/webviewView.ollama-model-settings": 1,
+          "workbench.view.extension.ollama-explorer.numberOfVisibleViews": 1
+        }
+      },
+      {
+        "key": "workbench.panel.chat",
+        "value": {
+          "workbench.panel.chat.view.copilot": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "workbench.explorer.views.state",
+        "value": {
+          "outline": {
+            "collapsed": true,
+            "isHidden": true
+          },
+          "timeline": {
+            "collapsed": true,
+            "isHidden": true
+          },
+          "workbench.explorer.openEditorsView": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "workbench.explorer.fileView": {
+            "collapsed": false,
+            "isHidden": false
+          }
+        }
+      },
+      {
+        "key": "workbench.view.search.state",
+        "value": {
+          "workbench.view.search": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "workbench.scm.views.state",
+        "value": {
+          "workbench.scm.repositories": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "workbench.scm": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "workbench.scm.history": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "workbench.panel.markers",
+        "value": {
+          "workbench.panel.markers.view": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "workbench.panel.output",
+        "value": {
+          "workbench.panel.output": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "terminal",
+        "value": {
+          "terminal": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "workbench.activity.viewletsWorkspaceState",
+        "value": [
+          {
+            "id": "workbench.view.explorer",
+            "visible": true
+          },
+          {
+            "id": "workbench.view.search",
+            "visible": true
+          },
+          {
+            "id": "workbench.view.scm",
+            "visible": true
+          },
+          {
+            "id": "workbench.view.debug",
+            "visible": true
+          },
+          {
+            "id": "workbench.view.remote",
+            "visible": true
+          },
+          {
+            "id": "workbench.view.extensions",
+            "visible": true
+          },
+          {
+            "id": "workbench.view.extension.test",
+            "visible": false
+          },
+          {
+            "id": "workbench.view.extension.references-view",
+            "visible": false
+          },
+          {
+            "id": "workbench.view.extension.copilot-chat",
+            "visible": false
+          },
+          {
+            "id": "workbench.view.extension.context-inspector",
+            "visible": false
+          },
+          {
+            "id": "workbench.view.extension.ollama-explorer",
+            "visible": true
+          },
+          {
+            "id": "workbench.view.sync",
+            "visible": false
+          },
+          {
+            "id": "workbench.view.editSessions",
+            "visible": false
+          }
+        ]
+      },
+      {
+        "key": "workbench.panel.viewContainersWorkspaceState",
+        "value": [
+          {
+            "id": "workbench.panel.markers",
+            "visible": true
+          },
+          {
+            "id": "workbench.panel.output",
+            "visible": true
+          },
+          {
+            "id": "workbench.panel.repl",
+            "visible": true
+          },
+          {
+            "id": "terminal",
+            "visible": true
+          },
+          {
+            "id": "workbench.panel.testResults",
+            "visible": false
+          },
+          {
+            "id": "~remote.forwardedPortsContainer",
+            "visible": true
+          },
+          {
+            "id": "refactorPreview",
+            "visible": false
+          }
+        ]
+      },
+      {
+        "key": "workbench.auxiliarybar.viewContainersWorkspaceState",
+        "value": [
+          {
+            "id": "workbench.panel.chat",
+            "visible": true
+          }
+        ]
+      },
+      {
+        "key": "agentSessions.readDateBaseline2",
+        "value": "1778174537727"
+      },
+      {
+        "key": "workbench.explorer.treeViewState",
+        "value": {
+          "focus": [],
+          "selection": [],
+          "expanded": [],
+          "scrollTop": 0
+        }
+      },
+      {
+        "key": "workbench.view.remote.state",
+        "value": {
+          "remoteTargets": {
+            "collapsed": false,
+            "isHidden": false
+          }
+        }
+      },
+      {
+        "key": "output.activechannel",
+        "value": "tasks"
+      },
+      {
+        "key": "debug.selectedroot",
+        "value": "file:///c%3A/Users/Reena/Desktop/VS_project/.vscode/launch.json"
+      },
+      {
+        "key": "workbench.view.debug.state",
+        "value": {
+          "workbench.debug.welcome": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "workbench.debug.variablesView": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "workbench.debug.watchExpressionsView": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "workbench.debug.callStackView": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "workbench.debug.loadedScriptsView": {
+            "collapsed": true,
+            "isHidden": true
+          },
+          "workbench.debug.breakPointsView": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "jsBrowserBreakpoints": {
+            "collapsed": true,
+            "isHidden": true
+          },
+          "jsExcludedCallers": {
+            "collapsed": true,
+            "isHidden": true
+          },
+          "jsDebugNetworkTree": {
+            "collapsed": true,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "~remote.forwardedPortsContainer",
+        "value": {
+          "~remote.forwardedPorts": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "workbench.panel.repl",
+        "value": {
+          "workbench.panel.repl.view": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "debug.uxstate",
+        "value": "simple"
+      },
+      {
+        "key": "workspace.trust.startupPrompt.shown",
+        "value": "true"
+      },
+      {
+        "key": "workbench.view.extension.ollama-explorer.state",
+        "value": {
+          "ollama-local-models": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "ollama-cloud-models": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "ollama-library-models": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "ollama-model-settings": {
+            "collapsed": false,
+            "isHidden": true
+          },
+          "ollama-modelfiles": {
+            "collapsed": false,
+            "isHidden": true
+          }
+        }
+      },
+      {
+        "key": "terminal.integrated.environmentVariableCollectionsV2",
+        "value": [
+          {
+            "extensionIdentifier": "GitHub.copilot-chat",
+            "collection": [
+              [
+                "PATH",
+                {
+                  "variable": "PATH",
+                  "value": "c:\\Users\\Reena\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;c:\\Users\\Reena\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli;",
+                  "type": 3,
+                  "options": {
+                    "applyAtProcessCreation": true,
+                    "applyAtShellIntegration": false
+                  }
+                }
+              ]
+            ],
+            "description": [
+              [
+                "",
+                {
+                  "description": "Enables use of `copilot-debug` and `copilot` commands in the terminal"
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GitHub.copilot-chat",
+        "value": {
+          "github.copilot.cli.workspaceSessionFile": "copilot.cli.workspaceSessions.329034e0-d548-4fb7-be25-6f5135ed6156.json",
+          "github.copilot.chat.debug.elementsHidden": false,
+          "github.copilot.chat.debug.toolsHidden": false,
+          "github.copilot.chat.debug.nesRequestsHidden": false,
+          "github.copilot.chat.debug.ghostRequestsHidden": false
+        }
+      },
+      {
+        "key": "chat.ChatSessionStore.index",
+        "value": {
+          "version": 1,
+          "entries": {
+            "claude-code:/untitled-e842607c-14a5-4cdd-8a2e-039b12f81c30": {
+              "sessionId": "claude-code:/untitled-e842607c-14a5-4cdd-8a2e-039b12f81c30",
+              "title": "New Chat",
+              "lastMessageDate": 1778779391191,
+              "timing": {
+                "created": 1778779391191
+              },
+              "initialLocation": "panel",
+              "hasPendingEdits": false,
+              "isEmpty": true,
+              "isExternal": true,
+              "lastResponseState": 1,
+              "permissionLevel": "default",
+              "inputState": {
+                "contrib": {
+                  "chatDynamicVariableModel": []
+                },
+                "attachments": [],
+                "mode": {
+                  "id": "agent",
+                  "kind": "agent"
+                },
+                "selectedModel": {
+                  "identifier": "claude-code/claude-haiku-4.5",
+                  "metadata": {
+                    "extension": {
+                      "value": "GitHub.copilot-chat",
+                      "_lower": "github.copilot-chat"
+                    },
+                    "id": "claude-haiku-4.5",
+                    "vendor": "claude-code",
+                    "name": "Claude Haiku 4.5",
+                    "family": "claude-haiku-4.5",
+                    "tooltip": "Fastest and most compact Claude model. Ideal for quick responses and simple tasks.",
+                    "version": "claude-haiku-4.5",
+                    "multiplierNumeric": 1,
+                    "pricing": "1x",
+                    "maxInputTokens": 127997,
+                    "maxOutputTokens": 32000,
+                    "isDefaultForLocation": {},
+                    "isUserSelectable": true,
+                    "targetChatSessionType": "claude-code",
+                    "modelPickerCategory": {
+                      "label": "Other Models",
+                      "order": 9007199254740991
+                    },
+                    "capabilities": {
+                      "vision": true,
+                      "toolCalling": true,
+                      "agentMode": true
+                    }
+                  }
+                },
+                "inputText": "",
+                "selections": [
+                  {
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 1,
+                    "endColumn": 1,
+                    "selectionStartLineNumber": 1,
+                    "selectionStartColumn": 1,
+                    "positionLineNumber": 1,
+                    "positionColumn": 1
+                  }
+                ],
+                "permissionLevel": "default"
+              }
+            },
+            "claude-code:/fd101cb9-7a3f-43d5-8847-3685934c7b36": {
+              "sessionId": "claude-code:/fd101cb9-7a3f-43d5-8847-3685934c7b36",
+              "title": "Hi ",
+              "lastMessageDate": 1778779406303,
+              "timing": {
+                "created": 1778779406298,
+                "lastRequestStarted": 1778779406303,
+                "lastRequestEnded": 1778779408701
+              },
+              "initialLocation": "panel",
+              "hasPendingEdits": false,
+              "isEmpty": false,
+              "isExternal": true,
+              "lastResponseState": 3,
+              "permissionLevel": "default",
+              "inputState": {
+                "contrib": {
+                  "chatDynamicVariableModel": []
+                },
+                "attachments": [],
+                "mode": {
+                  "id": "agent",
+                  "kind": "agent"
+                },
+                "selectedModel": {
+                  "identifier": "claude-code/claude-haiku-4.5",
+                  "metadata": {
+                    "extension": {
+                      "value": "GitHub.copilot-chat",
+                      "_lower": "github.copilot-chat"
+                    },
+                    "id": "claude-haiku-4.5",
+                    "vendor": "claude-code",
+                    "name": "Claude Haiku 4.5",
+                    "family": "claude-haiku-4.5",
+                    "tooltip": "Fastest and most compact Claude model. Ideal for quick responses and simple tasks.",
+                    "version": "claude-haiku-4.5",
+                    "multiplierNumeric": 1,
+                    "pricing": "1x",
+                    "maxInputTokens": 127997,
+                    "maxOutputTokens": 32000,
+                    "isDefaultForLocation": {},
+                    "isUserSelectable": true,
+                    "targetChatSessionType": "claude-code",
+                    "modelPickerCategory": {
+                      "label": "Other Models",
+                      "order": 9007199254740991
+                    },
+                    "capabilities": {
+                      "vision": true,
+                      "toolCalling": true,
+                      "agentMode": true
+                    }
+                  }
+                },
+                "inputText": "",
+                "selections": [
+                  {
+                    "startLineNumber": 1,
+                    "startColumn": 1,
+                    "endLineNumber": 1,
+                    "endColumn": 1,
+                    "selectionStartLineNumber": 1,
+                    "selectionStartColumn": 1,
+                    "positionLineNumber": 1,
+                    "positionColumn": 1
+                  }
+                ],
+                "permissionLevel": "default"
+              }
+            }
+          }
+        }
+      },
+      {
+        "key": "memento/workbench.parts.editor",
+        "value": {
+          "editorpart.state": {
+            "serializedGrid": {
+              "root": {
+                "type": "branch",
+                "data": [
+                  {
+                    "type": "leaf",
+                    "data": {
+                      "id": 0,
+                      "editors": [
+                        {
+                          "id": "workbench.editors.gettingStartedInput",
+                          "value": "{}"
+                        }
+                      ],
+                      "mru": [
+                        0
+                      ]
+                    },
+                    "size": 339
+                  },
+                  {
+                    "type": "leaf",
+                    "data": {
+                      "id": 3,
+                      "editors": [
+                        {
+                          "id": "workbench.editors.gettingStartedInput",
+                          "value": "{}"
+                        }
+                      ],
+                      "mru": [
+                        0
+                      ]
+                    },
+                    "size": 339
+                  },
+                  {
+                    "type": "leaf",
+                    "data": {
+                      "id": 4,
+                      "editors": [
+                        {
+                          "id": "workbench.editors.gettingStartedInput",
+                          "value": "{}"
+                        }
+                      ],
+                      "mru": [
+                        0
+                      ]
+                    },
+                    "size": 340
+                  }
+                ],
+                "size": 671
+              },
+              "orientation": 1,
+              "width": 1018,
+              "height": 671
+            },
+            "activeGroup": 4,
+            "mostRecentActiveGroups": [
+              4,
+              3,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "key": "history.entries",
+        "value": []
+      },
+      {
+        "key": "workbench.editor.centered",
+        "value": "false"
+      },
+      {
+        "key": "workbench.zenMode.active",
+        "value": "false"
+      },
+      {
+        "key": "workbench.zenMode.exitInfo",
+        "value": {
+          "transitionedToCenteredEditorLayout": false,
+          "transitionedToFullScreen": false,
+          "handleNotificationsDoNotDisturbMode": false,
+          "wasVisible": {
+            "auxiliaryBar": false,
+            "panel": false,
+            "sideBar": false
+          }
+        }
+      },
+      {
+        "key": "workbench.panel.wasLastMaximized",
+        "value": "false"
+      },
+      {
+        "key": "workbench.auxiliaryBar.wasLastMaximized",
+        "value": "false"
+      },
+      {
+        "key": "workbench.auxiliaryBar.lastNonMaximizedVisibility",
+        "value": {
+          "sideBarVisible": false,
+          "editorVisible": false,
+          "panelVisible": false,
+          "auxiliaryBarVisible": false
+        }
+      },
+      {
+        "key": "workbench.sideBar.position",
+        "value": "0"
+      },
+      {
+        "key": "workbench.panel.position",
+        "value": "2"
+      },
+      {
+        "key": "workbench.activityBar.hidden",
+        "value": "false"
+      },
+      {
+        "key": "workbench.sideBar.hidden",
+        "value": "false"
+      },
+      {
+        "key": "workbench.editor.hidden",
+        "value": "false"
+      },
+      {
+        "key": "workbench.panel.hidden",
+        "value": "true"
+      },
+      {
+        "key": "workbench.auxiliaryBar.hidden",
+        "value": "true"
+      },
+      {
+        "key": "workbench.statusBar.hidden",
+        "value": "false"
+      },
+      {
+        "key": "workbench.view.explorer.numberOfVisibleViews",
+        "value": "3"
+      },
+      {
+        "key": "memento/interactive-session-view-copilot",
+        "value": {
+          "sessionResource": {
+            "$mid": 1,
+            "external": "claude-code:/untitled-e842607c-14a5-4cdd-8a2e-039b12f81c30",
+            "path": "/untitled-e842607c-14a5-4cdd-8a2e-039b12f81c30",
+            "scheme": "claude-code"
+          },
+          "inputText": "",
+          "attachments": [],
+          "mode": {
+            "id": "agent",
+            "kind": "agent"
+          },
+          "selectedModel": {
+            "identifier": "claude-code/claude-haiku-4.5",
+            "metadata": {
+              "extension": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "id": "claude-haiku-4.5",
+              "vendor": "claude-code",
+              "name": "Claude Haiku 4.5",
+              "family": "claude-haiku-4.5",
+              "tooltip": "Fastest and most compact Claude model. Ideal for quick responses and simple tasks.",
+              "version": "claude-haiku-4.5",
+              "multiplierNumeric": 1,
+              "pricing": "1x",
+              "maxInputTokens": 127997,
+              "maxOutputTokens": 32000,
+              "isDefaultForLocation": {},
+              "isUserSelectable": true,
+              "targetChatSessionType": "claude-code",
+              "modelPickerCategory": {
+                "label": "Other Models",
+                "order": 9007199254740991
+              },
+              "capabilities": {
+                "vision": true,
+                "toolCalling": true,
+                "agentMode": true
+              }
+            }
+          },
+          "selections": [
+            {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 1,
+              "selectionStartLineNumber": 1,
+              "selectionStartColumn": 1,
+              "positionLineNumber": 1,
+              "positionColumn": 1
+            }
+          ],
+          "permissionLevel": "default",
+          "contrib": {
+            "chatDynamicVariableModel": []
+          }
+        }
+      },
+      {
+        "key": "workbench.panel.chat.numberOfVisibleViews",
+        "value": "1"
+      },
+      {
+        "key": "agentSessions.model.cache",
+        "value": [
+          {
+            "providerType": "claude-code",
+            "providerLabel": "Claude",
+            "resource": "claude-code:/fd101cb9-7a3f-43d5-8847-3685934c7b36",
+            "icon": "claude",
+            "label": "Hi ",
+            "status": 0,
+            "timing": {
+              "created": 1778779406283,
+              "lastRequestStarted": 1778779406587,
+              "lastRequestEnded": 1778779408682
+            },
+            "metadata": {
+              "workingDirectoryPath": "c:\\Users\\Reena\\Desktop\\VS_project"
+            }
+          }
+        ]
+      },
+      {
+        "key": "agentSessions.state.cache",
+        "value": [
+          {
+            "resource": "claude-code:/fd101cb9-7a3f-43d5-8847-3685934c7b36",
+            "read": 1778779408702
+          }
+        ]
+      },
+      {
+        "key": "chat.customModes.local",
+        "value": [
+          {
+            "id": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+            "name": "Plan",
+            "description": "Researches and outlines multi-step plans",
+            "kind": "agent",
+            "customTools": [
+              "search",
+              "read",
+              "web",
+              "vscode/memory",
+              "github/issue_read",
+              "github.vscode-pull-request-github/issue_fetch",
+              "github.vscode-pull-request-github/activePullRequest",
+              "execute/getTerminalOutput",
+              "execute/testFailure",
+              "vscode/askQuestions",
+              "agent"
+            ],
+            "argumentHint": "Outline the goal or problem to research",
+            "modeInstructions": {
+              "content": "You are a PLANNING AGENT, pairing with the user to create a detailed, actionable plan.\n\nYou research the codebase \u2192 clarify with the user \u2192 capture findings and decisions into a comprehensive plan. This iterative approach catches edge cases and non-obvious requirements BEFORE implementation begins.\n\nYour SOLE responsibility is planning. NEVER start implementation.\n\n**Current plan**: `/memories/session/plan.md` - update using #tool:vscode/memory .\n\n<rules>\n- STOP if you consider running file editing tools \u2014 plans are for others to execute. The only write tool you have is #tool:vscode/memory for persisting plans.\n- Use #tool:vscode/askQuestions freely to clarify requirements \u2014 don't make large assumptions\n- Present a well-researched plan with loose ends tied BEFORE implementation\n</rules>\n\n<workflow>\nCycle through these phases based on user input. This is iterative, not linear. If the user task is highly ambiguous, do only *Discovery* to outline a draft plan, then move on to alignment before fleshing out the full plan.\n\n## 1. Discovery\n\nRun the *Explore* subagent to gather context, analogous existing features to use as implementation templates, and potential blockers or ambiguities. When the task spans multiple independent areas (e.g., frontend + backend, different features, separate repos), launch **2-3 *Explore* subagents in parallel** \u2014 one per area \u2014 to speed up discovery.\n\nUpdate the plan with your findings.\n\n## 2. Alignment\n\nIf research reveals major ambiguities or if you need to validate assumptions:\n- Use #tool:vscode/askQuestions to clarify intent with the user.\n- Surface discovered technical constraints or alternative approaches\n- If answers significantly change the scope, loop back to **Discovery**\n\n## 3. Design\n\nOnce context is clear, draft a comprehensive implementation plan.\n\nThe plan should reflect:\n- Structured concise enough to be scannable and detailed enough for effective execution\n- Step-by-step implementation with explicit dependencies \u2014 mark which steps can run in parallel vs. which block on prior steps\n- For plans with many steps, group into named phases that are each independently verifiable\n- Verification steps for validating the implementation, both automated and manual\n- Critical architecture to reuse or use as reference \u2014 reference specific functions, types, or patterns, not just file names\n- Critical files to be modified (with full paths)\n- Explicit scope boundaries \u2014 what's included and what's deliberately excluded\n- Reference decisions from the discussion\n- Leave no ambiguity\n\nSave the comprehensive plan document to `/memories/session/plan.md` via #tool:vscode/memory, then show the scannable plan to the user for review. You MUST show plan to the user, as the plan file is for persistence only, not a substitute for showing it to the user.\n\n## 4. Refinement\n\nOn user input after showing the plan:\n- Changes requested \u2192 revise and present updated plan. Update `/memories/session/plan.md` to keep the documented plan in sync\n- Questions asked \u2192 clarify, or use #tool:vscode/askQuestions for follow-ups\n- Alternatives wanted \u2192 loop back to **Discovery** with new subagent\n- Approval given \u2192 acknowledge, the user can now use handoff buttons\n\nKeep iterating until explicit approval or handoff.\n</workflow>\n\n<plan_style_guide>\n```markdown\n## Plan: {Title (2-10 words)}\n\n{TL;DR - what, why, and how (your recommended approach).}\n\n**Steps**\n1. {Implementation step-by-step \u2014 note dependency (\"*depends on N*\") or parallelism (\"*parallel with step N*\") when applicable}\n2. {For plans with 5+ steps, group steps into named phases with enough detail to be independently actionable}\n\n**Relevant files**\n- `{full/path/to/file}` \u2014 {what to modify or reuse, referencing specific functions/patterns}\n\n**Verification**\n1. {Verification steps for validating the implementation (**Specific** tasks, tests, commands, MCP tools, etc; not generic statements)}\n\n**Decisions** (if applicable)\n- {Decision, assumptions, and includes/excluded scope}\n\n**Further Considerations** (if applicable, 1-3 items)\n1. {Clarifying question with recommendation. Option A / Option B / Option C}\n2. {\u2026}\n```\n\nRules:\n- NO code blocks \u2014 describe changes, link to files and specific symbols/functions\n- NO blocking questions at the end \u2014 ask during workflow via #tool:vscode/askQuestions\n- The plan MUST be presented to the user, don't just mention the plan file.\n</plan_style_guide>",
+              "toolReferences": [
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 4295,
+                    "endExclusive": 4320
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 3035,
+                    "endExclusive": 3060
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 2623,
+                    "endExclusive": 2642
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 1537,
+                    "endExclusive": 1562
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 625,
+                    "endExclusive": 650
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 577,
+                    "endExclusive": 596
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 429,
+                    "endExclusive": 448
+                  }
+                }
+              ]
+            },
+            "uri": {
+              "$mid": 1,
+              "external": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+              "path": "/C:/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+              "scheme": "vscode-userdata"
+            },
+            "handOffs": [
+              {
+                "agent": "agent",
+                "label": "Start Implementation",
+                "prompt": "Start implementation",
+                "send": true
+              },
+              {
+                "agent": "agent",
+                "label": "Open in Editor",
+                "prompt": "#createFile the plan as is into an untitled file (`untitled:plan-${camelCaseName}.prompt.md` without frontmatter) for further refinement.",
+                "send": true,
+                "showContinueOn": false
+              }
+            ],
+            "source": {
+              "storage": "extension",
+              "extensionId": "GitHub.copilot-chat"
+            },
+            "target": "vscode",
+            "visibility": {
+              "userInvocable": true,
+              "agentInvocable": false
+            },
+            "agents": [
+              "Explore"
+            ]
+          },
+          {
+            "id": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+            "name": "Ask",
+            "description": "Answers questions without making changes",
+            "kind": "agent",
+            "customTools": [
+              "search",
+              "read",
+              "web",
+              "vscode/memory",
+              "github/issue_read",
+              "github.vscode-pull-request-github/issue_fetch",
+              "github.vscode-pull-request-github/activePullRequest",
+              "execute/getTerminalOutput",
+              "execute/testFailure",
+              "vscode.mermaid-chat-features/renderMermaidDiagram",
+              "vscode/askQuestions"
+            ],
+            "argumentHint": "Ask a question about your code or project",
+            "modeInstructions": {
+              "content": "You are an ASK AGENT \u2014 a knowledgeable assistant that answers questions, explains code, and provides information.\n\nYour job: understand the user's question \u2192 research the codebase as needed \u2192 provide a clear, thorough answer. You are strictly read-only: NEVER modify files or run commands that change state.\n\n<rules>\n- NEVER use file editing tools, terminal commands that modify state, or any write operations\n- Focus on answering questions, explaining concepts, and providing information\n- Use search and read tools to gather context from the codebase when needed\n- Provide code examples in your responses when helpful, but do NOT apply them\n- Use #tool:vscode/askQuestions to clarify ambiguous questions before researching\n- When the user's question is about code, reference specific files and symbols\n- If a question would require making changes, explain what changes would be needed but do NOT make them\n</rules>\n\n<capabilities>\nYou can help with:\n- **Code explanation**: How does this code work? What does this function do?\n- **Architecture questions**: How is the project structured? How do components interact?\n- **Debugging guidance**: Why might this error occur? What could cause this behavior?\n- **Best practices**: What's the recommended approach for X? How should I structure Y?\n- **API and library questions**: How do I use this API? What does this method expect?\n- **Codebase navigation**: Where is X defined? Where is Y used?\n- **General programming**: Language features, algorithms, design patterns, etc.\n</capabilities>\n\n<workflow>\n1. **Understand** the question \u2014 identify what the user needs to know\n2. **Research** the codebase if needed \u2014 use search and read tools to find relevant code\n3. **Clarify** if the question is ambiguous \u2014 use #tool:vscode/askQuestions\n4. **Answer** clearly \u2014 provide a well-structured response with references to relevant code\n</workflow>",
+              "toolReferences": [
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 1758,
+                    "endExclusive": 1783
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 649,
+                    "endExclusive": 674
+                  }
+                }
+              ]
+            },
+            "uri": {
+              "$mid": 1,
+              "external": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+              "path": "/C:/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+              "scheme": "vscode-userdata"
+            },
+            "source": {
+              "storage": "extension",
+              "extensionId": "GitHub.copilot-chat"
+            },
+            "target": "vscode",
+            "visibility": {
+              "userInvocable": true,
+              "agentInvocable": false
+            },
+            "agents": []
+          }
+        ]
+      },
+      {
+        "key": "comments.continueOnComments",
+        "value": []
+      },
+      {
+        "key": "chat.customModes.copilotcli",
+        "value": [
+          {
+            "id": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+            "name": "Plan",
+            "description": "Researches and outlines multi-step plans",
+            "kind": "agent",
+            "customTools": [
+              "search",
+              "read",
+              "web",
+              "vscode/memory",
+              "github/issue_read",
+              "github.vscode-pull-request-github/issue_fetch",
+              "github.vscode-pull-request-github/activePullRequest",
+              "execute/getTerminalOutput",
+              "execute/testFailure",
+              "vscode/askQuestions",
+              "agent"
+            ],
+            "argumentHint": "Outline the goal or problem to research",
+            "modeInstructions": {
+              "content": "You are a PLANNING AGENT, pairing with the user to create a detailed, actionable plan.\n\nYou research the codebase \u2192 clarify with the user \u2192 capture findings and decisions into a comprehensive plan. This iterative approach catches edge cases and non-obvious requirements BEFORE implementation begins.\n\nYour SOLE responsibility is planning. NEVER start implementation.\n\n**Current plan**: `/memories/session/plan.md` - update using #tool:vscode/memory .\n\n<rules>\n- STOP if you consider running file editing tools \u2014 plans are for others to execute. The only write tool you have is #tool:vscode/memory for persisting plans.\n- Use #tool:vscode/askQuestions freely to clarify requirements \u2014 don't make large assumptions\n- Present a well-researched plan with loose ends tied BEFORE implementation\n</rules>\n\n<workflow>\nCycle through these phases based on user input. This is iterative, not linear. If the user task is highly ambiguous, do only *Discovery* to outline a draft plan, then move on to alignment before fleshing out the full plan.\n\n## 1. Discovery\n\nRun the *Explore* subagent to gather context, analogous existing features to use as implementation templates, and potential blockers or ambiguities. When the task spans multiple independent areas (e.g., frontend + backend, different features, separate repos), launch **2-3 *Explore* subagents in parallel** \u2014 one per area \u2014 to speed up discovery.\n\nUpdate the plan with your findings.\n\n## 2. Alignment\n\nIf research reveals major ambiguities or if you need to validate assumptions:\n- Use #tool:vscode/askQuestions to clarify intent with the user.\n- Surface discovered technical constraints or alternative approaches\n- If answers significantly change the scope, loop back to **Discovery**\n\n## 3. Design\n\nOnce context is clear, draft a comprehensive implementation plan.\n\nThe plan should reflect:\n- Structured concise enough to be scannable and detailed enough for effective execution\n- Step-by-step implementation with explicit dependencies \u2014 mark which steps can run in parallel vs. which block on prior steps\n- For plans with many steps, group into named phases that are each independently verifiable\n- Verification steps for validating the implementation, both automated and manual\n- Critical architecture to reuse or use as reference \u2014 reference specific functions, types, or patterns, not just file names\n- Critical files to be modified (with full paths)\n- Explicit scope boundaries \u2014 what's included and what's deliberately excluded\n- Reference decisions from the discussion\n- Leave no ambiguity\n\nSave the comprehensive plan document to `/memories/session/plan.md` via #tool:vscode/memory, then show the scannable plan to the user for review. You MUST show plan to the user, as the plan file is for persistence only, not a substitute for showing it to the user.\n\n## 4. Refinement\n\nOn user input after showing the plan:\n- Changes requested \u2192 revise and present updated plan. Update `/memories/session/plan.md` to keep the documented plan in sync\n- Questions asked \u2192 clarify, or use #tool:vscode/askQuestions for follow-ups\n- Alternatives wanted \u2192 loop back to **Discovery** with new subagent\n- Approval given \u2192 acknowledge, the user can now use handoff buttons\n\nKeep iterating until explicit approval or handoff.\n</workflow>\n\n<plan_style_guide>\n```markdown\n## Plan: {Title (2-10 words)}\n\n{TL;DR - what, why, and how (your recommended approach).}\n\n**Steps**\n1. {Implementation step-by-step \u2014 note dependency (\"*depends on N*\") or parallelism (\"*parallel with step N*\") when applicable}\n2. {For plans with 5+ steps, group steps into named phases with enough detail to be independently actionable}\n\n**Relevant files**\n- `{full/path/to/file}` \u2014 {what to modify or reuse, referencing specific functions/patterns}\n\n**Verification**\n1. {Verification steps for validating the implementation (**Specific** tasks, tests, commands, MCP tools, etc; not generic statements)}\n\n**Decisions** (if applicable)\n- {Decision, assumptions, and includes/excluded scope}\n\n**Further Considerations** (if applicable, 1-3 items)\n1. {Clarifying question with recommendation. Option A / Option B / Option C}\n2. {\u2026}\n```\n\nRules:\n- NO code blocks \u2014 describe changes, link to files and specific symbols/functions\n- NO blocking questions at the end \u2014 ask during workflow via #tool:vscode/askQuestions\n- The plan MUST be presented to the user, don't just mention the plan file.\n</plan_style_guide>",
+              "toolReferences": [
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 4295,
+                    "endExclusive": 4320
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 3035,
+                    "endExclusive": 3060
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 2623,
+                    "endExclusive": 2642
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 1537,
+                    "endExclusive": 1562
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 625,
+                    "endExclusive": 650
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 577,
+                    "endExclusive": 596
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 429,
+                    "endExclusive": 448
+                  }
+                }
+              ]
+            },
+            "uri": {
+              "$mid": 1,
+              "external": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+              "path": "/C:/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+              "scheme": "vscode-userdata"
+            },
+            "handOffs": [
+              {
+                "agent": "agent",
+                "label": "Start Implementation",
+                "prompt": "Start implementation",
+                "send": true
+              },
+              {
+                "agent": "agent",
+                "label": "Open in Editor",
+                "prompt": "#createFile the plan as is into an untitled file (`untitled:plan-${camelCaseName}.prompt.md` without frontmatter) for further refinement.",
+                "send": true,
+                "showContinueOn": false
+              }
+            ],
+            "source": {
+              "storage": "extension",
+              "extensionId": "GitHub.copilot-chat"
+            },
+            "target": "vscode",
+            "visibility": {
+              "userInvocable": true,
+              "agentInvocable": false
+            },
+            "agents": [
+              "Explore"
+            ]
+          },
+          {
+            "id": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+            "name": "Ask",
+            "description": "Answers questions without making changes",
+            "kind": "agent",
+            "customTools": [
+              "search",
+              "read",
+              "web",
+              "vscode/memory",
+              "github/issue_read",
+              "github.vscode-pull-request-github/issue_fetch",
+              "github.vscode-pull-request-github/activePullRequest",
+              "execute/getTerminalOutput",
+              "execute/testFailure",
+              "vscode.mermaid-chat-features/renderMermaidDiagram",
+              "vscode/askQuestions"
+            ],
+            "argumentHint": "Ask a question about your code or project",
+            "modeInstructions": {
+              "content": "You are an ASK AGENT \u2014 a knowledgeable assistant that answers questions, explains code, and provides information.\n\nYour job: understand the user's question \u2192 research the codebase as needed \u2192 provide a clear, thorough answer. You are strictly read-only: NEVER modify files or run commands that change state.\n\n<rules>\n- NEVER use file editing tools, terminal commands that modify state, or any write operations\n- Focus on answering questions, explaining concepts, and providing information\n- Use search and read tools to gather context from the codebase when needed\n- Provide code examples in your responses when helpful, but do NOT apply them\n- Use #tool:vscode/askQuestions to clarify ambiguous questions before researching\n- When the user's question is about code, reference specific files and symbols\n- If a question would require making changes, explain what changes would be needed but do NOT make them\n</rules>\n\n<capabilities>\nYou can help with:\n- **Code explanation**: How does this code work? What does this function do?\n- **Architecture questions**: How is the project structured? How do components interact?\n- **Debugging guidance**: Why might this error occur? What could cause this behavior?\n- **Best practices**: What's the recommended approach for X? How should I structure Y?\n- **API and library questions**: How do I use this API? What does this method expect?\n- **Codebase navigation**: Where is X defined? Where is Y used?\n- **General programming**: Language features, algorithms, design patterns, etc.\n</capabilities>\n\n<workflow>\n1. **Understand** the question \u2014 identify what the user needs to know\n2. **Research** the codebase if needed \u2014 use search and read tools to find relevant code\n3. **Clarify** if the question is ambiguous \u2014 use #tool:vscode/askQuestions\n4. **Answer** clearly \u2014 provide a well-structured response with references to relevant code\n</workflow>",
+              "toolReferences": [
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 1758,
+                    "endExclusive": 1783
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 649,
+                    "endExclusive": 674
+                  }
+                }
+              ]
+            },
+            "uri": {
+              "$mid": 1,
+              "external": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+              "path": "/C:/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+              "scheme": "vscode-userdata"
+            },
+            "source": {
+              "storage": "extension",
+              "extensionId": "GitHub.copilot-chat"
+            },
+            "target": "vscode",
+            "visibility": {
+              "userInvocable": true,
+              "agentInvocable": false
+            },
+            "agents": []
+          }
+        ]
+      },
+      {
+        "key": "chat.customModes.copilot-cloud-agent",
+        "value": [
+          {
+            "id": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+            "name": "Plan",
+            "description": "Researches and outlines multi-step plans",
+            "kind": "agent",
+            "customTools": [
+              "search",
+              "read",
+              "web",
+              "vscode/memory",
+              "github/issue_read",
+              "github.vscode-pull-request-github/issue_fetch",
+              "github.vscode-pull-request-github/activePullRequest",
+              "execute/getTerminalOutput",
+              "execute/testFailure",
+              "vscode/askQuestions",
+              "agent"
+            ],
+            "argumentHint": "Outline the goal or problem to research",
+            "modeInstructions": {
+              "content": "You are a PLANNING AGENT, pairing with the user to create a detailed, actionable plan.\n\nYou research the codebase \u2192 clarify with the user \u2192 capture findings and decisions into a comprehensive plan. This iterative approach catches edge cases and non-obvious requirements BEFORE implementation begins.\n\nYour SOLE responsibility is planning. NEVER start implementation.\n\n**Current plan**: `/memories/session/plan.md` - update using #tool:vscode/memory .\n\n<rules>\n- STOP if you consider running file editing tools \u2014 plans are for others to execute. The only write tool you have is #tool:vscode/memory for persisting plans.\n- Use #tool:vscode/askQuestions freely to clarify requirements \u2014 don't make large assumptions\n- Present a well-researched plan with loose ends tied BEFORE implementation\n</rules>\n\n<workflow>\nCycle through these phases based on user input. This is iterative, not linear. If the user task is highly ambiguous, do only *Discovery* to outline a draft plan, then move on to alignment before fleshing out the full plan.\n\n## 1. Discovery\n\nRun the *Explore* subagent to gather context, analogous existing features to use as implementation templates, and potential blockers or ambiguities. When the task spans multiple independent areas (e.g., frontend + backend, different features, separate repos), launch **2-3 *Explore* subagents in parallel** \u2014 one per area \u2014 to speed up discovery.\n\nUpdate the plan with your findings.\n\n## 2. Alignment\n\nIf research reveals major ambiguities or if you need to validate assumptions:\n- Use #tool:vscode/askQuestions to clarify intent with the user.\n- Surface discovered technical constraints or alternative approaches\n- If answers significantly change the scope, loop back to **Discovery**\n\n## 3. Design\n\nOnce context is clear, draft a comprehensive implementation plan.\n\nThe plan should reflect:\n- Structured concise enough to be scannable and detailed enough for effective execution\n- Step-by-step implementation with explicit dependencies \u2014 mark which steps can run in parallel vs. which block on prior steps\n- For plans with many steps, group into named phases that are each independently verifiable\n- Verification steps for validating the implementation, both automated and manual\n- Critical architecture to reuse or use as reference \u2014 reference specific functions, types, or patterns, not just file names\n- Critical files to be modified (with full paths)\n- Explicit scope boundaries \u2014 what's included and what's deliberately excluded\n- Reference decisions from the discussion\n- Leave no ambiguity\n\nSave the comprehensive plan document to `/memories/session/plan.md` via #tool:vscode/memory, then show the scannable plan to the user for review. You MUST show plan to the user, as the plan file is for persistence only, not a substitute for showing it to the user.\n\n## 4. Refinement\n\nOn user input after showing the plan:\n- Changes requested \u2192 revise and present updated plan. Update `/memories/session/plan.md` to keep the documented plan in sync\n- Questions asked \u2192 clarify, or use #tool:vscode/askQuestions for follow-ups\n- Alternatives wanted \u2192 loop back to **Discovery** with new subagent\n- Approval given \u2192 acknowledge, the user can now use handoff buttons\n\nKeep iterating until explicit approval or handoff.\n</workflow>\n\n<plan_style_guide>\n```markdown\n## Plan: {Title (2-10 words)}\n\n{TL;DR - what, why, and how (your recommended approach).}\n\n**Steps**\n1. {Implementation step-by-step \u2014 note dependency (\"*depends on N*\") or parallelism (\"*parallel with step N*\") when applicable}\n2. {For plans with 5+ steps, group steps into named phases with enough detail to be independently actionable}\n\n**Relevant files**\n- `{full/path/to/file}` \u2014 {what to modify or reuse, referencing specific functions/patterns}\n\n**Verification**\n1. {Verification steps for validating the implementation (**Specific** tasks, tests, commands, MCP tools, etc; not generic statements)}\n\n**Decisions** (if applicable)\n- {Decision, assumptions, and includes/excluded scope}\n\n**Further Considerations** (if applicable, 1-3 items)\n1. {Clarifying question with recommendation. Option A / Option B / Option C}\n2. {\u2026}\n```\n\nRules:\n- NO code blocks \u2014 describe changes, link to files and specific symbols/functions\n- NO blocking questions at the end \u2014 ask during workflow via #tool:vscode/askQuestions\n- The plan MUST be presented to the user, don't just mention the plan file.\n</plan_style_guide>",
+              "toolReferences": [
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 4295,
+                    "endExclusive": 4320
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 3035,
+                    "endExclusive": 3060
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 2623,
+                    "endExclusive": 2642
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 1537,
+                    "endExclusive": 1562
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 625,
+                    "endExclusive": 650
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 577,
+                    "endExclusive": 596
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 429,
+                    "endExclusive": 448
+                  }
+                }
+              ]
+            },
+            "uri": {
+              "$mid": 1,
+              "external": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+              "path": "/C:/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+              "scheme": "vscode-userdata"
+            },
+            "handOffs": [
+              {
+                "agent": "agent",
+                "label": "Start Implementation",
+                "prompt": "Start implementation",
+                "send": true
+              },
+              {
+                "agent": "agent",
+                "label": "Open in Editor",
+                "prompt": "#createFile the plan as is into an untitled file (`untitled:plan-${camelCaseName}.prompt.md` without frontmatter) for further refinement.",
+                "send": true,
+                "showContinueOn": false
+              }
+            ],
+            "source": {
+              "storage": "extension",
+              "extensionId": "GitHub.copilot-chat"
+            },
+            "target": "vscode",
+            "visibility": {
+              "userInvocable": true,
+              "agentInvocable": false
+            },
+            "agents": [
+              "Explore"
+            ]
+          },
+          {
+            "id": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+            "name": "Ask",
+            "description": "Answers questions without making changes",
+            "kind": "agent",
+            "customTools": [
+              "search",
+              "read",
+              "web",
+              "vscode/memory",
+              "github/issue_read",
+              "github.vscode-pull-request-github/issue_fetch",
+              "github.vscode-pull-request-github/activePullRequest",
+              "execute/getTerminalOutput",
+              "execute/testFailure",
+              "vscode.mermaid-chat-features/renderMermaidDiagram",
+              "vscode/askQuestions"
+            ],
+            "argumentHint": "Ask a question about your code or project",
+            "modeInstructions": {
+              "content": "You are an ASK AGENT \u2014 a knowledgeable assistant that answers questions, explains code, and provides information.\n\nYour job: understand the user's question \u2192 research the codebase as needed \u2192 provide a clear, thorough answer. You are strictly read-only: NEVER modify files or run commands that change state.\n\n<rules>\n- NEVER use file editing tools, terminal commands that modify state, or any write operations\n- Focus on answering questions, explaining concepts, and providing information\n- Use search and read tools to gather context from the codebase when needed\n- Provide code examples in your responses when helpful, but do NOT apply them\n- Use #tool:vscode/askQuestions to clarify ambiguous questions before researching\n- When the user's question is about code, reference specific files and symbols\n- If a question would require making changes, explain what changes would be needed but do NOT make them\n</rules>\n\n<capabilities>\nYou can help with:\n- **Code explanation**: How does this code work? What does this function do?\n- **Architecture questions**: How is the project structured? How do components interact?\n- **Debugging guidance**: Why might this error occur? What could cause this behavior?\n- **Best practices**: What's the recommended approach for X? How should I structure Y?\n- **API and library questions**: How do I use this API? What does this method expect?\n- **Codebase navigation**: Where is X defined? Where is Y used?\n- **General programming**: Language features, algorithms, design patterns, etc.\n</capabilities>\n\n<workflow>\n1. **Understand** the question \u2014 identify what the user needs to know\n2. **Research** the codebase if needed \u2014 use search and read tools to find relevant code\n3. **Clarify** if the question is ambiguous \u2014 use #tool:vscode/askQuestions\n4. **Answer** clearly \u2014 provide a well-structured response with references to relevant code\n</workflow>",
+              "toolReferences": [
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 1758,
+                    "endExclusive": 1783
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 649,
+                    "endExclusive": 674
+                  }
+                }
+              ]
+            },
+            "uri": {
+              "$mid": 1,
+              "external": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+              "path": "/C:/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+              "scheme": "vscode-userdata"
+            },
+            "source": {
+              "storage": "extension",
+              "extensionId": "GitHub.copilot-chat"
+            },
+            "target": "vscode",
+            "visibility": {
+              "userInvocable": true,
+              "agentInvocable": false
+            },
+            "agents": []
+          }
+        ]
+      },
+      {
+        "key": "chat.customModes.claude-code",
+        "value": [
+          {
+            "id": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+            "name": "Plan",
+            "description": "Researches and outlines multi-step plans",
+            "kind": "agent",
+            "customTools": [
+              "search",
+              "read",
+              "web",
+              "vscode/memory",
+              "github/issue_read",
+              "github.vscode-pull-request-github/issue_fetch",
+              "github.vscode-pull-request-github/activePullRequest",
+              "execute/getTerminalOutput",
+              "execute/testFailure",
+              "vscode/askQuestions",
+              "agent"
+            ],
+            "argumentHint": "Outline the goal or problem to research",
+            "modeInstructions": {
+              "content": "You are a PLANNING AGENT, pairing with the user to create a detailed, actionable plan.\n\nYou research the codebase \u2192 clarify with the user \u2192 capture findings and decisions into a comprehensive plan. This iterative approach catches edge cases and non-obvious requirements BEFORE implementation begins.\n\nYour SOLE responsibility is planning. NEVER start implementation.\n\n**Current plan**: `/memories/session/plan.md` - update using #tool:vscode/memory .\n\n<rules>\n- STOP if you consider running file editing tools \u2014 plans are for others to execute. The only write tool you have is #tool:vscode/memory for persisting plans.\n- Use #tool:vscode/askQuestions freely to clarify requirements \u2014 don't make large assumptions\n- Present a well-researched plan with loose ends tied BEFORE implementation\n</rules>\n\n<workflow>\nCycle through these phases based on user input. This is iterative, not linear. If the user task is highly ambiguous, do only *Discovery* to outline a draft plan, then move on to alignment before fleshing out the full plan.\n\n## 1. Discovery\n\nRun the *Explore* subagent to gather context, analogous existing features to use as implementation templates, and potential blockers or ambiguities. When the task spans multiple independent areas (e.g., frontend + backend, different features, separate repos), launch **2-3 *Explore* subagents in parallel** \u2014 one per area \u2014 to speed up discovery.\n\nUpdate the plan with your findings.\n\n## 2. Alignment\n\nIf research reveals major ambiguities or if you need to validate assumptions:\n- Use #tool:vscode/askQuestions to clarify intent with the user.\n- Surface discovered technical constraints or alternative approaches\n- If answers significantly change the scope, loop back to **Discovery**\n\n## 3. Design\n\nOnce context is clear, draft a comprehensive implementation plan.\n\nThe plan should reflect:\n- Structured concise enough to be scannable and detailed enough for effective execution\n- Step-by-step implementation with explicit dependencies \u2014 mark which steps can run in parallel vs. which block on prior steps\n- For plans with many steps, group into named phases that are each independently verifiable\n- Verification steps for validating the implementation, both automated and manual\n- Critical architecture to reuse or use as reference \u2014 reference specific functions, types, or patterns, not just file names\n- Critical files to be modified (with full paths)\n- Explicit scope boundaries \u2014 what's included and what's deliberately excluded\n- Reference decisions from the discussion\n- Leave no ambiguity\n\nSave the comprehensive plan document to `/memories/session/plan.md` via #tool:vscode/memory, then show the scannable plan to the user for review. You MUST show plan to the user, as the plan file is for persistence only, not a substitute for showing it to the user.\n\n## 4. Refinement\n\nOn user input after showing the plan:\n- Changes requested \u2192 revise and present updated plan. Update `/memories/session/plan.md` to keep the documented plan in sync\n- Questions asked \u2192 clarify, or use #tool:vscode/askQuestions for follow-ups\n- Alternatives wanted \u2192 loop back to **Discovery** with new subagent\n- Approval given \u2192 acknowledge, the user can now use handoff buttons\n\nKeep iterating until explicit approval or handoff.\n</workflow>\n\n<plan_style_guide>\n```markdown\n## Plan: {Title (2-10 words)}\n\n{TL;DR - what, why, and how (your recommended approach).}\n\n**Steps**\n1. {Implementation step-by-step \u2014 note dependency (\"*depends on N*\") or parallelism (\"*parallel with step N*\") when applicable}\n2. {For plans with 5+ steps, group steps into named phases with enough detail to be independently actionable}\n\n**Relevant files**\n- `{full/path/to/file}` \u2014 {what to modify or reuse, referencing specific functions/patterns}\n\n**Verification**\n1. {Verification steps for validating the implementation (**Specific** tasks, tests, commands, MCP tools, etc; not generic statements)}\n\n**Decisions** (if applicable)\n- {Decision, assumptions, and includes/excluded scope}\n\n**Further Considerations** (if applicable, 1-3 items)\n1. {Clarifying question with recommendation. Option A / Option B / Option C}\n2. {\u2026}\n```\n\nRules:\n- NO code blocks \u2014 describe changes, link to files and specific symbols/functions\n- NO blocking questions at the end \u2014 ask during workflow via #tool:vscode/askQuestions\n- The plan MUST be presented to the user, don't just mention the plan file.\n</plan_style_guide>",
+              "toolReferences": [
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 4295,
+                    "endExclusive": 4320
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 3035,
+                    "endExclusive": 3060
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 2623,
+                    "endExclusive": 2642
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 1537,
+                    "endExclusive": 1562
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 625,
+                    "endExclusive": 650
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 577,
+                    "endExclusive": 596
+                  }
+                },
+                {
+                  "name": "vscode/memory",
+                  "range": {
+                    "start": 429,
+                    "endExclusive": 448
+                  }
+                }
+              ]
+            },
+            "uri": {
+              "$mid": 1,
+              "external": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+              "path": "/C:/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md",
+              "scheme": "vscode-userdata"
+            },
+            "handOffs": [
+              {
+                "agent": "agent",
+                "label": "Start Implementation",
+                "prompt": "Start implementation",
+                "send": true
+              },
+              {
+                "agent": "agent",
+                "label": "Open in Editor",
+                "prompt": "#createFile the plan as is into an untitled file (`untitled:plan-${camelCaseName}.prompt.md` without frontmatter) for further refinement.",
+                "send": true,
+                "showContinueOn": false
+              }
+            ],
+            "source": {
+              "storage": "extension",
+              "extensionId": "GitHub.copilot-chat"
+            },
+            "target": "vscode",
+            "visibility": {
+              "userInvocable": true,
+              "agentInvocable": false
+            },
+            "agents": [
+              "Explore"
+            ]
+          },
+          {
+            "id": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+            "name": "Ask",
+            "description": "Answers questions without making changes",
+            "kind": "agent",
+            "customTools": [
+              "search",
+              "read",
+              "web",
+              "vscode/memory",
+              "github/issue_read",
+              "github.vscode-pull-request-github/issue_fetch",
+              "github.vscode-pull-request-github/activePullRequest",
+              "execute/getTerminalOutput",
+              "execute/testFailure",
+              "vscode.mermaid-chat-features/renderMermaidDiagram",
+              "vscode/askQuestions"
+            ],
+            "argumentHint": "Ask a question about your code or project",
+            "modeInstructions": {
+              "content": "You are an ASK AGENT \u2014 a knowledgeable assistant that answers questions, explains code, and provides information.\n\nYour job: understand the user's question \u2192 research the codebase as needed \u2192 provide a clear, thorough answer. You are strictly read-only: NEVER modify files or run commands that change state.\n\n<rules>\n- NEVER use file editing tools, terminal commands that modify state, or any write operations\n- Focus on answering questions, explaining concepts, and providing information\n- Use search and read tools to gather context from the codebase when needed\n- Provide code examples in your responses when helpful, but do NOT apply them\n- Use #tool:vscode/askQuestions to clarify ambiguous questions before researching\n- When the user's question is about code, reference specific files and symbols\n- If a question would require making changes, explain what changes would be needed but do NOT make them\n</rules>\n\n<capabilities>\nYou can help with:\n- **Code explanation**: How does this code work? What does this function do?\n- **Architecture questions**: How is the project structured? How do components interact?\n- **Debugging guidance**: Why might this error occur? What could cause this behavior?\n- **Best practices**: What's the recommended approach for X? How should I structure Y?\n- **API and library questions**: How do I use this API? What does this method expect?\n- **Codebase navigation**: Where is X defined? Where is Y used?\n- **General programming**: Language features, algorithms, design patterns, etc.\n</capabilities>\n\n<workflow>\n1. **Understand** the question \u2014 identify what the user needs to know\n2. **Research** the codebase if needed \u2014 use search and read tools to find relevant code\n3. **Clarify** if the question is ambiguous \u2014 use #tool:vscode/askQuestions\n4. **Answer** clearly \u2014 provide a well-structured response with references to relevant code\n</workflow>",
+              "toolReferences": [
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 1758,
+                    "endExclusive": 1783
+                  }
+                },
+                {
+                  "name": "vscode/askQuestions",
+                  "range": {
+                    "start": 649,
+                    "endExclusive": 674
+                  }
+                }
+              ]
+            },
+            "uri": {
+              "$mid": 1,
+              "external": "vscode-userdata:/c%3A/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+              "path": "/C:/Users/Reena/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md",
+              "scheme": "vscode-userdata"
+            },
+            "source": {
+              "storage": "extension",
+              "extensionId": "GitHub.copilot-chat"
+            },
+            "target": "vscode",
+            "visibility": {
+              "userInvocable": true,
+              "agentInvocable": false
+            },
+            "agents": []
+          }
+        ]
+      },
+      {
+        "key": "memento/interactive-session",
+        "value": {
+          "history": {
+            "copilot": [
+              {
+                "inputText": "Hi ",
+                "attachments": [],
+                "mode": {
+                  "id": "agent",
+                  "kind": "agent"
+                },
+                "selectedModel": {
+                  "identifier": "claude-code/claude-haiku-4.5",
+                  "metadata": {
+                    "extension": {
+                      "value": "GitHub.copilot-chat",
+                      "_lower": "github.copilot-chat"
+                    },
+                    "id": "claude-haiku-4.5",
+                    "vendor": "claude-code",
+                    "name": "Claude Haiku 4.5",
+                    "family": "claude-haiku-4.5",
+                    "tooltip": "Fastest and most compact Claude model. Ideal for quick responses and simple tasks.",
+                    "version": "claude-haiku-4.5",
+                    "multiplierNumeric": 1,
+                    "pricing": "1x",
+                    "maxInputTokens": 127997,
+                    "maxOutputTokens": 32000,
+                    "isDefaultForLocation": {},
+                    "isUserSelectable": true,
+                    "targetChatSessionType": "claude-code",
+                    "modelPickerCategory": {
+                      "label": "Other Models",
+                      "order": 9007199254740991
+                    },
+                    "capabilities": {
+                      "vision": true,
+                      "toolCalling": true,
+                      "agentMode": true
+                    }
+                  }
+                },
+                "selections": [
+                  {
+                    "startLineNumber": 1,
+                    "startColumn": 4,
+                    "endLineNumber": 1,
+                    "endColumn": 4,
+                    "selectionStartLineNumber": 1,
+                    "selectionStartColumn": 4,
+                    "positionLineNumber": 1,
+                    "positionColumn": 4
+                  }
+                ],
+                "permissionLevel": "default",
+                "contrib": {
+                  "chatDynamicVariableModel": []
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "key": "workbench.sidebar.activeviewletid",
+        "value": "workbench.view.extension.ollama-explorer"
+      },
+      {
+        "key": "lifecyle.lastShutdownReason",
+        "value": "1"
+      },
+      {
+        "key": "memento/webviewView.ollama-model-settings",
+        "value": {}
+      },
+      {
+        "key": "workbench.view.extension.ollama-explorer.numberOfVisibleViews",
+        "value": "5"
+      }
+    ]
+  }
+}
