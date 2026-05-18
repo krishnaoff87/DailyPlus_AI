@@ -299,19 +299,22 @@
         </div>
     </div>
 
+    <script src="chat_data.js"></script>
     <script>
         // Load and parse JSON data
-        async function loadChatData() {
+        function loadChatData() {
             try {
-                const response = await fetch('all_workspaces_chat_data.json');
-                const data = await response.json();
-                displayChatData(data);
+                // Data is loaded from chat_data.js
+                if (typeof chatData === 'undefined') {
+                    throw new Error('Chat data not loaded. Make sure chat_data.js is in the same directory.');
+                }
+                displayChatData(chatData);
             } catch (error) {
                 document.getElementById('content').innerHTML = `
                     <div class="error">
                         <h3>Error Loading Data</h3>
                         <p>${error.message}</p>
-                        <p>Make sure the JSON files are in the same directory as this HTML file.</p>
+                        <p>Make sure chat_data.js is in the same directory as this HTML file.</p>
                     </div>
                 `;
             }
