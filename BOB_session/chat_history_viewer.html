@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSCode Chat History Viewer - Token Usage Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .stat-card h3 {
+            color: #667eea;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .stat-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .stat-card .label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .workspace-section {
+            margin-bottom: 40px;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            background: white;
+        }
+
+        .workspace-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .workspace-header:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+
+        .workspace-header h2 {
+            font-size: 1.5em;
+        }
+
+        .workspace-header .badge {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .workspace-content {
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .chat-session {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #667eea;
+        }
+
+        .chat-session h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .chat-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-item .label {
+            color: #666;
+            font-size: 0.85em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+
+        .info-item .value {
+            color: #333;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .token-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.95em;
+        }
+
+        .model-info {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .model-info h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        .model-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            font-size: 0.9em;
+        }
+
+        .model-details div {
+            color: #555;
+        }
+
+        .model-details strong {
+            color: #333;
+        }
+
+        .timestamp {
+            color: #999;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 60px;
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            font-size: 1.2em;
+            color: #667eea;
+        }
+
+        .error {
+            background: #fee;
+            border: 2px solid #fcc;
+            color: #c33;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .toggle-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .collapsed .toggle-icon {
+            transform: rotate(-90deg);
+        }
+
+        .collapsed .workspace-content {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .chat-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 VSCode Chat History Viewer</h1>
+            <p>Token Usage & Session Analysis</p>
+        </div>
+
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card">
+                <h3>Total Workspaces</h3>
+                <div class="value" id="totalWorkspaces">-</div>
+                <div class="label">Scanned</div>
+            </div>
+            <div class="stat-card">
+                <h3>Chat Sessions</h3>
+                <div class="value" id="totalSessions">-</div>
+                <div class="label">Found</div>
+            </div>
+            <div class="stat-card">
+                <h3>Total Tokens</h3>
+                <div class="value" id="totalTokens">-</div>
+                <div class="label">Estimated</div>
+            </div>
+            <div class="stat-card">
+                <h3>Models Used</h3>
+                <div class="value" id="totalModels">-</div>
+                <div class="label">Different</div>
+            </div>
+        </div>
+
+        <div class="content" id="content">
+            <div class="loading">Loading chat history data...</div>
+        </div>
+    </div>
+
+    <script>
+        // Load and parse JSON data
+        async function loadChatData() {
+            try {
+                const response = await fetch('all_workspaces_chat_data.json');
+                const data = await response.json();
+                displayChatData(data);
+            } catch (error) {
+                document.getElementById('content').innerHTML = `
+                    <div class="error">
+                        <h3>Error Loading Data</h3>
+                        <p>${error.message}</p>
+                        <p>Make sure the JSON files are in the same directory as this HTML file.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function estimateTokens(text) {
+            // Rough estimation: ~4 characters per token
+            if (!text) return 0;
+            return Math.ceil(text.length / 4);
+        }
+
+        function formatDate(timestamp) {
+            if (!timestamp) return 'N/A';
+            const date = new Date(timestamp);
+            return date.toLocaleString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        function displayChatData(workspaces) {
+            let totalSessions = 0;
+            let totalTokens = 0;
+            let modelsSet = new Set();
+            let workspacesWithData = 0;
+
+            // Calculate statistics
+            workspaces.forEach(ws => {
+                if (ws.has_data) {
+                    workspacesWithData++;
+                    ws.chat_sessions.forEach(session => {
+                        totalSessions++;
+                        
+                        // Extract token information from session data
+                        const sessionStr = JSON.stringify(session.data);
+                        totalTokens += estimateTokens(sessionStr);
+
+                        // Extract model information
+                        if (session.data && typeof session.data === 'object') {
+                            extractModels(session.data, modelsSet);
+                        }
+                    });
+                }
+            });
+
+            // Update statistics
+            document.getElementById('totalWorkspaces').textContent = workspacesWithData;
+            document.getElementById('totalSessions').textContent = totalSessions;
+            document.getElementById('totalTokens').textContent = totalTokens.toLocaleString();
+            document.getElementById('totalModels').textContent = modelsSet.size;
+
+            // Display workspace data
+            const content = document.getElementById('content');
+            
+            if (totalSessions === 0) {
+                content.innerHTML = '<div class="no-data">No chat sessions found in the data.</div>';
+                return;
+            }
+
+            let html = '';
+            
+            workspaces.forEach((ws, index) => {
+                if (!ws.has_data) return;
+
+                const folderName = ws.workspace_folder || 'Unknown Workspace';
+                const sessionCount = ws.chat_sessions.length;
+
+                html += `
+                    <div class="workspace-section" id="workspace-${index}">
+                        <div class="workspace-header" onclick="toggleWorkspace(${index})">
+                            <h2>📁 ${folderName}</h2>
+                            <div>
+                                <span class="badge">${sessionCount} session${sessionCount !== 1 ? 's' : ''}</span>
+                                <span class="toggle-icon">▼</span>
+                            </div>
+                        </div>
+                        <div class="workspace-content">
+                `;
+
+                ws.chat_sessions.forEach((session, sessionIndex) => {
+                    html += renderChatSession(session, sessionIndex);
+                });
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+
+            content.innerHTML = html;
+        }
+
+        function extractModels(data, modelsSet) {
+            if (typeof data !== 'object' || data === null) return;
+
+            if (data.selectedModel && data.selectedModel.metadata) {
+                const model = data.selectedModel.metadata;
+                if (model.name) modelsSet.add(model.name);
+            }
+
+            if (data.entries && typeof data.entries === 'object') {
+                Object.values(data.entries).forEach(entry => {
+                    if (entry.inputState && entry.inputState.selectedModel) {
+                        const model = entry.inputState.selectedModel.metadata;
+                        if (model && model.name) modelsSet.add(model.name);
+                    }
+                });
+            }
+
+            // Recursively search for models
+            Object.values(data).forEach(value => {
+                if (typeof value === 'object' && value !== null) {
+                    extractModels(value, modelsSet);
+                }
+            });
+        }
+
+        function renderChatSession(session, index) {
+            const data = session.data;
+            let html = `<div class="chat-session">`;
+
+            // Session title
+            if (data.entries && typeof data.entries === 'object') {
+                const entries = Object.values(data.entries);
+                if (entries.length > 0) {
+                    const firstEntry = entries[0];
+                    const title = firstEntry.title || 'Untitled Chat';
+                    const sessionId = firstEntry.sessionId || 'N/A';
+                    
+                    html += `<h3>💬 ${title}</h3>`;
+                    
+                    html += `<div class="chat-info">`;
+                    
+                    // Session ID
+                    html += `
+                        <div class="info-item">
+                            <span class="label">Session ID</span>
+                            <span class="value">${sessionId.substring(0, 30)}...</span>
+                        </div>
+                    `;
+
+                    // Timestamp
+                    if (firstEntry.lastMessageDate) {
+                        html += `
+                            <div class="info-item">
+                                <span class="label">Last Message</span>
+                                <span class="value">${formatDate(firstEntry.lastMessageDate)}</span>
+                            </div>
+                        `;
+                    }
+
+                    // Token estimation
+                    const tokens = estimateTokens(JSON.stringify(firstEntry));
+                    html += `
+                        <div class="info-item">
+                            <span class="label">Estimated Tokens</span>
+                            <span class="value"><span class="token-badge">${tokens.toLocaleString()}</span></span>
+                        </div>
+                    `;
+
+                    // Status
+                    if (firstEntry.lastResponseState !== undefined) {
+                        const states = ['Pending', 'In Progress', 'Streaming', 'Complete', 'Error'];
+                        const state = states[firstEntry.lastResponseState] || 'Unknown';
+                        html += `
+                            <div class="info-item">
+                                <span class="label">Status</span>
+                                <span class="value">${state}</span>
+                            </div>
+                        `;
+                    }
+
+                    html += `</div>`;
+
+                    // Model information
+                    if (firstEntry.inputState && firstEntry.inputState.selectedModel) {
+                        const model = firstEntry.inputState.selectedModel.metadata;
+                        html += `
+                            <div class="model-info">
+                                <h4>🤖 Model Information</h4>
+                                <div class="model-details">
+                                    <div><strong>Name:</strong> ${model.name || 'N/A'}</div>
+                                    <div><strong>Vendor:</strong> ${model.vendor || 'N/A'}</div>
+                                    <div><strong>Family:</strong> ${model.family || 'N/A'}</div>
+                                    <div><strong>Max Input:</strong> ${(model.maxInputTokens || 0).toLocaleString()} tokens</div>
+                                    <div><strong>Max Output:</strong> ${(model.maxOutputTokens || 0).toLocaleString()} tokens</div>
+                                    <div><strong>Pricing:</strong> ${model.pricing || 'N/A'}</div>
+                                </div>
+                            </div>
+                        `;
+                    }
+
+                    // Timing information
+                    if (firstEntry.timing) {
+                        const timing = firstEntry.timing;
+                        html += `<div class="timestamp">`;
+                        if (timing.created) html += `Created: ${formatDate(timing.created)} `;
+                        if (timing.lastRequestStarted) html += `| Last Request: ${formatDate(timing.lastRequestStarted)}`;
+                        html += `</div>`;
+                    }
+                }
+            } else {
+                // Simple session without entries
+                html += `<h3>💬 ${session.key}</h3>`;
+                const tokens = estimateTokens(JSON.stringify(data));
+                html += `<div class="info-item">
+                    <span class="label">Estimated Tokens</span>
+                    <span class="value"><span class="token-badge">${tokens.toLocaleString()}</span></span>
+                </div>`;
+            }
+
+            html += `</div>`;
+            return html;
+        }
+
+        function toggleWorkspace(index) {
+            const workspace = document.getElementById(`workspace-${index}`);
+            workspace.classList.toggle('collapsed');
+        }
+
+        // Load data when page loads
+        window.addEventListener('DOMContentLoaded', loadChatData);
+    </script>
+</body>
+</html>
